@@ -1,0 +1,100 @@
+SettingGroup:
+    Society : 'Configuration de la Société'
+    SocietyTargets: 'Objectifs'
+    PrintableDocs : "Configuration de l'impression des documents"
+    EmailsConfig : 'Configuration des addresses Emails'
+    EmailsTexts : 'Configuration des textes d''Emails'
+    HUB-Hotel : 'Configuration du HUB Hôtel'
+    HUB-Transfer : 'Configuration du HUB Transfer'
+    HUB-Flight : 'Configuration du HUB Flight'
+    System : 'Configuration Système'
+    B2CSocialNetworks : 'Réseaux Sociaux (B2C)'
+    StaticPages : 'Pages Statiques'
+    DocumentContentHotel : 'Contenu personnalisé : Module Hotel'
+
+
+SocietyTargets:
+    OrderNumber: 'Nombre de commandes par jour'
+    OrderLineNumber: 'Nombre de réservations par jour'
+    CustomerNumber: 'Nombre de clients par jour'
+
+Society:
+    name : 'Raison Social'
+    MF: 'Matricule fiscale'
+    RC: 'Registre de commerce'
+    Address: 'Adresse'
+    Phone: 'Téléphone'
+    Whatsapp: 'Whatsapp'
+    Fax: 'Fax'
+    RIB : 'RIB'
+    EmailContact: 'Email Société'
+    Hotline: 'Hotline'
+    Description: 'Description'
+
+Currency:
+    Currency1 : "Devise 1"
+    Currency2 : "Devise 2"
+    Currency3 : "Devise 3"
+    Currency4 : "Devise 4"
+    Currency5 : "Devise 5"
+    Currency6 : "Devise 6"
+    Currency7 : "Devise 7"
+    Currency8 : "Devise 8"
+    Currency9 : "Devise 9"
+
+StaticPages:
+    LegalNotice: 'Mentions légales'
+    PracticalInformation: 'Information Pratique'
+    PurchaseCondition: 'Conditions de vente'
+    ProtocolsConfidentiality: 'Politique & confidentialité'
+    RecruitingAgency: 'Agence Recrute'
+
+PrintableDocs:
+    Logo: 'Logo'
+    Signature: 'Cachet'
+    BackgroundColor: 'Couleur de fond d''impression'
+    LogoHeight: 'Hauteur Logo'
+    LogoWidth: 'Largeur Logo'
+    StampHeight: 'Hauteur Cachet'
+    StampWidth: 'Largeur Cachet'
+    FooterHeight: 'Hauteur Pied de page'
+
+EmailsConfig:
+    EmailFrom_Booking : 'Email FROM (Réservations)'
+    EmailFrom_Contact : 'Email FROM (Contact)'
+    EmailFrom_Account : 'Email FROM (Comptes)'
+    EmailDisplay_B2C : 'Email à afficher aux B2C'
+    EmailDisplay_B2B : 'Email à afficher aux B2B'
+    Email_CC: 'Email Copie (CC)'
+
+B2CSocialNetworks:
+    Facebook: 'Facebook'
+    LinkedIn: 'Linked IN'
+    Instagram: 'Instagram'
+    Twitter: 'Twitter'
+
+HUB-Hotel:
+    ApiKey: 'HOTEL API KEY'
+    Url : 'HOTEL HUB URL'
+
+HUB-Transfer:
+    ApiKey: 'TRANSFER HUB API KEY'
+    Url : 'TRANSFER HUB URL'
+
+HUB-Flight:
+    ApiKey: 'FLIGHT HUB API KEY'
+    Url: 'FLIGHT HUB URL'
+
+System:
+    Currency: 'Devise'
+    ModuleHotelContract: 'Activation Contrats Hôtels (1: oui)'
+    ModuleHotel: 'Activation Module Hotel (1: oui)'
+    ModuleTransfer: 'Activation Module Transfer (1: oui)'
+    ModuleFlight: 'Activation Module Flight (1: oui)'
+    ModuleCustomService: 'Service Libre Activation (1: yes)'
+    IsB2B: 'Mode B2B (1: oui)'
+    MidOfficeUrl: 'Url Mid-Office'
+
+DocumentContentHotel:
+    VoucherInfosFR : "Voucher Hotel: Infos (FR)"
+    VoucherInfosEN : "Voucher Hotel: Infos (EN)"

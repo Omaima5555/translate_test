@@ -1,0 +1,100 @@
+SettingGroup:
+    Society : 'المجتمع'
+    SocietyTargets: 'أهداف المجتمع'
+    PrintableDocs : "الوثائق القابلة للطباعة"
+    EmailsConfig : 'إعدادات البريد الإلكتروني'
+    EmailsTexts : 'نصوص البريد الإلكتروني'
+    HUB-Hotel : 'إعدادات مركز الفنادق'
+    HUB-Transfer : 'إعدادات مركز النقل'
+    HUB-Flight : 'إعدادات مركز الرحلات الجوية'
+    System : 'إعدادات النظام'
+    B2CSocialNetworks : 'شبكات التواصل الاجتماعي بين الشركات والعملاء'
+    StaticPages : 'الصفحات الثابتة'
+    DocumentContentHotel : 'محتوى مخصص : وحدة الفندق'
+    DumboSystemCheck : 'فحص نظام دمبو'
+
+SocietyTargets:
+    OrderNumber: 'عدد الطلبات يومياً'
+    OrderLineNumber: 'عدد الحجوزات يومياً'
+    CustomerNumber: 'عدد العملاء يومياً'
+
+Society:
+    name : 'الاسم التجاري'
+    MF: 'الرقم الضريبي'
+    RC: 'السجل التجاري'
+    Address: 'عنوان البريد الإلكتروني'
+    Phone: 'الهاتف'
+    Whatsapp: 'واتساب'
+    Fax: 'فاكس'
+    RIB : 'رقم الحساب البنكي'
+    EmailContact: 'البريد الإلكتروني للشركة'
+    Hotline: 'خط الدعم الفني'
+    Description: 'التفاصيل'
+
+Currency:
+    Currency1 : "عملة  1"
+    Currency2 : "عملة  2"
+    Currency3 : "عملة  3"
+    Currency4 : "عملة  4"
+    Currency5 : "عملة  5"
+    Currency6 : "عملة  6"
+    Currency7 : "عملة  7"
+    Currency8 : "عملة  8"
+    Currency9 : "عملة  9"
+
+StaticPages:
+    LegalNotice: 'الإشعارات القانونية'
+    PracticalInformation: 'معلومات عملية'
+    PurchaseCondition: 'شروط البيع'
+    ProtocolsConfidentiality: 'السياسة والسرية'
+    RecruitingAgency: 'وكالة التوظيف'
+
+PrintableDocs:
+    Logo: 'الشعار'
+    Signature: 'الختم'
+    BackgroundColor: 'لون خلفية الطباعة'
+    LogoHeight: 'ارتفاع الشعار'
+    LogoWidth: 'عرض الشعار'
+    StampHeight: 'ارتفاع الختم'
+    StampWidth: 'عرض الختم'
+    FooterHeight: 'ارتفاع تذييل الصفحة'
+
+EmailsConfig:
+    EmailFrom_Booking : 'البريد الإلكتروني من (الحجوزات)'
+    EmailFrom_Contact : 'البريد الإلكتروني من (الاتصال)'
+    EmailFrom_Account : 'البريد الإلكتروني من (الحسابات)'
+    EmailDisplay_B2C : 'البريد الإلكتروني المعروض للعملاء'
+    EmailDisplay_B2B : 'البريد الإلكتروني المعروض للأعمال'
+    Email_CC: 'البريد الإلكتروني نسخة'
+
+B2CSocialNetworks:
+    Facebook: 'فيسبوك'
+    LinkedIn: 'لينكدإن'
+    Instagram: 'إنستجرام'
+    Twitter: 'تويتر'
+
+HUB-Hotel:
+    ApiKey: 'مفتاح واجهة برمجة التطبيقات للفندق'
+    Url : 'رابط مركز التوزيع للفندق'
+
+HUB-Transfer:
+    ApiKey: 'مفتاح واجهة برمجة التطبيقات لمركز التحويل'
+    Url : 'رابط مركز التحويل'
+
+HUB-Flight:
+    ApiKey: 'مفتاح واجهة برمجة التطبيقات لمركز الطيران'
+    Url: 'رابط مركز الطيران'
+
+System:
+    Currency: 'العملة'
+    ModuleHotelContract: ' تفعيل عقود الفنادق ( 1 : نعم) '
+    ModuleHotel: 'تفعيل وحدة الفنادق ( 1 : نعم)'
+    ModuleTransfer: 'تفعيل وحدة النقل ( 1 : نعم)'
+    ModuleFlight: 'تفعيل وحدة الطيران ( 1 : نعم)'
+    ModuleCustomService: 'تفعيل الخدمات الحرة ( 1 : نعم)'
+    IsB2B: 'وضع الأعمال بين الشركات ( 1 : نعم)'
+    MidOfficeUrl: 'رابط المكتب الوسيط'
+
+DocumentContentHotel:
+    VoucherInfosFR : "قسيمة الفندق: المعلومات (بالفرنسية)"
+    VoucherInfosEN : "قسيمة الفندق: المعلومات (بالإنجليزية)"

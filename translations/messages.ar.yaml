@@ -1,0 +1,1692 @@
+Entities:
+    Area:
+        Label : "المنطقة "
+        LabelPlural : "المناطق "
+        Pages:
+            New: 'منطقة جديدة'
+            Edit: 'تعديل المنطقة'
+        Buttons:
+            New: 'منطقة جديدة'
+    City:
+        Label: "المدينة"
+        LabelPlural: "المدن"
+        Buttons:
+            New: "مدينة جديدة"
+        Pages:
+            New: "مدينة جديدة"
+            Edit: "تعديل المدينة"
+            List: 'قائمة المدن'
+        Fields:
+            Picture: "صورة المدينة"
+
+    Customer:
+        Label: "العميل "
+        LabelPlural: "العملاء "
+        Fields:
+            Address: "العنوان "
+            Phone: "الهاتف "
+            TreatedBy: "تم المعالجة بواسطة "
+            City: "المدينة "
+            Email: "البريد الإلكتروني"
+            Note: "ملاحظة "
+            FirstName: "الاسم "
+            LastName:  "اللقب"
+            BirthDate: "تاريخ الميلاد"
+            IdentityNumber: "رقم الوثيقة"
+            IdentityDocument: "وثيقة الهوية"
+            Id: "الرقم°"
+            Type: "نوع العميل"
+            Details: "تفاصيل العميل"
+            ShowAllHotelXml: "عرض جميع الفنادق"
+            Solde: "الرصيد"
+            SoldeWithoutAuthorizedAmount: "بدون المبلغ المصرح به"
+            AccoundBook: "دفتر الحسابات"
+        FieldsValues:
+            Moral: "شخص معنوي"
+            Physical: "شخص طبيعي"
+            Country: "اختر بلدك"
+            City: "اختر مدينتك"
+
+        Pages:
+            List: 'قائمة العملاء'
+            Detail: "تفاصيل العميل رقم رقم"
+            MarginGDS: "هامش نظام التوزيع العالمي"
+            MarginHotel: "هامش الفندق"
+            Wallet: 'محفظة'
+            GDS: 'هوامش نظام التوزيع العالمي'
+            Hotels: 'فنادق مخصصة'
+
+        Buttons:
+            Edit: "تعديل العميل"
+            New: "عميل جديد"
+            Detail: "ملف العميل"
+            State: "الحالة "
+            Show: 'عرض ملف العميل'
+        Messages:
+            Exploitation: 'استغلالات أخرى'
+    Market:
+        Label: "السوق"
+        LabelPlural: "الأسواق"
+        Pages:
+            List: "الأسواق"
+            New: "سوق جديد"
+            Edit: ' تعديل السوق'
+        Buttons:
+            New: "سوق جديد"
+
+    ApiLog:
+        Pages:
+            List : "قائمة سجلات واجهة البرمجة"
+            Detail: "تفاصيل سجل واجهة البرمجة"
+            Show: "عرض سجل واجهة البرمجة "
+
+        Buttons:
+            Back to list: "الرجوع إلى القائمة"
+            Update : "تحديث"
+        Fields:
+            Id: "الرقم التعريفي"
+            BaseUrl: "عنوان الأساس"
+            Endpoint: "نقطة النهاية"
+            Request: "الطلب"
+            Response: "الاستجابة"
+            StatusCode: "رمز الحالة"
+            StatusMessage: "رسالة الحالة"
+            CustomerID: "معرف العميل"
+            UserID: "معرف المستخدم"
+            DateRange : "الفترة الزمنية"
+            ElapsedTime: "الوقت المنقضي"
+            SearchCode: "رمز البحث"
+            Customer: "العميل"
+            User: "المستخدم"
+            dateFrom : "من التاريخ"
+            dateTo : "إلى التاريخ"
+            Date: "التاريخ"
+
+    Beneficiary:
+        Fields:
+            Civility: "التحية "
+        Label: "المستفيد الرئيسي"
+        Buttons:
+            Edit: "تعديل المستفيد"
+
+    OrderLine:
+        Label: "حجز "
+        LabelPlural: 'حجوزات'
+        Fields:
+            Description: "تفاصيل"
+            Startdate: "تاريخ الوصول"
+            Enddate: "تاريخ المغادرة"
+            State: 'الحالة'
+            Externalorderid: "XML معرف الحجز"
+            orderSubLines: "الخدمات"
+            ExternalBookingId: "المرجع الخارجي"
+            Deadline: 'الموعد النهائي'
+            Id: 'المرجع.'
+            XmlApi: 'نظام التوزيع العالمي'
+            Type: 'نوع المنتج'
+            ExternalBookingRef: 'المرجع الخارجي للحجز'
+            Comment: 'التعليقات'
+            Exchangeratepurchasetosale: 'سعر الصرف من الشراء إلى البيع'
+            Hotelname: "اسم الفندق"
+            Hotelstarrating: "تصنيف النجوم"
+            City: "المدينة"
+            Country: "البلد"
+            Image: "صورة"
+            Reference: "المرجع"
+            Product: "المنتج"
+            Orderatt: "الطلب"
+            Beneficiary: 'المستفيد '
+            Hotel: 'الفندق'
+            GDS: 'نظام التوزيع العالمي'
+            GDSBookingNumber: 'رقم حجز نظام التوزيع العالمي'
+            BookingNumber: 'رقم الحجز'
+
+        Buttons:
+            AddRoom: "إضافة غرفة"
+            CancelBooking: "إلغاء الحجز"
+            Confirm: 'تأكيد '
+            HotelBookRequest: "طلب تأكيد الحجز"
+            Edit: 'تعديل '
+            AddPartyZone: 'إضافة مشارك/مشاركين'
+            ExchangeRate: 'سعر الصرف شراء - بيع'
+            CheckAvailability: "التحقق من التوافر في نظام التوزيع العالمي"
+            CheckRate: 'التحقق من السعر'
+        Messages:
+            SearchForNewRoom: "البحث عن غرفة جديدة"
+            BookNotification: 'إشعار الحجز في الفندق'
+            BookRequest: 'طلب الحجز'
+            Rooms : 'الغرفة'
+            Available: 'متوفر'
+            NotAvailable: 'غير متوفر'
+        Filters:
+            CheckIn: 'تاريخ الوصول'
+            CheckOut: 'تاريخ المغادرة'
+            Customer : 'العميل'
+
+        Alerts:
+            WarningNRF: "غير قابل للاسترداد"
+            InfoFreeCancellation: "إلغاء مجاني"
+            WarningCancellationWithFee: "إلغاء مع رسوم"
+            WarningCancellationFee: "رسوم الإلغاء"
+            WarningFreeCancellationBefore: " إلغاء مجاني حتى "
+            QuestionBookConfirmation: 'هل أنت متأكد من تأكيد الحجز؟'
+            QuestionCancelConfirmation: "هل أنت متأكد من إلغاء الحجز؟"
+            QuestionReCheckRate: "هل أنت متأكد من إعادة التحقق من سعر هذا الحجز؟"
+            InfoHotelBookRequestSent: "تم إرسال طلب تأكيد الحجز إلى الفندق"
+            PendingRequest: 'طلب قيد الانتظار'
+            WarningVoucherAlarmPart: "في حالة الطوارئ، أو إذا واجهت مشكلة في الفندق/النقل/النشاط، يرجى الاتصال بنا.
+             يرجى ملاحظة أنه لن ننظر في أي مطالبة/استرداد إذا لم تتصل بالرقم أعلاه في حالة حدوث مشكلة مع خدماتنا."
+        Pages:
+            HotelList: "قائمة حجوزات الفندق"
+            PartyList: "قائمة حجوزات السهرة"
+            List: "قائمة حجوزات"
+            Edit: 'تعديل الحجز'
+            CheckStatusGDS: 'حالة الحجز'
+        Request: 'طلب'
+        History: 'السجل'
+    OrderLineRequest:
+        Label: "طلب"
+        LabelPlural: "قائمة الطلبات"
+        Buttons:
+            Add: "طلب جديد"
+            Confirm: "تأكيد"
+            Reject: "رفض"
+        Message:
+            CancelRequest: "طلب إلغاء"
+            UpdateRequest: 'طلب تعديل'
+            WaitingRequest: "طلب قيد الانتظار"
+            ExecutedRequest: "طلب معالج"
+            RejectedRequest: "طلب مرفوض"
+        Fields:
+            Type: 'نوع الطلب'
+            Message: 'نص الطلب'
+            ID : 'المعرف'
+        Alerts:
+            QuestionChangeStateExecuted: "هل تؤكد معالجة هذا الطلب؟"
+            QuestionChangeStateRejected: "هل تؤكد رفض هذا الطلب؟"
+    Common:
+        Buttons:
+            Filter: "مرشح "
+            Confirm: "تأكيد"
+            Cancel: "إلغاء"
+            Actions: "إجراءات"
+            Details: "تفاصيل"
+            Filters: "مرشحات"
+            Delete: "حذف"
+            Edit: "تعديل"
+            Save: "حفظ"
+            Deactivate: "تعطيل"
+            Activate: "تفعيل"
+            Upload: "تحميل الصورة"
+            Show: 'عرض'
+            Duplicate: 'تكرار'
+            Book: 'حجز'
+            PaymentReceipt: 'إيصال الدفع'
+            Decline: 'رفض'
+            Pay: 'دفع'
+            ConfirmCancellation: 'تأكيد الإلغاء'
+            History: 'سجل'
+            Update: "تحديث"
+        Fields:
+            Rib : 'رقم الحساب البنكي'
+            CreationDate: "تاريخ"
+            Amount: "المبلغ"
+            State: "الحالة"
+            Id: "المعرف"
+            Description: "التفاصيل"
+            Name : "التسمية"
+            Abbreviation : 'اختصار'
+            Currency: "العملة"
+            City : 'المدينة'
+            Phone: "الهاتف"
+            Email: "البريد الإلكتروني"
+            Type: "النوع"
+            Display: "العرض"
+            Address: "العنوان"
+            Note: "الملاحظة"
+            Margin: "الهامش"
+            Action: "الإجراءات"
+            Active: 'الحالة'
+            Profit: "ربح"
+            CreatedAt: "تاريخ الإنشاء"
+            TotalPrice: "السعر الإجمالي"
+            UnitPrice: "السعر الفردي"
+            PricePaid: "السعر المدفوع"
+            RestPaid: "المتبقي للدفع"
+            Details: "التفاصيل"
+            ApiKey: "معرّف XML"
+            Date: "تاريخ"
+            Latitude: "دائرة العرض"
+            Longitude: "دائرة الطول"
+            Radius : 'نطاق'
+            Actions : 'إجراءات'
+            Fax: "فاكس"
+            Logo: "شعار"
+            LogoImage : "شعار/صورة"
+            Rank: "ترتيب"
+            Period: 'فترة'
+            StartDate: 'تاريخ البداية'
+            EndDate: 'تاريخ النهاية'
+            PurchasePrice: 'شراء'
+            SalePrice: 'بيع'
+            Commission: 'عمولة'
+            CalculType: 'نوع الحساب'
+            SelectAll: 'جميع الخيارات'
+            DisplayOrder: "ترتيب العرض"
+            Code: 'رمز'
+            Attachment: 'مرفقات'
+            Debit: 'مدين'
+            Credit: 'دائن'
+            TotalCredit: 'إجمالي الائتمان'
+            TotalDebit: 'إجمالي المدين'
+            CountDebit: 'عمليات خصم'
+            CountCredit: 'عمليات ائتمان'
+            PaymentState: 'الدفع'
+            MarginB2C: '% هامش من الأعمال إلى العميل'
+            MarginB2B: '% هامش من الأعمال إلى الأعمال'
+            Monday: 'الإثنين'
+            Tuesday: 'الثلاثاء'
+            Wednesday: 'الأربعاء'
+            Thursday: 'الخميس'
+            Friday: 'الجمعة'
+            Saturday: 'السبت'
+            Sunday: 'الأحد'
+            MinimumStay: 'الحد الأدنى للإقامة'
+            SeoTitle: ' عنوان تحسين محركات البحث  '
+            SeoDescription: 'تحسين محركات البحث تفاصيل'
+            DateFrom : "تاريخ من"
+            DateTo : "تاريخ إلى"
+            DateRange : " "
+            nbAdults: "عدد البالغين"
+            nbChild: "عدد الأطفال"
+            nbInfants: "عدد الرضع"
+            ShowInNewWindow : 'عرض في نافذة جديدة'
+            Icon : 'الرّمز '
+            Total : 'المجموع'
+            FreeCancellation : 'إلغاء مجاني'
+            Pricing : 'التسعير'
+            Provider : 'المزود'
+            UserName : 'اسم المستخدم'
+
+        UnknownUser: 'مستخدم غير معروف'
+        UnknownCustomer : 'عميل غير معروف'
+        Filters:
+            CreationDateFrom: "تاريخ الإنشاء من"
+            CreationDateTo: "تاريخ الإنشاء إلى"
+        Messages:
+            "No": "لا"
+            "Yes": "نعم"
+            AmountPaid: "المبلغ المدفوع"
+            AmountRemaining: "المبلغ المتبقي"
+            AreYouSureCancel: "هل أنت متأكد من إلغاء؟"
+            AreYouSureCancelThisLine: "هل أنت متأكد من إلغاء هذا السطر؟"
+            PurchaseData: "بيانات الشراء"
+            Night: "ليلة"
+            Nights: "ليالي"
+            Adults: "بالغين"
+            Children: "أطفال"
+            Babies: "رضع"
+            NewPhotos: "صور جديدة"
+            NRFYes: 'نعم'
+            Extra: 'تكلفة إضافية'
+            Quantity: 'كمية'
+            All: 'الكل'
+            Free: 'مجاني'
+            Cancel: 'إلغاء'
+            Specific: 'محدد'
+            Hidden: 'مخفي'
+            ExportTableXLsx: 'Exportation en Excel'
+            GeneralInformation: "معلومات عامة"
+            Requester: "مقدم الطلب"
+            PostRequest: "تقديم طلب"
+            Remarks: "ملاحظات"
+            PassengerBookingDetails: "تفاصيل حجز العميل"
+            ComplementNote: "ملاحظات إضافية"
+            stops:
+                NoStop: "No stop"
+                OneStop: "One stop"
+                OtherStops: "%count% stops"
+            TicketNumbers: "أرقام التذاكر"
+        Alerts:
+            Cancellation: "هل أنت متأكد من الإلغاء؟"
+            InfoNoDataTable: "لم يتم العثور على أي سجل"
+            ConfirmDelete: "تأكيد الحذف"
+            NoRecordFound: "لم يتم العثور على أي نتائج"
+            WarningDelete: "هل أنت متأكد من حذف "
+            SuccessItemDeleted: 'تم الحذف بنجاح'
+            ErrorItemNotDeleted: 'لا يمكن حذف هذا العنصر'
+            ErrorSmallSliderNotUploaded: "الصورة صغيرة جدًا! حاول تحميل صورة أخرى"
+            ErrorBigSliderNotUploaded: "الصورة كبيرة جدًا! حاول تحميل صورة أخرى"
+            Confirmation: 'تأكيد'
+            NoRecordsFound : 'لم يتم العثور على سجلات'
+            NoAccounts : 'لا توجد حسابات'
+
+
+            ConfirmActivate: "هل أنت متأكد من تفعيل"
+            ConfirmDeactivate: "هل أنت متأكد من إلغاء التفعيل "
+            SuccessSave: "تم تسجيل هذا العنصر بنجاح "
+            WarningDuplicatedEntryError: 'خطأ : إدخال مكرر '
+            NoOrdersToPay: 'لا توجد أوامر للدفع'
+        FieldsValues:
+            Valid: "تم التحقق"
+            Cancel: "إلغاء"
+            ObligatoryYes: "إلزامي"
+            ObligatoryNo: "غير إلزامي"
+            ActiveYes: "مفعل"
+            ActiveNo: "غير مفعل"
+            NRFNo: 'لا'
+            NRFYes: 'نعم'
+            Expired: 'منتهي'
+            Canceled: 'ملغى'
+
+        Message:
+            AmountPaid: 'المبلغ المدفوع'
+            AmountRemaining: 'المبلغ المتبقي'
+            AreYouSureCancelThisLine: "هل أنت متأكد من الإلغاء؟"
+            SuccessfullyCanceled: 'تم تسجيل الإلغاء بنجاح'
+        Pages:
+            EditState: 'تغيير الحالة'
+            Delete : 'حذف'
+
+    User:
+        Label: "مستخدم"
+        LabelPlural: 'مستخدمون'
+        Fields:
+            Username: "اسم المستخدم"
+            Role: "الدور"
+            Password: "كلمة المرور"
+            IsVerified: "التحقق"
+            Agent: 'وكيل'
+        Buttons:
+            Add: "مستخدم جديد"
+            Edit: "تعديل المستخدم"
+            Delete: "حذف المستخدم"
+            Verified: 'تم التحقق'
+            NotVerified: 'غير موثوق'
+        Pages:
+            Account: 'حساب المستخدم'
+        Messages:
+            PasswordEditSuccess: 'تم تعديل كلمة المرور بنجاح'
+
+    Order:
+        Label: 'طلب '
+        LabelPlural: 'الطلبات '
+        Pages:
+            List: "قائمة الطلبات"
+            Payment: "دفع الطلب"
+            Proforma: "فاتورة مبدئية"
+        Message:
+            ConfirmOrder: "هل أنت متأكد من تأكيد الطلب؟"
+            CancelOrder: "هل أنت متأكد من إلغاء الطلب؟"
+            OrderDetails: "تفاصيل الطلب"
+        Alerts:
+            WarningSelectUnpaidOrder: "يرجى اختيار الطلبات التي لم يتم دفعها"
+            WarningPS: "ملاحظة"
+            WarningTotal: 'يجب أن يكون المجموع أكبر من الرصيد للدفع'
+        Messages:
+            Total: 'الإجمالي'
+            TotalHt: 'الإجمالي بدون ضريبة'
+            SubTotal: 'الإجمالي الفرعي قبل الخصم'
+            FiscalStamp: 'طابع ضريبي'
+            TotalTTC: 'الإجمالي مع الضريبة'
+            TvaBase: "أساس الضريبة"
+            Tva: "ضريبة القيمة المضافة"
+            TotalTva: "إجمالي ضريبة القيمة المضافة"
+            TvaAmount: "مقدار ضريبة القيمة المضافة"
+        Buttons:
+            ChangeCustomer: "تغيير العميل"
+            Pay: 'دفع'
+            ExchangeRateSaleToCustomer: 'سعر الصرف -> عملة العميل'
+            ExchangeRateSaleToAgency: 'سعر الصرف -> عملة الوكالة'
+        Fields:
+            State: 'الحالة'
+            Currency : 'العملة'
+            Exchangeratesaletoreference : 'سعر الصرف -> عملة الوكالة'
+            Exchangeratesaletocustomer : 'سعر الصرف -> عملة العميل'
+            Customername : 'اسم العميل'
+            Customerphone : 'هاتف العميل'
+            Customeremail : 'بريد العميل'
+            Reference : 'المرجع'
+            User : 'المستخدم'
+            Customer : 'العميل'
+            Agency : 'الوكالة'
+        FieldsValues:
+            StatePENDING: "قيد الانتظار"
+            StateCONFIRMED: "مؤكد"
+            StateCANCELED: "ملغى"
+            StateCANCELED_FEE: "ملغى + رسوم"
+            StateTEMP_AVAILABLE: "قيد الانتظار للدفع"
+            StateNOT_BOOKED: "غير محجوز"
+            StatePAID: "مدفوع"
+            StateUNPAID: "غير مدفوع"
+    Provider:
+        Label: "المزوّد"
+        LabelPlural: "مزوّدون"
+        Fields:
+            WebSite: "موقع إلكتروني"
+            Images: "معرض الصور"
+        Page:
+            Edit: 'تعديل مزوّد'
+    ProductElement:
+        Label: "عنصر المنتج"
+    OrderSubLine:
+        Fields:
+            State: "الحالة"
+            Description: "الوصف"
+            Purchaseprice : "قيمة الشراء"
+            Saleprice : "قيمة البيع"
+            NbAdult : "عدد البالغين"
+            NbChild : "عدد الأطفال"
+            Service : "الخدمة"
+            Cancelable : "قابل للإلغاء"
+            Cancellationfeesjson : "رسوم الإلغاء"
+            Orderline : "حجز "
+            Productelement : "عنصر المنتج"
+            UnitPrice: 'سعر الوحدة'
+            Qty: 'الكمية'
+        Buttons:
+            EditPurchase: "تعديل الشراء"
+            EditSale: "تعديل البيع"
+        Message:
+            CancellationAmount: "رسوم الإلغاء"
+            Adults: "بالغين"
+            Children: "أطفال"
+    Product:
+        Label: "منتج"
+        LabelPlural: 'منتجات'
+        Fields:
+            BackOnly: 'رؤية  في الوكالة فقط'
+    OrderPayment:
+        Buttons:
+            New: "دفع جديد للطلب"
+            Delete: 'حذف'
+        Label: 'تسوية الطلب'
+        LabelPlural: 'تسويات الطلبات'
+        Fields:
+            Order: 'طلب مسدد'
+    CustomerPayment:
+        Message:
+            PaymentDetails: "تفاصيل الدفع"
+            DespositList: 'قائمة الودائع'
+        Buttons:
+            Add: "إضافة تحصيل"
+            New: 'تحصيل جديد'
+            Show: 'عرض'
+        Fields:
+            Id: "المرجع"
+            Date: "التاريخ"
+            Active : "الحالة"
+            Customer : "العميل"
+            User : "المستخدم"
+            Agency : "الوكالة"
+            AmountUsed: "المبلغ المستخدم"
+            AmountRemaining: 'المبلغ المتبقي'
+            AmountRemainingFrom: 'المبلغ المتبقي من '
+            Amount: 'المبلغ الإجمالي'
+        Pages:
+            List: "مدفوعات العملاء"
+            Show: 'الدفع رقم '
+        LabelPlural: 'المدفوعات'
+        FieldsValues:
+            Usage: 'استغلال'
+            NotUsed: 'غير مستعمل'
+            PartiallyUsed: 'مستعمل جزئيًا'
+            FullUsed: 'مستعمل بالكامل'
+            GeneralInfos: 'معلومات عامة'
+    HotelRoomType:
+        Label: "نوع الغرفة"
+        LabelPlural: "أنواع الغرف"
+        Buttons:
+            New: "نوع غرفة جديد"
+            Edit: "تعديل نوع الغرفة"
+            EditOccupancies: "تفاصيل الإشغال"
+            EditFacilities: "ربط التجهيزات"
+        Fields:
+            Occupancy: "الإشغال"
+            OccupancyAdult: "إشغال بالغ"
+            MinOccupancy: "الإشغال الأدنى"
+            MaxOccupancy: "الإشغال الأقصى"
+            MinOccupancyAdult: "الإشغال الأدنى للبالغين"
+            MaxOccupancyAdult: "الإشغال الأقصى للبالغين"
+            Facilities: 'تجهيزات الغرفة'
+            Occupancies: 'أنواع الإشغال المتاحة'
+        Pages:
+            Edit: "تعديل نوع الغرفة"
+            EditOccupancies: "تفاصيل الإشغال"
+            EditFacilities: "تجهيزات نوع الغرفة"
+    Hotel:
+        Label: "فندق"
+        LabelPlural: "فنادق"
+        Pages:
+            List: "الفنادق والعقود"
+            New: "فندق جديد"
+            Setting: 'إعدادات منتج الفندق'
+        Buttons:
+            New: "فندق جديد"
+            Parameters: "الإعدادات"
+        Fields:
+            AutoMail: "الإرسال التلقائي"
+            StarRating: "التقييم بالنجوم"
+            Gps: "نظام تحديد المواقع"
+            Photos: "صور"
+            HotelContracts: "العقود"
+            ContractsAndVisibility: 'العقود، المواسم والرؤى'
+            TripAdvisorId : 'معرف مستشار الرحلة'
+            CustomRating : 'تقييم مخصص'
+        Messages :
+            Logo : 'شعار'
+
+
+    HotelBadge:
+        Label : "ملصق الفندق"
+        LabelPlural : "الملصقات"
+        Pages:
+            New: 'ملصق فندق جديد'
+            Edit: "تعديل ملصق الفندق"
+        Buttons:
+            New: 'ملصق جديد'
+        Fields:
+            Name: 'التسمية'
+            Type: 'النوع'
+            ExpireAt: 'تاريخ الانتهاء'
+        FieldsValues:
+            Promo: 'عرض ترويجي'
+            Discount: "خصم"
+            Info: "معلومة"
+    CustomerXmlApi:
+        Fields:
+            Margin: "هامش"
+            Xmlout: "خارج نظام التوزيع العالمي "
+            XmlApiType: 'نوع نظام التوزيع العالمي'
+        Pages:
+            List: "قائمة نظام التوزيع العالمي"
+            Edit: "مواصفات نظام التوزيع العالمي"
+        Buttons:
+            DisableXmlOut: "تعطيل XML OUT"
+            EnableXmlOut: "تفعيل XML OUT"
+            AddSpecMargin: "إضافة مواصفة جديدة نظام التوزيع العالمي "
+            Edit: 'تعديل'
+        Messages:
+            DefaultMargen: "الهامش الافتراضي"
+            SpecificMargin: "الهامش المحدد"
+    CustomerHotelXml:
+        FieldsValues:
+            Exclude: "لا"
+            Include: "نعم"
+        Fields:
+            RefGDS: "مرجع نظام التوزيع العالمي"
+            Margin : "الهامش"
+            Display : "العرض"
+            Hotelxmlname : "اسم XML للفندق"
+            Customer : "العميل"
+            Xmlapi : "نظام التوزيع العالمي"
+
+        Pages:
+            Include: "الفنادق المدرجة"
+        Alerts:
+            WarningExist: "لم يتم العثور على فنادق"
+        Messages:
+            IncludeHotels: "الفنادق المدرجة "
+            ExcludeHotels: " الفندق مستبعد"
+            Exclude: 'استبعاد'
+            Include: 'إدراج'
+        Buttons:
+            New: 'مواصفة جديدة'
+    XmlApi:
+        Alerts:
+            InfoImmediatePaymentPercent: "افتراضيًا، المبلغ الذي يجب دفعه هو مبلغ الربح (القيمة تساوي 0)، إذا لم يتم تحديده، فسيتم تحديد نسبة من البيع يجب دفعها من قبل العميل، والباقي سيكون على الفندق"
+        Pages:
+            List: "قائمة نظام التوزيع العالمي للفنادق - رحلات "
+            Edit: "تعديل نظام التوزيع العالمي"
+            Refresh: 'هل تريد تحديث قائمة XML؟'
+        Buttons:
+            Refresh: "تحديث"
+            State: "تفعيل/إلغاء تفعيل نظام التوزيع العالمي"
+        Fields:
+            Color: "اللون"
+            CreditCard : 'بطاقة بنكية'
+
+
+            PayAtHotelAuthorized: "الدفع في الفندق"
+            ImmediatePaymentPercent: "نسبة الدفع عبر الإنترنت"
+            Source: "معرّف المصدر"
+        FiledsValues:
+            PayAtHotelAuthorizedYes: "نعم"
+            PayAtHotelAuthorizedNo: "لا"
+        Label: 'الرسائل'
+    CustomerMoral:
+        Fields:
+            Name: "الاسم التجاري"
+            CreditAmountAuthorized: "المبلغ المصرح به"
+            Edit: "تعديل المبلغ المصرح به"
+        Buttons:
+            new: "عميل معنوي جديد"
+        Label: "عميل معنوي"
+        LabelShort: "معنوي"
+        Pages:
+            New: 'عميل معنوي جديد'
+    CustomerPhysical:
+        Fields:
+            Currency : "العملة"
+            Showallhotelxml : "عرض جميع الفنادق"
+            Name : "الاسم"
+            Email : "البريد الإلكتروني"
+            Market : "السوق"
+            Firstname : "الاسم"
+            Lastname : "اللقب"
+            Active : "الحالة"
+            Address : "العنوان"
+            Phone : "الهاتف"
+        Buttons:
+            new: "عميل طبيعي جديد"
+        Label: "العميل الطبيعي"
+        LabelShort: "طبيعي"
+        Pages:
+            New: 'عميل طبيعي جديد'
+    Module:
+        Label: "الوحدة"
+    Agency:
+        Label: "الوكالة"
+        Page:
+            List: 'الوكالات'
+        Buttons:
+            New: 'وكالة جديدة'
+        Pages:
+            New: 'وكالة جديدة'
+            Edit: 'تعديل الوكالة'
+    Zone :
+        Label : 'المنطقة'
+        Fields:
+            Title: 'العنوان'
+
+    PartyZone:
+        Pages:
+            New: "منطقة حفلة جديدة"
+            Edit: "تعديل منطقة الحفلة"
+            Detail : 'تفاصيل منطقة الحفلة'
+        Buttons:
+            New: "منطقة حفلة جديدة"
+        Alerts:
+            ConfirmDelete: "هل أنت متأكد من حذف منطقة الحفلة؟"
+        LabelPlural: "مناطق الحفلات"
+        Label: "منطقة الحفلة"
+        Fields:
+            ChildSalePrice: "سعر البيع للأطفال"
+            ChildPurchasePrice: "سعر الشراء للأطفال"
+            AdultSalePrice: "سعر البيع للبالغين"
+            AdultPurchasePrice: "سعر الشراء للبالغين"
+            Zone : 'المنطقة'
+    Party:
+        Label: "حفلة"
+        LabelPlural: "الحفلات"
+        Pages:
+            Edit: "تعديل الحفلة"
+            New: "حفلة جديدة"
+            List: "قائمة الحفلات"
+            PartyImages : 'صور الحفلة'
+            Product : 'حفلة'
+            Of : 'بتاريخ'
+        Buttons:
+            Hrtas: "الغرف × الترتيبات"
+            New: "أمسية جديدة"
+            Save: "حفظ"
+        Alerts:
+            ConfirmDelete: "هل أنت متأكد من حذف الأمسية؟"
+            ShowExpired: "عرض الأمسيات المنتهية"
+        Fields:
+            Title: "عنوان الأمسية"
+            HotelRoomTypeArrangementsCount: "عدد الترتيبات"
+            HotelStayRequired: "الإقامة إلزامية"
+            Place: "المكان"
+            Date: "تاريخ الأمسية"
+
+    HotelContract:
+        Label: "عقد الفندق"
+        Buttons:
+            New: "عقد جديد"
+        Fields:
+            countSeasons: "عدد المواسم"
+            Validity: 'الصلاحية'
+            Market : 'السوق'
+            Hotel  : 'الفندق '
+            Provider : 'المزوّد '
+            ShowExpiredSeasons: 'عرض المواسم المنتهية'
+
+        Pages:
+            List: 'عقود الفنادق'
+            Delete : 'حذف العقد'
+    ProductElementStockOperation:
+        LabelPlural: "العمليات المخزنية"
+        Buttons:
+            List: "العمليات المخزنية"
+            New: 'عملية جديدة'
+            NewTransfer: 'تحويل'
+            NewBlocking: 'حظر'
+            NewCredit: 'رصيد جديد'
+            Tracking: 'جدول الإشغال'
+            Chart: 'عرض الرسم البياني'
+        Fields:
+            NumberItems: 'عدد العناصر'
+            Retrocession: 'الاسترجاع'
+            Observation: 'الملاحظة'
+            Type: 'نوع العملية'
+            CustomerTo: 'الوجهة'
+            CustomerFrom: 'المصدر'
+        FieldsValues:
+            GeneralStock: 'المخزون العام'
+            TypeTransfer: 'نقل'
+            TypeBlocking: 'حظر'
+            TypeCredit: 'تخصيص'
+            TypeReservation: 'حجز'
+            TypeAvailable: 'متاح'
+            TypeAffected: 'مخصص'
+        Messages:
+            GeneralStock: 'المخزون العام'
+        Pages:
+            Edit: 'تعديل عملية تعديل المخزون'
+        OccupancyTable: "جدول الإشغال للمنتج"
+    Continent:
+        Label: "قارة"
+        LabelPlural: "قارات"
+        Buttons:
+            New: "قارة جديدة"
+            Deactivate: "إلغاء تفعيل القارة"
+            Activate: "تفعيل القارة"
+        Page:
+            Edit: "تعديل القارة"
+            Delete: "حذف القارة"
+        Alerts:
+            ConfirmDelete: 'تأكيد الحذف: هل أنت متأكد أنك تريد الحذف؟'
+    Country:
+        LabelPlural: "دول"
+        Label: "بلد"
+        Buttons:
+            New: " بلد جديد"
+        Page:
+            New: "بلد جديد"
+            Edit: "تعديل البلد"
+    CreditCard:
+        Label: "بطاقة بنكية"
+
+        Buttons:
+            New: 'بطاقة بنكية جديدة'
+            Delete : 'حذف'
+        Pages:
+            New: 'بطاقة بنكية جديدة'
+            List: 'البطاقات البنكية'
+        Fields:
+            Month: 'الشهر'
+            Year: "السنة"
+            CVC: 'رمز التحقق من البطاقة'
+            ExpirationDate: "تاريخ انتهاء الصلاحية"
+            HolderName: 'الاسم الكامل'
+            Number: 'الرقم'
+    Bank:
+        Pages:
+            List: "البنوك"
+            Edit: "تعديل البنك"
+        Buttons:
+            New: "بنك جديد"
+        Fields:
+            Abbreviation: "اختصار"
+        Label: "البنك"
+    Notification:
+        Pages:
+            List: "الإشعارات"
+        Fields:
+            Date: "التاريخ"
+            Content: "المحتوى"
+            FromMail: "الرسالة المستلمة من"
+        Title:
+            PendingOrder: "طلب في الانتظار"
+            BusinessSubscriptionRequest: "طلب الاشتراك BToB"
+            Contact: "اتصال مع عميل"
+        Messages:
+            BusinessSubscriptionRequest: "طلب الاشتراك الذي قدمه العميل "
+            PendingOrderBToC: "طلب معلق مقدم من العميل BToC "
+            PendingOrderBToB: "طلب معلق مقدم من العميل BToB "
+            Contact: "رسالة مستلمة من : "
+
+    SocialNetwork:
+        Pages:
+            List: "الشبكات الاجتماعية"
+            Edit: "تعديل الشبكة الاجتماعية"
+        Buttons:
+            New: "شبكة اجتماعية جديدة"
+        Fields:
+            Url: "رابط الشبكة الاجتماعية"
+            PageId: 'المعرف'
+    FrontPage:
+        Pages:
+            List: "الصفحات الثابتة"
+            Edit: "تعديل الصفحة الثابتة"
+        Fields:
+            Content: "محتوى الصفحة"
+            Title: "عنوان الصفحة"
+
+    AccommodationCondition:
+        Label: "شرط"
+        LabelPlural: "شروط"
+        Buttons:
+            New: "شرط جديد"
+        Pages:
+            New: "شرط جديد"
+            Edit: 'تعديل الشرط'
+        Fields :
+            Conditions : 'الشرط'
+            Description : 'الوصف'
+    AccommodationOption:
+        Label: "خيار"
+        LabelPlural: "خيارات"
+        Buttons:
+            New: "خيار جديد"
+            Edit: "تعديل الخيار"
+            List: 'قائمة الخيارات'
+        Pages:
+            New: "خيار جديد"
+            Edit: "تعديل الخيار"
+        Fields :
+            Name : 'التسمية'
+    HotelType:
+        Label: "نوع الفندق"
+        LabelPlural: "أنواع الفنادق"
+        Buttons:
+            New: "نوع فندق جديد"
+            List: "أنواع الفنادق"
+            Edit : 'تعديل أنواع الفنادق '
+        Pages:
+            List: "أنواع الفنادق"
+        Fields:
+            Name: 'التسمية'
+    BankAccount:
+        Pages:
+            List: "الحسابات البنكية"
+            new: "حساب بنكي جديد"
+            Edit: 'تعديل الحساب البنكي'
+        Fields:
+            IBAN: "رقم الحساب البنكي الدولي"
+            AccountType: "نوع الحساب"
+            RIB: "رقم الحساب البنكي"
+        FieldsValues:
+            AccountTypeCash: "نقدي"
+            AccountTypeCheck: "شيك"
+            AccountTypeBank: "بنكي"
+        Buttons:
+            new: "حساب بنكي جديد"
+    HotelChain:
+        Label: "سلسلة فنادق"
+        LabelPlural: "سلسلة فنادق"
+        Pages:
+            List: "سلاسل الفنادق"
+            New: "سلسلة فندق جديدة"
+        Buttons:
+            List: "سلاسل الفنادق"
+            New: "سلسلة فندق جديدة"
+            Edit: 'تعديل سلسلة فندق'
+            Delete: 'حذف سلسلة فندق'
+        Fields:
+            Name: 'التسمية'
+    RoomType:
+        Buttons:
+            List: "فئات الغرف"
+            New: "فئة غرفة جديدة"
+        Pages:
+            New: "فئة غرفة جديدة"
+        Label: 'غرفة'
+        LabelPlural: 'فئات الغرف'
+        Fields:
+            Name: 'التسمية'
+    Facility:
+        LabelPlural: "التسهيلات"
+        Buttons:
+            List: "التسهيلات"
+            New: "تسهيل جديد"
+        Pages:
+            New: "تسهيل جديد"
+            List: "التسهيلات"
+            Edit: 'تعديل التسهيل'
+        Label: 'تسهيل'
+    Arrangement:
+        Label: 'ترتيب'
+        Buttons:
+            List: "الترتيبات"
+            New: 'ترتيب جديد'
+        Pages:
+            New: 'ترتيب جديد'
+            Edit: 'تعديل الترتيب'
+        LabelPlural: 'الترتيبات'
+        Fields:
+            Code: 'الرمز'
+    FileData:
+        Fields:
+            Primary: "رئيسية"
+            Alt: 'بديل'
+            DisplayOrder: 'ترتيب العرض'
+            Title: 'العنوان'
+            Sub_Title: 'العنوان الفرعي'
+            Image: 'صورة'
+        Messages:
+            UploadError: 'خطأ في تحميل الملف'
+            UploadSuccess: 'تم التحميل بنجاح'
+            NoFiles: 'خطأ في الملفات'
+        Buttons:
+            SetAsPrimary: 'تعيين كأولوية'
+        Alerts:
+            DangerNoUpload: "الملف لم يتم حفظه"
+    ContractSeason:
+        Buttons:
+            New: 'موسم جديد'
+            Edit: 'تعديل الموسم'
+        Pages:
+            New: 'موسم جديد'
+            Edit: 'تعديل الموسم'
+        Label: 'موسم'
+        LabelPlural: 'مواسم'
+        Fields:
+            PricingType: 'أسعار الشراء/البيع'
+            ByPerson: 'أسعار الشخص/الغرفة'
+            NRF: 'أسعار غير قابلة للاسترداد'
+            CommValue: 'العمولة'
+            BaseArrangement: 'ترتيب أساسي'
+            CountPrincings: 'عدد الأسعار'
+            Startdate: 'تاريخ البداية'
+            Enddate: 'تاريخ النهاية'
+            CommCalculType: 'نوع حساب العمولة'
+            MinimumStay : 'أدنى إقامة'
+        FieldsValues:
+            PricingByPerson: 'حسب الشخص'
+            PricingByRoom: 'حسب الغرفة'
+            PricingTypePurchase: 'شراء'
+            PricingTypeSale: 'بيع'
+        Messages:
+            AlertOverlap: 'انتباه، هناك تداخل في الموسم'
+            SuccessDuplicate: 'تم تكرار الموسم بنجاح'
+
+    ExchangeRate:
+        Page:
+            List: 'أسعار صرف العملات'
+            New: 'سعر صرف جديد'
+        Buttons:
+            New: 'تعيين'
+        Fields:
+            CurrencyFrom: 'العملة من'
+            CurrencyTo: 'العملة إلى'
+            Value: 'السعر'
+    Profile:
+        Page:
+            List: 'الملفات الشخصية'
+            Edit : 'تعديل الملف الشخصي'
+            Delete : 'حذف الملف الشخصي'
+        Buttons:
+            New: 'ملف شخصي جديد'
+        Label: 'ملف شخصي'
+        Messages :
+            MenuItems : 'عناصر القائمة'
+
+
+    Personal:
+        Pages:
+            List: 'الموظفون'
+            New: 'موظف جديد'
+            Edit: 'تعديل الموظف'
+        Label: 'موظف'
+        Fields:
+            Job: 'المهنة'
+            AuthAgencies: 'الوكالات المصرح بها'
+            Salary: 'الراتب'
+            AffectedAgency : 'الوكالة المعينة'
+        Buttons:
+            New: 'موظف جديد'
+            Edit: 'تعديل الموظف'
+
+
+
+    Extra:
+        Label: "إضافي"
+        LabelPlural: "إضافات"
+        Pages:
+            List: "قائمة الإضافات"
+            New: "إضافة جديدة"
+            Edit: "تعديل الإضافة"
+
+        Fields:
+            Name: "تسمية الإضافة"
+            MinPrice: "السعر الأدنى في الواجهة الأمامية"
+            Type: "نوع الإضافة"
+            OnlyBack: "مرئي فقط في الواجهة الخلفية"
+        FieldsValues:
+            TypeVoyagesOrganise: 'رحلات منظمة'
+            TypeCircuit: 'جولة'
+            TypeExcursion: 'رحلة استكشافية'
+            TypeUmrah: 'عمرة'
+            TypeTransport: 'نقل'
+            TypeCongres: 'مؤتمر'
+            TypeSeminaires: 'ندوات'
+            TypeOthers: 'أخرى'
+        Buttons:
+            List: "قائمة الإضافات"
+            New: "إضافة جديدة"
+            Edit: "تعديل إضافة"
+            Delete: "حذف إضافة"
+
+    ExtraRequest:
+        Label: "طلب إضافة"
+        LabelPlural: "طلبات الإضافات"
+
+        Pages:
+            List: "قائمة الطلبات"
+            New: "طلب جديد"
+            Edit: "تعديل الطلب"
+
+        Buttons:
+            List: "قائمة الطلبات"
+            New: "طلب جديد"
+            Edit: "تعديل الطلب"
+            Delete: "حذف الطلب"
+    HotelXml:
+        Label : 'فندق XML'
+        Pages:
+            List: "فنادق واجهة برمجة التطبيقات"
+            DefaultMargin: "هامش افتراضي"
+            CustomRating: "تقييم الوكالة"
+            Search: "بحث عن فنادق"
+        Fields:
+            CustomRating: 'تقييم الوكالة'
+            ReviewRating: 'تقييم واجهة برمجة التطبيقات'
+            Promo: 'عرض ترويجي'
+            Amenities: 'المرافق'
+            ExternalCode: 'الرمز الخارجي'
+            GdsRefreshDate: 'تاريخ التحديث'
+            MarginB2C: 'هامش من الأعمال إلى العميل %'
+            MarginB2B: 'هامش من الأعمال إلى الأعمال %'
+            Hotel: 'الفندق المرتبط'
+            Price : 'السعر'
+            Source : 'المصدر'
+
+        Buttons:
+            AssociateFacilities: 'المرافق'
+            DefaultMargin: 'الهوامش الافتراضية'
+            AssociateHotel: 'ربط الفندق'
+            Search: "تحديث الفنادق والأسعار"
+
+        Alerts:
+            WarningCityNotFound: 'لا توجد بيانات للعرض'
+            NoHotelFound: 'لم يتم العثور على فندق في هذا التاريخ'
+
+        Messages:
+            WarningResetMarge: 'سيتم إعادة تعيين الهوامش وقد يتم فقدان التطابقات'
+    XmlHotelPrice:
+        Buttons:
+            List: 'قائمة أسعار الفنادق'
+        Fields:
+            City: 'المدينة'
+            HotelXml : ' Xml فنادق'
+            RoomType : 'نوع الغرفة'
+            Board : 'ترتيبات الفندق'
+
+    Pricing:
+        Fields:
+            NRF: 'غير قابل للاسترداد'
+            Base: 'ترتيب أساسي'
+
+        FieldsValues:
+            ByRoom: 'لكل غرفة'
+            ByPerson: 'لكل شخص'
+        LabelPlural: 'الأسعار'
+        Buttons:
+            NewPricingsRoom: 'أسعار غرفة جديدة'
+        Pages:
+            NewPricingsRoom: 'أسعار غرفة جديدة'
+            NewPricingsArrangement: 'أسعار ترتيب جديدة'
+    Operation:
+        Label: 'عملية'
+        LabelPlural: 'عمليات'
+        Messages:
+            Extras: 'مستحقات إضافية'
+            Discounts: 'تخفيضات'
+            Empty: "لا توجد عناصر"
+
+        Buttons:
+            NewDiscount: 'تخفيض جديد'
+        Pages:
+            NewDiscount: 'تخفيض جديد'
+            NewExtra: 'إضافة جديدة'
+            Edit: 'تعديل العملية'
+    CancellationPolicy:
+        Label: "شروط الإلغاء"
+        LabelPlural: "شروط الإلغاء"
+
+
+        Buttons:
+            New: 'شرط إلغاء جديد'
+            Edit: 'تعديل شرط الإلغاء'
+        Pages:
+            New: 'شرط إلغاء جديد'
+            Edit: 'تعديل شرط الإلغاء'
+            Delete : 'حذف  شرط الإلغاء'
+        Fields:
+            MinDayBefore: "مهلة الإلغاء"
+            Fee: 'الرسوم'
+            CheckInStartDate: 'تسجيل الوصول من'
+            CheckInEndDate: 'تسجيل الوصول إلى'
+            FeeType: 'النوع'
+            FeeBase: 'أساس الحساب'
+        FieldsValues:
+            FeeTypeAmount: 'المبلغ'
+            FeeTypePercent: '%'
+            FeeBasePeriod: 'فترة الإقامة'
+            FeeBaseNight: 'ليلة'
+    Promo:
+        Label: "عرض"
+        LabelPlural: "عروض"
+        Buttons:
+            New: 'عرض جديد'
+            NewEBPeriod: 'فترة الحجز المبكر'
+            NewEBDays: ' أيام الحجز المبكر '
+            NewEBSPO: 'عرض خاص الحجز المبكر '
+        Fields:
+            CheckinStartDateEB: 'الإقامة من'
+            CheckinEndDateEB: 'الإقامة إلى'
+            CheckinStartDateSPO: 'تاريخ الحجز من'
+            CheckinEndDateSPO: 'تاريخ الحجز إلى'
+            MaxStay: 'الحد الأقصى للإقامة'
+            MinStay : 'الحد الأدنى للإقامة'
+            EBPeriod: 'فترة الحجز المبكر'
+            EBDaysBefore: 'عدد الأيام قبل الحجزالمبكر '
+
+
+        FieldsValues:
+            PromoTypeFlagEarlyBooking: "الحجز المبكر"
+            PromoTypeFlagSPO: "عرض خاص"
+
+        Pages:
+            NewEBPeriod: 'فترة الحجز المبكر'
+            NewEBDays: 'أيام الحجز المبكر'
+            NewEBSPO: 'عرض خاص الحجز المبكر '
+            Edit: 'تعديل العرض الترويجي'
+
+    StopSale:
+
+        Label: "إيقاف البيع"
+        LabelPlural: "إيقافات المبيعات"
+
+        Buttons:
+            New: 'إيقاف مبيعات جديد'
+            Edit: 'تعديل إيقاف المبيعات'
+        Pages:
+            New: 'إيقاف مبيعات جديد'
+            Edit: 'تعديل إيقاف المبيعات'
+
+    OperationType:
+        LabelPlural: 'أنواع العمليات'
+        Buttons:
+            New: 'نوع عملية جديد'
+    DiscountChild:
+        Pages:
+            New: 'خصم جديد للأطفال '
+            Edit: 'تعديل خصم الأطفال'
+        Buttons:
+            New: 'تعديل خصم الأطفال'
+        Fields:
+            AgeMin: 'الحد الأدنى للعمر'
+            AgeMax: 'الحد الأقصى للعمر'
+            ChildRank: 'ترتيب الطفل'
+            NbAdultsInRoom: 'عدد البالغين في الغرفة'
+
+    DiscountAdult:
+        Pages:
+            New: 'خصم جديد للبالغين'
+            Edit: 'تعديل خصم البالغين'
+        Buttons:
+            New: 'خصم جديد للبالغين'
+        Fields:
+            AdultRank: 'رتبة البالغ'
+    DiscountSenior:
+        Pages:
+            New: 'تخفيض جديد لكبار السن'
+            Edit: 'تعديل تخفيض لكبار السن'
+        Buttons:
+            New: 'تخفيض جديد لكبار السن'
+        Fields:
+            AgeMin: 'الحد الأدنى للعمر'
+            AgeMax: 'الحد الأقصى للعمر'
+    DiscountLongStay:
+        Pages:
+            New: 'تخفيض جديد للإقامة الطويلة'
+            Edit: 'تعديل تخفيض الإقامة الطويلة'
+        Buttons:
+            New: 'تخفيض جديد للإقامة الطويلة'
+    DiscountWeekend:
+        Pages:
+            New: 'تخفيض جديد لعطلة نهاية الأسبوع'
+            Edit: 'تعديل تخفيض عطلة نهاية الأسبوع'
+        Buttons:
+            New: 'تخفيض جديد لعطلة نهاية الأسبوع'
+        Fields:
+
+    ExtraWeekend:
+        Pages:
+            New: 'إضافة جديدة لعطلة نهاية الأسبوع'
+            Edit: 'تعديل إضافة لعطلة نهاية الأسبوع'
+
+        Buttons:
+            New: 'إضافة جديدة لعطلة نهاية الأسبوع'
+    ExtraSingle:
+        Pages:
+            New: 'إضافة جديدة فردية'
+            Edit: 'تعديل إضافة فردية'
+        Buttons:
+            New: 'إضافة جديدة فردية'
+    Email:
+        LabelPlural: 'البريد الإلكتروني'
+        Label : 'البريد الإلكتروني'
+        FieldsValues:
+            Sent: 'تم الإرسال'
+            Error: "فشل الإرسال"
+            Customer: 'العميل'
+            Hotel: 'الفندق'
+            Society: 'الشركة'
+        Messages:
+            ForOrder: 'للطلب'
+            ForBookingNumber : 'للحجز رقم'
+
+        Fields:
+            AddressFrom: 'المصدر'
+            AddressTo: 'المرسل إليه'
+            AddressCC: 'في النسخة'
+            AddressBCC: 'في النسخة المخفية'
+            Subject: 'الموضوع'
+            Type: 'النوع'
+
+        Pages:
+
+            Show: 'استعراض البريد الإلكتروني'
+    CustomerPaymentDetail:
+        Label: "تفاصيل التحصيل"
+        LabelPlural: "تفاصيل التحصيلات"
+
+        Buttons:
+            New: 'تفاصيل جديدة'
+        Fields:
+            ReferenceNumber: 'رقم المرجع'
+            Drawer: 'الساحب'
+    PaymentMethod:
+        Label: 'طريقة الدفع'
+        FieldsValues:
+            CASH: 'نقداً'
+            CREDIT_CARD: 'بطاقة بنكية'
+            CHECK: 'شيك'
+    Slider:
+        Pages:
+            List: 'صور شريط التمرير من الأعمال إلى العميل'
+            New: 'صورة شريط التمرير جديدة'
+
+        Buttons:
+            New: 'صورة جديدة'
+
+        Fields:
+            Url: 'صورة'
+            Title: 'عنوان'
+            SubTitle: 'عنوان فرعي'
+
+    MenuItemFront:
+        Fields:
+            Id: 'معرف'
+        Label: 'الرسائل'
+    CurrencyExchangerate:
+        Label: "سعر الصرف"
+        Fields:
+            Currencyfrom: 'من'
+            Currencyto: 'إلى'
+            Exchangerate: 'سعر الصرف'
+            AutoReverse: 'سعر الصرف المعكوس تلقائيًا'
+
+        Page:
+            List: 'سعر الصرف للعملات'
+
+    FrontZone:
+        Fields:
+            Query: 'المحتوى'
+            Params: 'المعايير'
+            HtmlFileName: 'نموذج العرض'
+            NbElementsToDisplay: 'عدد العناصر المعروضة'
+            BackgroundImage: 'صورة الخلفية'
+            Cities: 'المدن'
+            Hotels: 'الفنادق'
+            Countries: 'البلدان'
+            Themes: 'الموضوعات'
+            Extras: 'الإضافات'
+            Stars: "عدد النجوم"
+
+        Pages:
+            List: "مناطق الاستقبال"
+            Update: 'تعديل المنطقة'
+
+        Alerts:
+
+            SuccessUpdate: 'تم التعديل بنجاح'
+            ErrorUpdate: 'فشل التعديل'
+
+        Messages:
+            Items: 'عنصر'
+    Request:
+        Fields:
+            Type: 'النوع'
+    BusinessSubscription:
+        Buttons:
+            Accept: 'قبول'
+            Reject: 'رفض'
+
+        Pages:
+            List: "طلبات التسجيل BTOB"
+
+        FieldsValues:
+            Accepted: 'مقبولة'
+            Rejected: 'مرفوضة'
+            Pending: 'قيد الانتظار'
+
+        Messages:
+
+            AlertCustomerExist: 'العميل %email% موجود بالفعل'
+            AlertSuccessCreatedAccount: 'تم إنشاء حساب جديد لـ %email%'
+
+    Wallet:
+        Alerts:
+            ConfirmedBooking: 'الحجوزات المؤكدة'
+            PendingBooking: 'الحجوزات قيد الانتظار'
+
+        Messages:
+            Completed: 'تم'
+    NewsLetter:
+        Pages:
+            List: 'قائمة النشرات الإخبارية'
+            New: 'نشرة إخبارية جديدة'
+            Edit: 'تعديل النشرة الإخبارية رقم number'
+        Buttons :
+            Edit: 'تعديل النشرة الإخبارية '
+            Update : 'تحديث  النشرة الإخبارية'
+        Fields:
+            ClickCount: "عدد الزيارات على الرابط"
+            ViewsClick: "عدد مرات الفتح"
+            Content: 'المحتوى'
+            Title: 'العنوان'
+
+    NewsLetterSubscriber :
+        Title :
+            Unsubscription : 'إلغاء الاشتراك'
+        Pages:
+            List: 'قائمة المشتركين'
+
+
+
+        Buttons:
+            State: 'تغيير الحالة'
+
+    Counters:
+        Fields:
+            Prefix: 'رمز الهاتف'
+
+    History:
+        Label: 'السجل'
+    Referencement:
+        Label: 'تحسين محركات البحث'
+        Fields:
+            SeoTitle: 'عنوان  تحسين محركات البحث'
+            SeoDescription: ' وصف تحسين محركات البحث  '
+
+    HistoryLog:
+        Buttons:
+            Show: 'السجل'
+        Pages:
+            Show: 'السجل'
+        Fields:
+            Data: 'البيانات'
+    FrontTheme:
+        Label : 'الموضوع'
+        LabelPlural : "المواضيع"
+        Buttons:
+            List: "قائمة المواضيع"
+            New: 'موضوع جديد'
+        Pages:
+            Index : "المواضيع الأمامية"
+            New: 'موضوع جديد'
+            Edit: 'تعديل الموضوع'
+        Fields:
+            Name: 'التسمية'
+            Description : 'الوصف'
+
+    HotelXmlPrice:
+        Fields:
+            price: 'السعر'
+        Pages:
+            List: "قائمة أسعار الفنادق"
+    HotelXmlAssociatedHotel:
+        Fields:
+            Hotel: 'الفندق'
+
+
+    Transfer:
+        Label: 'النقل'
+        LabelPlural: 'النقل'
+        Pages:
+            List: 'النقل'
+            New: 'نقل جديد'
+            Setting: 'إعدادات النقل'
+            Edit : 'تعديل النقل '
+        Buttons:
+            New: 'نقل جديد'
+            Edit: 'تعديل'
+            Delete: 'حذف'
+        Fields:
+            Name: 'الاسم'
+            Type: 'النوع'
+            Provider: 'المزود'
+            Vehicle: 'العربة'
+            PriceBase: 'سعر الأساس '
+            PriceKm: 'السعر لكل كيلومتر'
+            PriceHour: 'السعر لكل ساعة'
+            Currency : 'العملة'
+
+    Equipment/Service Price :
+        Pages :
+            List : 'أسعار المعدات / الخدمة'
+        Zones List:
+            Pages:
+                List: 'قائمة المناطق'
+
+
+        Fields:
+            Name: 'الاسم'
+    Transfers List:
+        Pages :
+            List : 'قائمة التحويلات'
+    Edit Transfer :
+        Pages:
+            List: 'تعديل التحويلات'
+
+
+    VehicleType:
+        LabelPlural: 'أنواع العربات'
+        Buttons:
+            New: 'نوع عربة جديدة'
+        Label: 'نوع العربة'
+
+        Fields:
+            Name: 'الاسم'
+            Description: 'الوصف'
+            CapacityMaxPax: 'الحد الأقصى للركاب'
+            CapacityMaxBaggage: 'الحد الأقصى للأمتعة'
+        Pages:
+            Edit: 'تعديل نوع العربة'
+
+    TransferAmenity:
+        LabelPlural: 'المعدات والخدمات'
+        Pages:
+            List: 'المعدات والخدمات'
+        Buttons:
+            New: 'معدات/خدمات جديدة'
+            Edit: 'تعديل'
+            Save: 'حفظ'
+            Cancel: 'إلغاء'
+        Fields:
+            Name: 'الاسم'
+            Description: 'الوصف'
+            Actions : 'الإجراءات'
+        Label: 'معدات/خدمات النقل'
+        Page:
+            New: 'معدات/خدمات جديدة'
+            Edit: 'تعديل المعدات/الخدمات'
+
+    TransferAmenityPrice:
+        Buttons:
+            New: 'خدمات/معدات جديدة'
+            Edit: 'تعديل الخدمات/المعدات'
+        Page:
+            New: 'خدمات/معدات جديدة'
+        Fields:
+            Price: 'السعر'
+            Name: 'الاسم'
+            Type: 'النوع'
+            Vehicle: 'العربة'
+            Transfer: 'النقل'
+            Amenity: 'الخدمة'
+    ZoneList :
+        Pages :
+            List : 'قائمة المناطق'
+            ZonesList : 'قائمة المناطق '
+
+
+    ProductFee:
+        Pages:
+            Title: "رسوم الملفات لكل منتج"
+            New: 'رسوم منتج جديد  '
+            Edit: 'تعديل رسوم المنتج'
+            History: 'سجل رسوم المنتج'
+        Buttons:
+            New: 'رسوم منتج جديد  '
+            Edit: 'تعديل رسوم المنتج'
+            History: 'سجل رسوم المنتج'
+        Fields:
+            Product: 'المنتج'
+            Amount: 'المبلغ'
+            Actions: 'الإجراءات'
+        Label  :  'نسبة إلى :'
+
+    Target :
+      Label : ' هدف  '
+
+
+    PersonPhysical:
+        Fields:
+            FirstName: 'الاسم '
+            LastName: 'اللقب'
+        FieldsValues:
+            MR: 'سيد'
+            MRS: 'سيدة'
+            MISS: 'آنسة'
+
+    Person:
+        Fields:
+            Email: 'البريد الإلكتروني'
+
+
+Pages:
+    Dashboard:
+        Title: "لوحة القيادة"
+        Messages:
+            statCustomersCount: 'عملاء جدد'
+            statBusinessSubscriptionCount: "الاشتراكات من الأعمال إلى الأعمال"
+            statConfirmedOrderlinesCount: 'الحجوزات المؤكدة'
+            statConfirmedOrdersCount: 'الطلبات المؤكدة'
+            statPendingOrdersCount: 'الطلبات'
+            statPendingOrderlinesCount: 'الملفات'
+            statPendingRequestsCount: 'طلبات الملفات'
+            statStopSales: 'إيقاف المبيعات'
+            statConfirmedHotelBookings: 'حجوزات الفنادق المؤكدة'
+            BookingPerSource: 'الحجوزات حسب المصدر'
+            UpcomingHotelCheckin: 'تسجيل الوصول إلى الفندق '
+            TodaysRevenue : 'إيرادات اليوم'
+            Pending : 'قيد الانتظار'
+        Label :
+            HotelName : 'اسم الفندق'
+            Market : 'السوق'
+            DateFrom : 'التاريخ من'
+            DateTo : 'التاريخ إلى'
+
+
+    Location:
+        Title: "الموقع"
+    Hotel:
+        Messages:
+            GeneralInformation: "معلومات عامة"
+            Location: "الموقع "
+            Contact: "اتصال "
+            Setting: "إعدادات "
+
+    HotelXml:
+        FormFields:
+            Destination: 'الوجهة '
+            CheckIn: 'تاريخ تسجيل الوصول'
+            CheckOut: 'تاريخ تسجيل المغادرة'
+
+        Fields :
+            City : 'المدينة'
+            RoomType: 'نوع الغرفة'
+            Board: 'لوحة ترتيبات الفندق '
+            HotelXml : ' Xml فنادق'
+        Buttons:
+            Update: 'تحديث '
+
+    HotelContract:
+        FormFields:
+            ShowExpiredSeasons: 'عرض المواسم المنتهية'
+    ProductElementStockOperation:
+        FormFields:
+            ShowExpired: 'عرض العمليات المنتهية'
+        FieldsValues:
+            GeneralStock: 'المخزون العام'
+    Common:
+        Messages:
+            Days: 'أيام '
+            Deposit: 'إيداع '
+            TradeDay: 'يوم تجاري'
+            Until: "حتى "
+            Today: "اليوم "
+        Buttons:
+            Proforma: 'الفاتورة الأولية'
+            History: 'السجل'
+            Voucher: 'قسيمة'
+        Alerts:
+            EmptyOrder: 'خطأ في الطلب: لا يمكن معالجة الحجز'
+
+    Order:
+        Buttons:
+            NewBookHotel: 'حجز فندقي جديد'
+            NewOrderLine: 'حجز جديد'
+            Edit: 'الإعدادات'
+            ShowMenu: 'استشارة'
+    Customer:
+        Messages:
+            UnpaidOrders: 'دفع الطلبات'
+    ModalConfirmation:
+        Label: 'تأكيد'
+    MenuItemFront:
+        List: 'عناصر القائمة الأمامية'
+    Arrangmement:
+        List: 'الترتيبات'
+
+
+
+    ForgetPassword:
+        Label: 'نسيت كلمة المرور'
+    Cart:
+        Alerts:
+            MissingPhoneNumber: 'أضف رقم هاتف قبل تأكيد الطلب'
+    Seo:
+        Title: 'تحسين محركات البحث  '
+
+
+modal :
+    confirmation : ' حذف'
+Emails:
+    Label : 'الرسائل الإلكترونية'

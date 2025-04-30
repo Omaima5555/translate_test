@@ -1,0 +1,99 @@
+SettingGroup:
+    Society : 'Configuration Society'
+    SocietyTargets: 'Objectives'
+    PrintableDocs : "Configuration document impression"
+    EmailsConfig : 'Configuration Emails addresses'
+    EmailsTexts : 'Configuration Emails Texts'
+    HUB-Hotel : 'Configuration Hotel HUB'
+    HUB-Transfer : 'Configuration Transfer HUB'
+    HUB-Flight : 'Configuration Flight HUB'
+    System : 'Configuration System'
+    B2CSocialNetworks : 'Social Networks (B2C)'
+    StaticPages : 'Static Pages'
+    DocumentContentHotel : 'Document Content Hotel'
+
+SocietyTargets:
+    OrderNumber: 'Orders Per Day'
+    OrderLineNumber: 'Bookings per Day'
+    CustomerNumber: 'New customers per Day'
+
+Society:
+    name : 'Social Reason'
+    MF: 'Tax Identification Number'
+    RC: 'Commercial Register'
+    Address: 'Address'
+    Phone: 'Telephone'
+    Whatsapp: 'Whatsapp'
+    Fax: 'Fax'
+    RIB : 'RIB'
+    EmailContact: 'Email Society'
+    Hotline: 'Hotline'
+    Description: 'Description'
+
+Currency:
+    Currency1 : "Currency 1"
+    Currency2 : "Currency 2"
+    Currency3 : "Currency 3"
+    Currency4 : "Currency 4"
+    Currency5 : "Currency 5"
+    Currency6 : "Currency 6"
+    Currency7 : "Currency 7"
+    Currency8 : "Currency 8"
+    Currency9 : "Currency 9"
+
+StaticPages:
+    LegalNotice: 'Legal Notice'
+    PracticalInformation: 'Practical Information'
+    PurchaseCondition: 'Purchase Condition'
+    ProtocolsConfidentiality: 'Privacy Policy'
+    RecruitingAgency: 'Recruiting Agency'
+
+PrintableDocs:
+    Logo: 'Logo'
+    Signature: 'Signature'
+    BackgroundColor: 'Background Color Of Printing'
+    LogoHeight: 'Logo Height'
+    LogoWidth: 'Logo Width'
+    StampHeight: 'Stamp Height'
+    StampWidth: 'Stamp Width'
+    FooterHeight: 'Footer Height'
+
+EmailsConfig:
+    EmailFrom_Booking : 'Email FROM Booking'
+    EmailFrom_Contact : 'Email FROM Contact'
+    EmailFrom_Account : 'Email FROM Account'
+    EmailDisplay_B2C : 'Email Display B2C'
+    EmailDisplay_B2B : 'Email Display B2B'
+    Email_CC: 'Email Copy (CC)'
+
+B2CSocialNetworks:
+    Facebook: 'Facebook'
+    LinkedIn: 'Linked IN'
+    Instagram: 'Instagram'
+    Twitter: 'Twitter'
+
+HUB-Hotel:
+    ApiKey: 'Hotel API KEY'
+    Url : 'Hotel HUB URL'
+
+HUB-Transfer:
+    ApiKey: 'Transfer HUB API KEY'
+    Url : 'Transfer HUB URL'
+
+HUB-Flight:
+    ApiKey: 'Flight HUB API KEY'
+    Url: 'Flight HUB URL'
+
+System:
+    Currency: 'Currency'
+    ModuleHotelContract: 'Hotel Contracts Activation (1: yes)'
+    ModuleHotel: 'Hotel Module Activation (1: yes)'
+    ModuleTransfer: 'Transfer Module Activation (1: yes)'
+    ModuleFlight: 'Flight Module Activation (1: yes)'
+    ModuleCustomService: 'Custom Service Activation (1: yes)'
+    IsB2B: ' B2B Mode (1: yes)'
+    MidOfficeUrl: 'MidOffice Url'
+
+DocumentContentHotel:
+    VoucherInfosFR : "Hotel Voucher : Infos (FR)"
+    VoucherInfosEN : "Hotel Voucher : Infos (EN)"

@@ -1,0 +1,1694 @@
+Entities:
+  Area:
+    Label: "Zone"
+    LabelPlural: "Zones"
+    Pages:
+      New: 'New zone'
+      Edit: 'Edit Zone'
+    Buttons:
+      New: 'New zone'
+  City:
+    Label: "City"
+    LabelPlural: "Cities"
+    Buttons:
+      New: "New City"
+    Pages:
+      New: "New City"
+      Edit: "Edit City"
+      List: 'City List'
+    Fields:
+      Picture: "City Image"
+
+  Customer:
+    Label: "Customer"
+    LabelPlural: "Customers"
+    Fields:
+      Address: "Address"
+      Phone: "Phone"
+      TreatedBy: "Treated By"
+      City: "City"
+      Email: "Email"
+      Note: "Note"
+      FirstName: "First Name"
+      LastName: "Last Name"
+      BirthDate: "Birth Date"
+      IdentityNumber: "Identity Number"
+      IdentityDocument: "Identity Document"
+      Id: "Id"
+      Type: "Customer Type"
+      Details: "Customer Details"
+      ShowAllHotelXml: "Show All Hotel"
+      Solde: "Balance"
+      SoldeWithoutAuthorizedAmount: "Without authorized amount"
+      AccoundBook: "Account Book"
+    FieldsValues:
+      Moral: "Moral"
+      Physical: "Physical"
+      Country: "Choice your country"
+      City: "Choice your city"
+    Pages:
+      List: 'Customers List'
+      Detail: "Customer Details Nbr number"
+      MarginGDS: "GDS Margin"
+      MarginHotel: "Hotel Margin"
+      Wallet: 'Wallet'
+      GDS: 'GDS Margin'
+      Hotels: 'Personalized Hotels'
+    Buttons:
+      Edit: "Edit Customer"
+      New: "New Customer"
+      Detail: "Customer Detail"
+      State: "State"
+      Show: 'Show Customer Detail'
+    Messages:
+      Exploitation: 'other Exploitations'
+  Market:
+    Label: "Market"
+    LabelPlural: "Markets"
+    Pages:
+      List: "Markets"
+      New: "New Market"
+      Edit: 'Edit Market'
+    Buttons:
+      New: "New Market"
+  Beneficiary:
+    Fields:
+      Civility: "Civility"
+    Label: "Principal Beneficiary"
+    Buttons:
+      Edit: "Edit Beneficiary"
+  OrderLine:
+    Label: "Booking"
+    LabelPlural: 'Bookings'
+    Fields:
+      Description: "Description"
+      Startdate: "Check In"
+      Enddate: "Check Out"
+      State: 'State'
+      Externalorderid: "XML Booking Id"
+      orderSubLines: "order SubLines"
+      ExternalBookingId: "External Booking Id"
+      Deadline: 'Deadline'
+      Id: 'Id'
+      XmlApi: 'GDS'
+      Type: 'Product Type'
+      ExternalBookingRef: 'External Booking Ref'
+      Comment: 'Comment'
+      Exchangeratepurchasetosale: 'Exchange rate purchase -> sale'
+      Hotelname: "Hotel Name"
+      Hotelstarrating: "Hotel star rating"
+      City: "City"
+      Country: "Country"
+      Image: "Image"
+      Reference: "Reference"
+      Product: "Product"
+      Orderatt: "Order"
+      Beneficiary: 'Beneficiary'
+      Hotel : 'Hotel'
+      GDS : 'GDS'
+      GDSBookingNumber : 'GDS Booking Number'
+      BookingNumber : 'Booking Number'
+      DepartureDate : 'Departure Date'
+    Buttons:
+      AddRoom: "Add Room"
+      CancelBooking: "Cancel Booking"
+      Confirm: 'Confirm'
+      HotelBookRequest: "Hotel Booking Request"
+      Edit: 'Edit'
+      AddPartyZone: 'Add Party Zone'
+      ExchangeRate: 'ExchangeRate Purchase-Sale'
+      CheckAvailability: "Check GDS Availability"
+      CheckRate: 'Check Rate'
+    Messages:
+      SearchForNewRoom: "Search For New Room"
+      BookNotification: 'Book Notification'
+      BookRequest: 'Book Request'
+      Rooms : 'Room'
+      Available : 'Available'
+      NotAvailable : 'Not Available'
+      Cancelled: 'Cancelled'
+    Filters:
+      CheckInFrom: "CheckIn From"
+      CheckInTo: "CheckIn To"
+      CheckOutFrom: "CheckOut From"
+      CheckOutTo: "CheckOut To"
+      CheckIn: 'CheckIn'
+      CheckOut: 'CheckOut'
+      Customer : 'Customer'
+      DepartureDate : 'Departure Date'
+    Alerts:
+      WarningNRF: "Non-refundable"
+      InfoFreeCancellation: "Free Cancellation"
+      WarningCancellationWithFee: "Cancellation With Fee"
+      WarningCancellationFee: "Cancellation Fee"
+      WarningFreeCancellationBefore: "Free Cancellation Before "
+      QuestionBookConfirmation: 'Are you sure you want to confirm the reservation?'
+      QuestionCancelConfirmation: "Are you sure you want to cancel the reservation?"
+      QuestionReCheckRate: "Are you sure you want to double-check the price of this reservation?"
+      InfoHotelBookRequestSent: "A booking confirmation request is sent to the hotel"
+      PendingRequest: 'Pending Request'
+      WarningVoucherAlarmPart: "Please call us in case of emergency or if you have any issues with the hotel, transfer, or activity.
+                      Please note that <b>we will not consider any complaints/refunds if you do not call the above number in case of an issue with our services</b>"
+    Pages:
+      HotelList: "Hotel Booking List"
+      PartyList: "Party Booking List"
+      TransferList : 'Transfer Booking List'
+      List: "Booking list"
+      Edit: 'Edit Reservation'
+      CheckStatusGDS: 'Check Status GDS'
+    Request: 'Request'
+    History: 'History'
+  OrderLineRequest:
+    Label: "Request"
+    LabelPlural: "Request List"
+    Buttons:
+      Add: "New Request"
+      Confirm: "Confirm"
+      Reject: "Reject"
+    Message:
+      CancelRequest: "Cancel Request"
+      UpdateRequest: 'Update Request'
+      WaitingRequest: "Pending Request"
+      ExecutedRequest: "Executed Request"
+      RejectedRequest: "Rejected Request"
+    Fields:
+      Type: 'Request Type'
+      Message: 'Request Text'
+      ID : 'ID'
+      Customer : 'Customer'
+    Alerts:
+      QuestionChangeStateExecuted: "Do you confirm the processing of this request?"
+      QuestionChangeStateRejected: "Do you confirm the reject of this request?"
+  CustomServiceType:
+    Label:  "Service Type"
+    LabelPlural:  "Services types"
+  ProductFee:
+    Label  :  'Product Fee'
+    Pages:
+      Title : 'Product Fee'
+      New : 'New Product Fee'
+      Edit : 'Edit Product Fee'
+      History : 'History Product Fee'
+    Buttons:
+      New : 'New Product Fee'
+      Edit : 'Edit Product Fee'
+      History : 'History Product Fee'
+    Fields :
+      Product : 'Product'
+      Amount : 'Amount'
+      Actions : 'Actions'
+
+  Target :
+    Label : 'Target'
+
+  Common:
+    Buttons:
+      Filter: "Filter"
+      Confirm: "Confirm"
+      Cancel: "Cancel"
+      Actions: "Actions"
+      Details: "Details"
+      Filters: "Filters"
+      Delete: "Delete"
+      Edit: "Edit"
+      Save: "Save"
+      Deactivate: "Deactivate"
+      Activate: "Activate"
+      Upload: "Save Image"
+      Show: 'Show'
+      Duplicate: 'Duplicate'
+      Book: 'Book'
+      PaymentReceipt: 'Payment Receipt'
+      Decline: 'Decline'
+      Pay: 'Pay'
+      ConfirmCancellation: 'Confirm Cancellation'
+      History: 'History'
+      NewRow: 'New'
+    Fields:
+      CreationDate: "Creation Date"
+      Amount: "Amount"
+      State: "State"
+      Id: "Id."
+      Description: "Description"
+      Name: "Designation"
+      Currency: "Currency"
+      Phone: "Phone"
+      Email: "Email"
+      Type: "Type"
+      Display: "Display"
+      Address: "Address"
+      Note: "Note"
+      Margin: "Margin"
+      Action: "Action"
+      Active: 'State'
+      Profit: "Profit"
+      CreatedAt: "Created At"
+      TotalPrice: "TotalPrice"
+      UnitPrice: "Unit Price"
+      PurchaseUnitPrice: "Purchase Unit"
+      PricePaid: "Paid Price"
+      RestPaid: "Rest Price"
+      Details: "Details"
+      ApiKey: "Identifier XML"
+      Date: "Date"
+      Latitude: "Latitude"
+      Longitude: "Longitude"
+      Fax: "Fax"
+      Logo: "Logo"
+      Rank: "Order"
+      Period: 'Period'
+      StartDate: 'Start Date'
+      EndDate: 'End Date'
+      PurchasePrice: 'Purchase Price'
+      SalePrice: 'Sale Price'
+      Commission: 'Commission'
+      CalculType: 'Calculation Type'
+      SelectAll: 'Select All choices'
+      DisplayOrder: "Display Order"
+      Code: 'Code'
+      Attachment: 'Attachment'
+      Debit: 'Debit'
+      Credit: 'Credit'
+      TotalCredit: 'Total Credit'
+      TotalDebit: 'Total Debit'
+      CountDebit: 'Debit Operations'
+      CountCredit: 'Credit Operations'
+      PaymentState: 'Payment State'
+      MarginB2C: '% B2C Margin'
+      MarginB2B: '% B2B Margin'
+      Monday: 'Monday'
+      Tuesday: 'Tuesday'
+      Wednesday: 'Wednesday'
+      Thursday: 'Thursday'
+      Friday: 'Friday'
+      Saturday: 'Saturday'
+      Sunday: 'Sunday'
+      MinimumStay: 'Minimum Stay'
+      SeoTitle: 'SEO Title'
+      SeoDescription: 'SEO Description'
+      nbAdults: "Adult number"
+      nbChild: "child number"
+      nbInfants: "Infants number"
+      ShowInNewWindow : 'Show In New Window'
+      Abbreviation : 'Abbreviation'
+      Radius : 'Radius'
+      Actions : 'Actions'
+      City : 'City'
+      Rib : 'Rib'
+      Icon : 'Icon'
+      Total : 'Total'
+      Pricing : 'Pricing'
+      Provider : 'Provider'
+      UserName : 'UserName'
+
+    Filters:
+      CreationDateFrom: "Creation Date From "
+      CreationDateTo: "Creation Date To"
+    Messages:
+      "No": "No"
+      "Yes": "Yes"
+      AmountPaid: "Amount Paid"
+      AmountRemaining: "Amount Remaining"
+      AreYouSureCancel: "Are you sure you want to cancel?"
+      AreYouSureCancelThisLine: "Are you sure you want to cancel this line?"
+      PurchaseData: "Purchase Data"
+      Night: "Night"
+      Nights: "Nights"
+      Adults: "Adults"
+      Children: "Children"
+      Babies: "Babies"
+      NewPhotos: "New Photos"
+      NRFYes: 'NRF Yes'
+      Extra: 'Supplement'
+      Quantity: 'Quantity'
+      All: 'All'
+      Free: 'Free'
+      Cancel: 'Cancel'
+      Specific: 'Specific'
+      Hidden: 'Hidden'
+      ExportTableXLsx: 'Export Table XLsx'
+      applicant: "Applicant"
+      PostRequest: "Post a request"
+      Passengers: "Passengers"
+      Passenger: "Passenger"
+      PassengerBookingDetails: "Passenger booking details"
+      IssuanceDate: "Issuance date"
+      ExpireDate: "Expire date"
+      Class: "Class"
+      BagsQty: "Bags Qty"
+      Cabin: "Cabin"
+      FareOption: "Fare Option"
+      Itineraries: "Itineraries"
+      PriceDetails: "Price details"
+      stops:
+        NoStop: "No stop"
+        OneStop: "One stop"
+        OtherStops: "%count% stops"
+      Autocomplete: "Autocomplete"
+      TicketNumbers: "Ticket numbers"
+    Alerts:
+      Cancellation: "Cancellation?"
+      InfoNoDataTable: "No Data Table"
+      ConfirmDelete: "Confirm Delete"
+      NoRecordFound: "No Record Found"
+      WarningDelete: "Are you sure you want to delete ? "
+      SuccessItemDeleted: 'Success Item Deleted'
+      ErrorItemNotDeleted: 'Unable to delete this item'
+      ErrorSmallSliderNotUploaded: "The image is too small! Try uploading another image"
+      ErrorBigSliderNotUploaded: "The image is too big! Try uploading another image"
+      Confirmation: 'Confirmation'
+      ConfirmActivate: "Are you sure you want to activate ? "
+      ConfirmDeactivate: "Are you sure you want to deactivate ?"
+      SuccessSave: "Success in saving this item "
+      WarningDuplicatedEntryError: 'Error : Duplicated Entry'
+      NoOrdersToPay: 'No Orders To Pay'
+      NoRecordsFound : 'No Records Found'
+    FieldsValues:
+      Valid: "Valid"
+      Cancel: "Cancel"
+      ObligatoryYes: "Obligatory"
+      ObligatoryNo: "No obligatory"
+      ActiveYes: "Active"
+      ActiveNo: "Not Active"
+      NRFNo: 'NRF No'
+      NRFYes: 'NRF Yes'
+      Expired: 'Expired'
+      Canceled: 'Canceled'
+      FreeCancellation : 'Free Cancellation'
+    Message:
+      AmountPaid: 'Amount Paid'
+      AmountRemaining: 'Amount Remaining'
+      AreYouSureCancelThisLine: "Are you sure you want to cancel this line ?"
+      SuccessfullyCanceled: 'Successfully Canceled'
+    Pages:
+      EditState: 'Edit State'
+  User:
+    Label: "User"
+    LabelPlural: 'Users'
+    Fields:
+      Username: 'Username'
+      Role: "Role"
+      Password: "Password"
+      IsVerified: "Is Verified"
+      Agent: 'Agent'
+    Buttons:
+      Add: "Add User"
+      Edit: "Edit User"
+      Delete: "Delete User"
+      Verified: 'Verified'
+      NotVerified: 'Not Verified'
+    Pages:
+      Account: 'User Account'
+    Messages:
+      PasswordEditSuccess: 'Password successfully Edited'
+
+
+  Order:
+    Label: 'Order'
+    LabelPlural: 'Orders'
+    Pages:
+      List: "Order List"
+      Payment: "Order Payment"
+      Proforma: "Proforma"
+    Message:
+      ConfirmOrder: "Confirm Order ?"
+      CancelOrder: "Cancel Order ?"
+      OrderDetails: "Order Details"
+    Alerts:
+      WarningSelectUnpaidOrder: "Select Unpaid Order"
+      WarningPS: "Note"
+      WarningTotal: 'Total must be greater than the balance in order to pay'
+    Messages:
+      Total: 'Total'
+      TotalHt: 'Total HT'
+      SubTotal: 'Subtotal before discount'
+      FiscalStamp: 'Fiscal Stamp'
+      TotalTTC: 'Total TTC'
+      TvaBase: "Tva Base"
+      Tva: "TVA"
+      TotalTva: "Total TVA"
+      TvaAmount: "Amount TVA"
+    Buttons:
+      ChangeCustomer: "Change Customer"
+      Pay: 'Pay'
+      ExchangeRateSaleToCustomer: 'Exchange Rate Sale -> Customer'
+      ExchangeRateSaleToAgency: 'Exchange Rate Sale -> Agency'
+    Fields:
+      State: 'State'
+      Currency: 'Currency'
+      Exchangeratesaletoreference: 'Exchange Rate Sale -> Reference'
+      Exchangeratesaletocustomer: 'Exchange Rate Sale -> Customer'
+      Customername: 'Customer Name'
+      Customerphone: 'Customer Phone'
+      Customeremail: 'Customer Email'
+      Reference: 'Reference'
+      User: 'User'
+      Customer: 'Customer'
+      Agency: 'Agency'
+
+    FieldsValues:
+      StatePENDING: "PENDING"
+      StateCONFIRMED: "Confirmed"
+      StateCANCELED: "Cancelled"
+      StateCANCELED_FEE: "Cancelled + fee"
+      StateTEMP_AVAILABLE: "Pending payment"
+      StateNOT_BOOKED: "NOT BOOKED"
+      StatePAID: "Paid"
+      StateUNPAID: "Not paid"
+
+  Provider:
+    Label: "Supplier"
+    LabelPlural: "Suppliers"
+    Fields:
+      WebSite: "Web Site"
+      Images: "Images"
+    Page:
+      Edit: 'Edit Supplier'
+  ProductElement:
+    Label: "Product Element"
+  OrderSubLine:
+    Label : 'Order SubLine'
+    Fields:
+      State: "State"
+      Description: "Description"
+      Purchaseprice: "Purchase Price"
+      Saleprice: "Sale price"
+      NbAdult: "Nbr Adult"
+      NbChild: "Nbr Child"
+      Service: "Service"
+      Cancelable: "Cancelable"
+      Cancellationfeesjson: "Cancellation Fees"
+      Orderline: "Order line"
+      Productelement: "Product Element"
+      Nbadult : 'Nb Adult(s)'
+      Peaid : 'Paid'
+      Debit : 'Debit'
+      UnitPrice : 'Unit price'
+      Qty : 'Qty'
+
+    Buttons:
+      EditPurchase: "Edit Purchase"
+      EditSale: "Edit Sale"
+      New: "New"
+    Message:
+      CancellationAmount: "Cancellation Amount"
+      Adults: "Adult(s)"
+      Children: "Children(s)"
+  Product:
+    Label: "Product"
+    LabelPlural: 'Products'
+    Fields:
+      BackOnly: 'Visibility:Only Agency '
+  OrderPayment:
+    Buttons:
+      New: "New Order Payment"
+      Delete: 'Delete'
+    Label: 'Payment Order'
+    LabelPlural: 'Payments order'
+    Fields:
+      Order: 'Paid order.'
+  CustomerPayment:
+    Message:
+      PaymentDetails: "Payment Details"
+      DepositList: 'Deposit List'
+    Buttons:
+      Add: "Add Payment received"
+      New: 'New Payment received'
+      Show: 'Show'
+    Fields:
+      Id: "Id."
+      Date: "Date"
+      Active: "Stat"
+      Customer: "Customer"
+      User: "User"
+      Agency: "Agency"
+      AmountUsed: "Amount Used"
+      AmountRemaining: 'Amount Remaining'
+      AmountRemainingFrom: 'Amount Remaining From '
+      Amount: 'Total Amount'
+      Description: 'Description'
+    Label: 'CustomerPayment'
+    Pages:
+      List: "Payment Customer List"
+      Show: 'Payment Customer Nbr'
+    LabelPlural: 'Payment received'
+    FieldsValues:
+      Usage: 'Used'
+      NotUsed: 'Not Used'
+      PartiallyUsed: 'Partially Used'
+      FullUsed: 'Full Used'
+      GeneralInfos: 'General Infos'
+  HotelRoomType:
+    Label: "Room Type"
+    LabelPlural: "Room Types"
+    Buttons:
+      New: "New Room Type"
+      Edit: "Edit Room Type"
+      EditOccupancies: " Edit Occupancies"
+      EditFacilities: "Edit Facilities"
+    Fields:
+      Occupancy: "Occupancy"
+      OccupancyAdult: "Occupancy Adult"
+      MinOccupancy: "Min Occupancy"
+      MaxOccupancy: "Max Occupancy"
+      MinOccupancyAdult: "Min Occupancy Adult"
+      MaxOccupancyAdult: "Max Occupancy Adult"
+      Facilities: 'Facilities'
+      Occupancies: 'Occupancies'
+    Pages:
+      Edit: "Edit Room Type"
+      EditOccupancies: "Occupancies Details"
+      EditFacilities: "Facilities Room Type"
+  Hotel:
+    Label: "Hotel"
+    LabelPlural: "Hotels"
+    Pages:
+      List: "Hotels & Contracts"
+      New: "New Hotel"
+      Setting: 'Hotel Configuration'
+    Buttons:
+      New: "New Hotel"
+      Parameters: "Parameters"
+    Fields:
+      AutoMail: "Auto-send"
+      StarRating: "Star Rating"
+      Gps: "GPS"
+      Photos: "Photos"
+      HotelContracts: "Contracts"
+      ContractsAndVisibility: 'Contracts and visibilities'
+      TripAdvisorId : 'Trip Advisor Id'
+      CustomRating : 'Custom Rating'
+    Messages :
+      Logo : 'Logo'
+  HotelBadge:
+    Label: "Badge Hotel"
+    LabelPlural: "Badges"
+    Pages:
+      New: 'New Badge Hotel'
+      Edit: "Edit Badge Hotel"
+    Buttons:
+      New: 'New Badge'
+    Fields:
+      Name: 'Designation'
+      Type: 'Type'
+      ExpireAt: 'Expire At'
+    FieldsValues:
+      Promo: 'Promotion'
+      Discount: "Discount"
+      Info: "Information"
+  CustomerXmlApi:
+    Fields:
+      Margin: "Margin"
+      Xmlout: "GDS OUT"
+      XmlApiType: 'GDS Type'
+    Pages:
+      List: "GDS List"
+      Edit: "GDS Specification"
+    Buttons:
+      DisableXmlOut: "Deactivate XML OUT"
+      EnableXmlOut: "Activate XML OUT"
+      AddSpecMargin: "Add GDS Specification"
+      Edit: 'Edit'
+    Messages:
+      DefaultMargin: "Default Margin"
+      SpecificMargin: "Specific Margin"
+  CustomerHotelXml:
+    FieldsValues:
+      Exclude: "Exclude"
+      Include: "Include"
+    Fields:
+      RefGDS: "Reference GDS"
+    Pages:
+      Include: "Hotels XML include"
+    Label: 'CustomerHotelXml'
+    Alerts:
+      WarningExist: "No hotels found"
+    Messages:
+      IncludeHotels: "Include Hotels "
+      ExcludeHotels: "Exclude Hotels"
+      Exclude: 'Exclude'
+      Include: 'Include'
+    Buttons:
+      New: 'New specification'
+  XmlApi:
+    Alerts:
+      InfoImmediatePaymentPercent: "By default, the amount to be paid is the profit amount (value equal to 0).
+
+                    If not, please specify the percentage of the sale to be paid by the client, and the remainder will be for the hotel."
+    Pages:
+      List: "GDS "
+      Edit: "Edit GDS"
+      Refresh: 'Are you sure you want to refresh XML List?'
+    Buttons:
+      Refresh: "Refresh"
+      State: "Activate/Deactivate GDS"
+    Fields:
+      Color: "Color"
+      PayAtHotelAuthorized: "Payment At Hotel Authorized"
+      ImmediatePaymentPercent: "Immediate Payment Percent"
+      Source: 'Source ID'
+      CreditCard : 'Credit Card'
+    FiledsValues:
+      PayAtHotelAuthorizedYes: "Yes"
+      PayAtHotelAuthorizedNo: "No"
+    Label: 'messages'
+  CustomerMoral:
+    Fields:
+      Name: "Moral Customer"
+      CreditAmountAuthorized: "Overdraft"
+      Edit: "Edit Credit Authorized"
+      Currency : "Currency"
+      Active : 'Active'
+      Address : 'Address'
+      Phone : 'Phone'
+      Email : 'Email'
+      Market : 'Market'
+      City : 'City'
+      Showallhotelxml : 'Show all hotel xml'
+      Authorizedcreditamount: 'Authorized Credit Amount'
+      Logo : 'Logo '
+    Buttons:
+      new: "New Moral Customer"
+    Label: "Moral Customer"
+    LabelShort: "Moral"
+    Pages:
+      New: 'New Moral Customer'
+  CustomerPhysical:
+    Fields:
+      Currency: "Currency"
+      Showallhotelxml: "Show all hotels"
+      Name: "Name"
+      Email: "Email"
+      Market: "Market"
+      Firstname: "Firstname"
+      Lastname: "Lastname"
+      Active: "Active"
+      Address: "Address"
+      Phone: "Phone"
+      Identitydocument: 'Identity Document'
+      Identitynumber : 'Identity Number'
+      City : 'City'
+      Birthdate : 'Birth Date'
+      Civility : 'Civility'
+    Buttons:
+      new: "New Physical Customer "
+    Label: "Physical Customer"
+    LabelShort: "Physical"
+    Pages:
+      New: 'New Physical Customer'
+  Module:
+    Label: "Module"
+  Agency:
+    Label: "Agency"
+    Page:
+      List: 'Agencies'
+    Buttons:
+      New: 'New Agency'
+    Pages:
+      New: 'New Agency'
+      Edit: 'Edit Agency'
+  PartyZone:
+    Pages:
+      New: "New Party Zone"
+      Edit: "Edit Party Zone"
+      Detail : 'Detail Party Zone'
+    Buttons:
+      New: "New Party Zone"
+    Alerts:
+      ConfirmDelete: "Are you sure you want to delete the party? "
+    LabelPlural: "Party Zone"
+    Label: "Party Zone"
+    Fields:
+      ChildSalePrice: "Children Sale Price"
+      ChildPurchasePrice: "Children Purchase Price"
+      AdultSalePrice: "Adult Sale Price"
+      AdultPurchasePrice: "Adult Purchase Price"
+      PriceAdultFrom : 'Price Adult From'
+      PriceChildFrom : 'Price Child From'
+      AdultPrice : 'Adult Price'
+      ChildPrice : 'Child Price'
+      Zone : 'Zone'
+  Zone:
+    Label: "Party Zone"
+    Fields :
+      Title : 'Title'
+
+  Party:
+    Label: "Party"
+    LabelPlural: "Parties"
+    Pages:
+      Edit: "Edit Party"
+      New: "New Party"
+      List: "Party List"
+      Images : 'Images'
+      product : 'Party'
+      PartyList : 'Party List'
+      Of : 'Of'
+      StockOperation : 'Stock Operation'
+    Buttons:
+      Hrtas: "Rooms x Arrangements"
+      New: "New Party"
+      Save: "Save"
+    Alerts:
+      ConfirmDelete: "Are you sure you want to delete the Party?"
+      ShowExpired: "Show Expired Party"
+    Fields:
+      Title: "Title Party"
+      HotelRoomTypeArrangementsCount: "Combinations Number"
+      HotelStayRequired: "Required Stay"
+      Place: "Place"
+      Date: "Party date"
+      MinPrice : 'Min Price'
+
+  HotelContract:
+    Label: "Contract Hotel"
+    Buttons:
+      New: "New Contract"
+    Fields:
+      countSeasons: "Nbr.seasons"
+      Validity: 'Validity'
+      Market : 'Market'
+      Hotel: 'Hotel'
+      Provider: 'Provider'
+      ShowExpiredSeasons: 'Show Expired Seasons'
+    Pages:
+      List: 'Contracts Hotels'
+      Delete : 'Delete Contract'
+
+  ProductElementStockOperation:
+    LabelPlural: "Stock Operation"
+    Buttons:
+      List: "Stock Operation"
+      New: 'New operation'
+      NewTransfer: 'New Transfer'
+      NewBlocking: 'New Blocking'
+      NewCredit: 'New Credit'
+      Tracking: 'Tracking'
+      Chart: 'Show chart'
+    Fields:
+      NumberItems: 'Nbr. Items'
+      Retrocession: 'Retrocession'
+      Observation: 'Observation'
+      Type: 'Operation Type'
+      CustomerTo: 'Destination'
+      CustomerFrom: 'Source'
+    FieldsValues:
+      GeneralStock: 'General Stock'
+      TypeTransfer: 'Transfer '
+      TypeBlocking: 'Blocking'
+      TypeCredit: 'Credit'
+      TypeReservation: 'Reservation'
+      TypeAvailable: 'Availability'
+      TypeAffected: 'Affected'
+    Messages:
+      GeneralStock: 'General Stock'
+    Pages:
+      Edit: 'Edit Stock Operation '
+    OccupancyTable: "Occupancy Table"
+  Continent:
+    Label: "Continent"
+    LabelPlural: "Continents"
+    Buttons:
+      New: "New continent"
+      Deactivate: "Deactivate Continent"
+      Activate: "Activate Continent"
+    Page:
+      Edit: "Edit Continent"
+      Delete: "Delete Continent"
+    Alerts:
+      ConfirmDelete: 'Are you sure you want to delete ?'
+  Country:
+    LabelPlural: "Countries"
+    Label: "Country"
+    Buttons:
+      New: "New Country"
+    Page:
+      New: "New Country"
+      Edit: "Edit Country"
+  CreditCard:
+    Label: "Credit Card"
+    Buttons:
+      New: 'New Credit Card'
+      Delete : 'Delete'
+    Pages:
+      New: 'New Credit Card'
+      List: 'Credit Cards'
+    Fields:
+      Month: 'Month'
+      Year: "Year"
+      CVC: 'CVC'
+      ExpirationDate: 'Expiration Date'
+      HolderName: 'Holder Name'
+      Number: 'Number'
+  Bank:
+    Pages:
+      List: "Bank"
+      Edit: "Edit Bank"
+    Buttons:
+      New: "New Bank"
+    Fields:
+      Abbreviation: "Abbrev."
+    Label: "Bank"
+  Notification:
+    Pages:
+      List: "Notifications"
+    Fields:
+      Date: "Date"
+      Content: "Content"
+      FromMail: "Message received by"
+    Title:
+      PendingOrder: "Pending Order"
+      BusinessSubscriptionRequest: "BToB Subscription Request"
+      Contact: " Customer Contact"
+    Messages:
+      BusinessSubscriptionRequest: "Registration request submitted by the customer"
+      PendingOrderBToC: "Pending Order BToC "
+      PendingOrderBToB: "Pending Order BToB "
+      Contact: "Message received by: "
+  SocialNetwork:
+    Pages:
+      List: "Social Networks"
+      Edit: "Edit Social Network"
+    Buttons:
+      New: "New Social Network"
+    Fields:
+      Url: "Url Social Network"
+      PageId: 'ID'
+  FrontPage:
+    Pages:
+      List: "Static Pages"
+      Edit: "Edit Static Page"
+    Fields:
+      Content: "Page Content"
+      Title: "Page Title"
+  AccommodationCondition:
+    Label: "Condition"
+    LabelPlural: "Conditions"
+    Buttons:
+      New: "New Condition"
+    Pages:
+      New: "New Condition"
+      Edit: 'Edit Condition'
+    Fields :
+      Conditions : 'Conditions'
+      Description : 'Description'
+  AccommodationOption:
+    Label: "Option"
+    LabelPlural: "Options"
+    Buttons:
+      New: "New Option"
+      Edit: "Edit Option"
+      List: 'Options List'
+    Pages:
+      New: "New Option"
+      Edit: "Edit Option"
+    Fields :
+      Name : 'Name'
+  HotelType:
+    Label: "Hotel Type"
+    LabelPlural: "Hotel Types"
+    Buttons:
+      New: "New Hotel Type"
+      List: "Hotel Types"
+      Edit : 'Edit Hotel Type'
+    Pages:
+      List: "Hotel Type"
+    Fields :
+      Name : 'Name'
+  BankAccount:
+    Pages:
+      List: "Bank Account"
+      new: "New Bank Account"
+      Edit: 'Edit Bank Account'
+    Fields:
+      IBAN: "IBAN"
+      AccountType: "Account Type"
+      RIB: "RIB"
+    FieldsValues:
+      AccountTypeCash: "Cash"
+      AccountTypeCheck: "Check"
+      AccountTypeBank: "Bank"
+    Buttons:
+      new: "New Bank Account"
+  HotelChain:
+    Label: "Hotel Chain"
+    LabelPlural: "Hotel Chains"
+    Pages:
+      List: "Hotel Chains"
+      New: "New Hotel Chain"
+    Buttons:
+      List: "Hotel Chains"
+      New: "New Hotel Chain"
+      Edit: 'Edit Hotel Chain'
+      Delete: 'Delete Hotel Chain'
+    Fields :
+      Name : 'Name'
+  RoomType:
+    Buttons:
+      List: "Room Type"
+      New: "New Room Type"
+    Pages:
+      New: "New Room Type"
+    Label: 'Room'
+    LabelPlural: 'Room Types'
+    Fields :
+      Name : 'Name'
+  Facility:
+    LabelPlural: "Facility"
+    Buttons:
+      List: "Facility"
+      New: "New Facility"
+    Pages:
+      New: "New Facility"
+      List: "Facilities"
+      Edit: 'Edit Facility'
+    Label: 'Facility'
+  Arrangement:
+    Label: 'Arrangement'
+    Buttons:
+      List: "Arrangements"
+      New: 'New arrangement'
+    Pages:
+      New: 'New arrangement'
+      Edit: 'Edit arrangement'
+    LabelPlural: 'Arrangements'
+    Fields:
+      Code: 'Code'
+  FileData:
+    Fields:
+      Primary: "Principal"
+      Alt: 'Alt'
+      DisplayOrder: 'Display Order'
+      Title: 'Title'
+      Sub_Title: 'Sub_Title'
+      Image: 'Image'
+    Messages:
+      UploadError: 'File uploading error'
+      UploadSuccess: 'Loading completed successfully'
+      NoFiles: 'No files'
+    Buttons:
+      SetAsPrimary: 'Set As Primary'
+    Alerts:
+      DangerNoUpload: "File not saved"
+  ContractSeason:
+    Buttons:
+      New: 'New Season'
+      Edit: 'Edit Season'
+    Pages:
+      New: 'New Season'
+      Edit: 'Edit Season'
+      Delete : 'Delete Season'
+    Label: 'Season'
+    LabelPlural: 'Seasons'
+    Fields:
+      PricingType: 'Prices Purchase/Sale'
+      ByPerson: 'Prices By Person'
+      NRF: 'Non-Refundable Rates'
+      CommValue: 'Commission'
+      BaseArrangement: 'Base Arrangement'
+      CountPricings: 'Prices Count'
+      Startdate: 'Start date'
+      Enddate: 'End date'
+      CommCalculType: 'Comm Calculate Type'
+      MinimumStay : 'MinimumStay'
+    FieldsValues:
+      PricingByPerson: 'Per Person'
+      PricingByRoom: 'Per Room'
+      PricingTypePurchase: 'Purchase'
+      PricingTypeSale: 'Sale'
+    Messages:
+      AlertOverlap: 'Warning, there is a season overlap'
+      SuccessDuplicate: 'The season has been successfully duplicated'
+
+  ExchangeRate:
+    Page:
+      List: 'Currency exchange rate'
+      New: 'New Exchange Rate'
+    Buttons:
+      New: 'New'
+    Fields:
+      CurrencyFrom: 'Currency From'
+      CurrencyTo: 'Currency To'
+      Value: 'Rate'
+  Profile:
+    Page:
+      List: 'Profiles'
+      Edit: 'Edit Profile'
+      Delete : 'Delete Profile'
+    Buttons:
+      New: 'New Profile'
+    Label: 'Profile'
+    EditProfile : 'EditProfile'
+    Fields :
+      EditProfile : 'Edit Profile'
+      DeleteProfile : 'Delete Profile'
+    Messages :
+      MenuItems : 'Menu Items'
+  Personal:
+    Pages:
+      List: 'Personals'
+      New: 'New Personal'
+      Edit: 'Edit Personal'
+    Label: 'Personal'
+    Fields:
+      Job: 'Job'
+      AuthAgencies: 'Authorized agencies'
+      Salary: 'Salary'
+      AffectedAgency : 'Affected Agency'
+    Buttons:
+      New: 'New Personal'
+      Edit: 'Edit Personal'
+  Extra:
+    Label: "Extra"
+    LabelPlural: "Extras"
+    Pages:
+      List: "Extras list"
+      New: "New Extra"
+      Edit: "Edit Extra"
+    Fields:
+      Name: "Extra name"
+      MinPrice: "Min Price"
+      Type: "Extra types"
+      OnlyBack: "Only Back"
+    FieldsValues:
+      TypeVoyagesOrganise: 'Voyages Organisé'
+      TypeCircuit: 'Circuit'
+      TypeExcursion: 'Excursion'
+      TypeUmrah: 'Umrah'
+      TypeTransport: 'Transport'
+      TypeCongres: 'Congrès'
+      TypeSeminaires: 'Séminaires'
+      TypeOthers: 'Autres'
+    Buttons:
+      List: "Extras list"
+      New: "New Extra"
+      Edit: 'Edit Extra'
+      Delete: 'Delete Extra'
+  ExtraRequest:
+    Label: "Request"
+    LabelPlural: "Requests Extra"
+    Pages:
+      List: "requests list"
+      New: "New request"
+      Edit: "edit request"
+    Buttons:
+      List: "requests list"
+      New: "New request"
+      Edit: 'edit request'
+      Delete: 'delete request'
+  HotelXml:
+    Pages:
+      List: 'Hotels XML'
+      DefaultMargin: 'Default Margin'
+      CustomRating: 'Agency Score'
+      Search: "Hotels Search "
+    Label : "Hotel XML"
+    Fields:
+      CustomRating: 'Agency Score'
+      ReviewRating: 'API Score'
+      Promo: 'Promo'
+      Amenities: 'Amenities'
+      ExternalCode: 'External Code'
+      GdsRefreshDate: 'Gds Refresh Date'
+      MarginB2C: '% B2C Margin'
+      MarginB2B: '% B2B Margin'
+      Hotel: 'Hotel associated'
+      Price : 'Price'
+      Source: 'Source'
+
+
+    Buttons:
+      AssociateFacilities: 'Facilities'
+      DefaultMargin: 'Default Margin'
+      AssociateHotel: 'Associate Hotel'
+      Search: "Hotels and Prices Actualisation"
+    Alerts:
+      WarningCityNotFound: 'City Not Found'
+      NoHotelFound: 'No hotel found on this date'
+    Messages:
+      WarningResetMarge: 'The margins will be reset, and matches may be lost'
+  XmlHotelPrice:
+    Buttons:
+      List: 'Prices Hotel List'
+    Fields :
+      City : 'City'
+      HotelXml: 'Hotel Xml'
+      RoomType: 'Room Type'
+      Board : 'Board'
+
+
+
+  Pricing:
+    Fields:
+      NRF: 'Non-Refundable'
+      Base: 'Base'
+    FieldsValues:
+      ByRoom: 'Per room'
+      ByPerson: 'Per person'
+    LabelPlural: 'Prices'
+    Buttons:
+      NewPricingsRoom: 'New Pricing Room'
+    Pages:
+      NewPricingsRoom: 'New Pricing Room'
+      NewPricingsArrangement: 'New Pricing Arrangement'
+  Operation:
+    Label: 'Operation'
+    LabelPlural: 'Operations'
+    Messages:
+      Extras: 'Extras'
+      Discounts: 'Discounts'
+      Empty: "No items"
+    Buttons:
+      NewDiscount: 'New Discount'
+    Pages:
+      NewDiscount: 'New Discount'
+      NewExtra: 'New Extra'
+      Edit: 'Edit Operation'
+  CancellationPolicy:
+    Label: "Cancellation Condition"
+    LabelPlural: "Cancellation Condition"
+    Buttons:
+      New: 'New Cancellation Condition'
+      Edit: 'Edit Cancellation Condition'
+    Pages:
+      New: 'New Condition Annulation'
+      Edit: 'Edit Annulation Condition '
+      Delete : 'Delete Annulation Condition'
+    Fields:
+      MinDayBefore: "Min Day Before"
+      Fee: 'Fees'
+      CheckInStartDate: 'Checkin Start Date'
+      CheckInEndDate: 'Checkin End Date'
+      FeeType: 'Fee Type'
+      FeeBase: 'Fee Base'
+    FieldsValues:
+      FeeTypeAmount: 'Amount'
+      FeeTypePercent: '%'
+      FeeBasePeriod: 'Stay Period'
+      FeeBaseNight: 'Night'
+  Promo:
+    Label: "Promo"
+    LabelPlural: "Promos"
+    Buttons:
+      New: 'New Promo'
+      NewEBPeriod: 'EB Period'
+      NewEBDays: 'EB Days'
+      NewEBSPO: 'Special Offer'
+    Fields:
+      CheckinStartDateEB: 'Stay from'
+      CheckinEndDateEB: 'Stay to'
+      CheckinStartDateSPO: 'Reservation date from'
+      CheckinEndDateSPO: 'Reservation date to'
+      MinStay : 'MinStay'
+
+      MaxStay: 'Max Stay'
+      EBPeriod: 'EB Period'
+      EBDaysBefore: 'Number of days before booking'
+    FieldsValues:
+      PromoTypeFlagEarlyBooking: "Early Booking"
+      PromoTypeFlagSPO: "Special Offer"
+    Pages:
+      NewEBPeriod: 'EB Period'
+      NewEBDays: 'EB Days'
+      NewEBSPO: 'Special Offer'
+      Edit: 'Edit Promotion'
+
+  StopSale:
+    Label: "Stop sale"
+    LabelPlural: "Stop sales"
+    Buttons:
+      New: 'New Stop sale'
+      Edit: 'Edit Stop sale'
+    Pages:
+      New: 'New Stop sale'
+      Edit: 'Edit Stop sale'
+  OperationType:
+    LabelPlural: 'Operation Types'
+    Buttons:
+      New: 'New Operation Types'
+  DiscountChild:
+    Pages:
+      New: 'New  Child Discount'
+      Edit: 'Edit  Child Discount'
+    Buttons:
+      New: 'New  Child Discount'
+    Fields:
+      AgeMin: 'Min Age'
+      AgeMax: 'Max Age'
+      ChildRank: 'Child Rank'
+      NbAdultsInRoom: 'Nbr Adults In Room'
+  DiscountAdult:
+    Pages:
+      New: 'New Adult Discount '
+      Edit: 'Edit Adult Discount '
+    Buttons:
+      New: 'New Adult Discount '
+    Fields:
+      AdultRank: 'Adult Rank'
+  DiscountSenior:
+    Pages:
+      New: 'New Senior Discount '
+      Edit: 'Edit Senior Discount'
+    Buttons:
+      New: 'New Senior Discount'
+    Fields:
+      AgeMin: 'Min Age'
+      AgeMax: 'Max Age'
+  DiscountLongStay:
+    Pages:
+      New: 'New Long Stay Discount'
+      Edit: 'Edit Long Stay Discount'
+    Buttons:
+      New: 'New Long Stay Discount'
+  DiscountWeekend:
+    Pages:
+      New: 'New Weekend Discount'
+      Edit: 'Edit Weekend Discount'
+    Buttons:
+      New: 'New  Weekend Discount'
+    Fields:
+
+  ExtraWeekend:
+    Pages:
+      New: 'New  Weekend Extra'
+      Edit: 'Edit Weekend Extra'
+    Buttons:
+      New: 'New Weekend Extra'
+  ExtraSingle:
+    Pages:
+      New: 'New Single Extra'
+      Edit: 'Edit Single Extra'
+    Buttons:
+      New: 'New Single Extra'
+  Email:
+    Label : 'Email'
+    LabelPlural: 'Emails'
+    FieldsValues:
+      Sent: 'Sent'
+      Error: "Send failure"
+      Customer: 'Customer'
+      Hotel: 'Hotel'
+      Society: 'Society'
+    Fields:
+      AddressFrom: 'Sender'
+      AddressTo: 'Recipient'
+      AddressCC: 'In copy'
+      AddressBCC: 'In blind copy'
+      Subject: 'Subject'
+      Type: 'Type'
+      Body: 'Content'
+      Date: 'Date'
+    Pages:
+      Show: 'Show Email'
+    Messages :
+      ForOrder : 'For Order'
+      ForBookingNumber : 'For Booking N°'
+
+  CustomerPaymentDetail:
+    Label: "Payment Detail"
+    LabelPlural: "Payment Detail"
+    Buttons:
+      New: 'New detail'
+    Fields:
+      ReferenceNumber: 'Reference Nbr'
+      Drawer: 'Drawer'
+
+
+  PaymentMethod:
+    Label: 'Payment Mode'
+    FieldsValues:
+      CASH: 'Cash'
+      CREDIT_CARD: 'Credit Card'
+      CHECK: 'Check'
+
+
+  Slider:
+    Pages:
+      List: 'Slider B2C Images'
+      New: 'New Image Slider'
+    Buttons:
+      New: 'New Image'
+    Fields:
+      Url: 'Image'
+      Title: 'Title'
+      SubTitle: 'SubTitle'
+  MenuItemFront:
+    Fields:
+      Id: 'ID'
+    Label: 'messages'
+  CurrencyExchangerate:
+    Label: "Exchange rate"
+    Fields:
+      Currencyfrom: 'Currency from'
+      Currencyto: 'Currency to'
+      Exchangerate: 'Exchange rate'
+      AutoReverse: 'Exchange rate Auto Reverse '
+    Page:
+      List: 'Currency Exchange rate '
+  FrontZone:
+    Fields:
+      Query: 'Content'
+      Params: 'Params'
+      HtmlFileName: 'Display Model'
+      NbElementsToDisplay: ' Nbr Elements To Display'
+      BackgroundImage: 'Background Image'
+      Cities: 'Cities'
+      Hotels: 'Hotels'
+      Countries: 'Countries'
+      Themes: 'Themes'
+      Extras: 'Extras'
+      Stars: "Stars Nbr"
+    Pages:
+      List: "Home Zones"
+      Update: 'Update zone'
+    Alerts:
+      SuccessUpdate: 'Success Update'
+      ErrorUpdate: 'Error Update'
+    Messages:
+      Items: 'Element(s)'
+  Request:
+    Fields:
+      Type: 'Type'
+  BusinessSubscription:
+    Buttons:
+      Accept: 'Accept'
+      Reject: 'Reject'
+    Pages:
+      List: "BToB Subscription Request"
+    FieldsValues:
+      Accepted: 'Accepted'
+      Rejected: 'Rejected'
+      Pending: 'Pending'
+    Messages:
+      AlertCustomerExist: 'Customer %email%  already exists'
+      AlertSuccessCreatedAccount: 'Success Created Account for %email%'
+  Wallet:
+    Alerts:
+      ConfirmedBooking: 'Confirmed Booking'
+      PendingBooking: 'Pending Booking'
+    Messages:
+      Completed: 'Completed'
+  NewsLetter:
+    Pages:
+      List: 'Newsletters list'
+      New: 'New Newsletter'
+      Edit: 'Edit Newsletter Nbr'
+    Fields:
+      ClickCount: "Clicked URL visits"
+      ViewsClick: "Number of opens"
+      Content: 'Content'
+      Title: 'title'
+  NewsLetterSubscriber:
+    Pages:
+      List: 'Subscriber list'
+    Buttons:
+      State: 'Change Status'
+    Title:
+      Unsubscription: 'Unsubscription'
+  Counters:
+    Fields:
+      Prefix: 'Phone Code'
+  History:
+    Label: 'History'
+  Referencement:
+    Label: 'Referencing'
+    Fields:
+      SeoTitle: 'SEO Title'
+      SeoDescription: 'SEO Description'
+  HistoryLog:
+    Buttons:
+      Show: 'History'
+    Pages:
+      Show: 'History'
+    Fields:
+      Data: 'Data'
+  FrontTheme:
+    Label: 'Theme'
+    LabelPlural: "Themes"
+    Buttons:
+      List: "Themes list"
+      New: 'New theme'
+    Pages:
+      Index: "Front themes"
+      New: 'New theme'
+      Edit: 'Edit theme'
+    Fields :
+      Name : 'Name'
+      Description : 'Description'
+  HotelXmlPrice:
+    Fields:
+      price: 'Price'
+    Pages:
+      List: "Hotel Price list"
+  HotelXmlAssociatedHotel :
+    Fields :
+      Hotel : 'Hotel'
+
+  Transfer:
+    Label: 'Transfer'
+    LabelPlural: 'Transfers'
+    Pages:
+      Transfer: 'Transfer'
+      New: 'New transfer'
+      Setting: 'Transfer Parameters '
+      Edit : 'Edit Transfer'
+    Buttons:
+      New: 'New transfer'
+      Edit : 'Edit'
+    Fields :
+      Name : 'Name'
+      Type : 'Type'
+      Provider : 'Provider'
+      Vehicle : 'Vehicle'
+      PriceBase : 'Price Base'
+      PriceKm : 'Price Km'
+      PriceHour : 'Price Hour'
+      Currency : 'Currency'
+
+  VehicleType:
+    LabelPlural: 'Vehicle Types'
+    Buttons:
+      New: 'New Vehicle Type'
+    Label: 'Vehicle Type'
+    Fields:
+      Name : 'Name'
+      Description: 'Description'
+      CapacityMaxPax: 'Max Passengers Capacity'
+      CapacityMaxBaggage: 'Max Baggage Capacity'
+    Pages:
+      Edit: 'Edit Vehicle Type'
+  TransferAmenity:
+    LabelPlural: 'Equipments and Services'
+    Pages:
+      List: 'Equipments and Services'
+    Buttons:
+      New: 'New Equipment/Service'
+      Edit : 'Edit'
+    Label: 'Equipment/Service Transfer'
+    Page:
+      New: 'New equipment/service'
+    Fields :
+      Name : 'Name'
+      Description : 'Description'
+
+  TransferAmenityPrice:
+    Buttons:
+      New: 'New service/equipment'
+      Edit: 'Edit service/equipment'
+    Page:
+      New: 'New service/equipment'
+    Fields:
+      Price: 'Price'
+      Name: 'Name'
+      Type: 'Type'
+      Vehicle: 'Vehicle'
+
+  PersonPhysical:
+    Fields:
+      FirstName: 'Fist name'
+      LastName: 'Family name'
+    FieldsValues:
+      MR: 'Mr'
+      MRS: 'Mrs.'
+      MISS: 'Miss.'
+
+  Person:
+    Fields:
+      Email: 'Email'
+
+  MarkupStrategy :
+    Pages :
+      List : 'Markup Strategy List'
+      Edit : 'Edit Markup Strategy'
+      New : 'New Markup Strategy'
+    Buttons :
+      New : 'New Markup Strategy'
+    Fields :
+      Name : 'Name'
+      Rules : 'Rules'
+      b2cXmlApis : 'BToC Xml Apis'
+      b2bXmlApis : 'BToB Xml Apis'
+      CustomerXmlApis : 'Customer Xml Apis'
+      Customers : 'Customers'
+
+  MarkupRule :
+    Pages:
+      List: 'Markup Rule List'
+      Edit: 'Edit Markup Rule'
+      New: 'New Markup Rule'
+    Buttons:
+      New: 'New Markup Rule'
+    Fields:
+      Value: 'Value'
+      Type: 'Type'
+      MarkupStrategyRelated : 'Related Markup Strategy'
+      MinMax : 'Min - Max'
+      SeatNumber : 'Seat Number'
+      Class : 'Class'
+      RuleType : 'Type'
+      Customer : 'Customer'
+      XmlApi : 'XmlApi'
+      Margin : 'Margin % '
+  MarkupBasic :
+    Fields :
+      Value : 'Value'
+      Type : 'Type'
+    Buttons :
+      NewBasic : 'New Basic Markup'
+  MarkupPrice :
+    Fields :
+      MinPrice : 'MinPrice'
+      MaxPrice : 'MaxPrice'
+    Buttons:
+      NewPrice: 'New Price Markup'
+  MarkupSeat :
+    Fields:
+      Value : 'Value'
+      Type : 'Type'
+      SeatNumber : 'Seat Number'
+    Buttons:
+      NewSeat : 'New Seat Markup'
+
+
+
+
+
+
+
+
+Pages:
+  Dashboard:
+    Title: "Dashboard"
+    Messages:
+      statCustomersCount: 'New customer'
+      statBusinessSubscriptionCount: "B2B Subscription"
+      statConfirmedOrderlinesCount: 'Confirmed Bookings'
+      statConfirmedOrdersCount: 'Confirmed orders'
+      statPendingOrdersCount: 'Orders'
+      statPendingOrderlinesCount: 'Bookings'
+      statPendingRequestsCount: 'Requests'
+      statStopSales: 'Stop sales'
+      statConfirmedHotelBookings: 'Confirmed Hotel Bookings'
+      TodayConfirmed: 'Daily Report'
+      Pending: 'Pending...'
+      Turnover: "Turnover"
+      NumberOfOrders: "Number of orders"
+      Month: "Month"
+      UpcomingHotelCheckin : 'Upcoming Hotel Checkin'
+      BookingPerSource : 'Booking Per Source'
+      SalesAnalytics: "Analyse des ventes"
+    Label:
+      HotelName: 'Hotel Name'
+      Market: 'Market'
+      DateFrom: 'Date From'
+      DateTo: 'Date To'
+  Location:
+    Title: "Localisation"
+  Setting:
+    Messages:
+
+  Hotel:
+    Messages:
+      GeneralInformation: "General Information"
+      Location: "Location"
+      Contact: "Contact"
+      Setting: "Configuration"
+    Fields :
+      TripAdvisorId : 'Trip Advisor Id'
+  HotelXml:
+    FormFields:
+      Destination: 'Destination'
+      CheckIn: 'Check-In Date '
+      CheckOut: 'Check-Out Date '
+    Buttons:
+      Update: 'Update'
+  HotelContract:
+    FormFields:
+      ShowExpiredSeasons: 'Show Expired Seasons'
+  ProductElementStockOperation:
+    FormFields:
+      ShowExpired: 'Show Expired Operation'
+    FieldsValues:
+      GeneralStock: 'General Stock'
+
+
+  Common:
+    Messages:
+      Days: 'Days'
+      Deposit: 'Deposit'
+      TradeDay: 'Trade Day'
+      Until: "Until"
+      Today: "Today"
+      Requester: "Requester"
+      ComplementNote: "Additional notes"
+      Passengers: "Passengers"
+      Passenger: "Passenger"
+      ExecutionDate: "Execution date"
+    Buttons:
+      Proforma: 'Proforma'
+      History: 'History'
+      Voucher: 'Voucher'
+    Alerts:
+      EmptyOrder: 'Order error: No files can be processed.'
+  Order:
+    Buttons:
+      NewBookHotel: 'New  Hotel Booking'
+      NewOrderLine: 'New Booking'
+      Edit: 'Parameters'
+      ShowMenu: 'Consultation'
+      Pay : 'Pay'
+    Messages :
+      Selected : 'Selected'
+      AmountDue : 'Amount Due'
+      Order : 'Order'
+      Amount : 'Amount'
+      PassToPay  : 'Pass To Pay'
+      EditSelected : 'Edit Selection'
+      Deposits : 'Deposits'
+      NewReceipt : 'NewReceipt'
+      PaymentAmount : 'Payment Amount'
+
+
+
+  Customer:
+    Messages:
+      UnpaidOrders: 'Orders Payment'
+  ModalConfirmation:
+    Label: 'Confirmation'
+  MenuItemFront:
+    List: 'Menu Item Front'
+  Arrangement:
+    List: 'Arrangements'
+
+  ForgetPassword:
+    Label: 'Forget Password'
+  Cart:
+    Alerts:
+      MissingPhoneNumber: 'Add a phone number before confirming the order.'
+  Seo:
+    Title: '(SEO) Referencing'
+
+  Person:
+    Fields:
+      Email: 'Email'
+

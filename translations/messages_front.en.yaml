@@ -1,0 +1,541 @@
+Pages:
+    Common:
+        Messages:
+            ChangeYourSelection: 'Change Your Selection'
+            StayDuration: 'Stay of'
+            Nights: 'Night(s)'
+            Agencies: 'Agencies'
+            Map: 'Map'
+            Benificiaries: 'Beneficiaries'
+            Room: 'Room'
+            RoomTypeBoard: 'Type and arrangement'
+            RoomOccupation: "Occupation"
+            Adults: 'Adult(s)'
+            Children: 'Children'
+            Babies: 'Baby(s)'
+            CheckIn: 'CheckIn'
+            Reference: 'Reference'
+            RoomsCount: 'Rooms Count'
+            Confirmed: 'Confirmed'
+            Pending: 'Pending'
+            Cancelled: 'Cancelled'
+            CancelledFee: "Cancelled with a Fee "
+            Available: 'Available'
+            NotAvailable: 'Not Available'
+            Paid: 'Paid'
+            Unpaid: 'Unpaid'
+            Proforma: 'Proforma'
+            Voucher: 'Voucher'
+            Payment: 'Proceed to Payment'
+            Confirm: 'Confirm'
+            Dear: 'Dear'
+            ChangePassword: 'Change your password'
+            HotelRecentSearch: "Hotel Recent Search"
+            From: 'From'
+            To: 'To'
+            Persons: "Persons"
+            Rooms: "Rooms"
+            ComplementNote : 'Complement Note'
+            Filters: 'Filters'
+            Before: 'Before'
+            After: 'After'
+            Departure: "Departure"
+            Return: "Return"
+            FlightDetails: "Flight details"
+        Fields:
+            Id: 'Ref'
+            Email: 'Email'
+            Phone: 'Phone'
+            Optional: 'Optional'
+            username: "User Name"
+            ShowInNewWindow : 'Show In New Window'
+
+    TopMenu:
+        Buttons:
+            Logout: 'Logout'
+            Login: 'Login'
+            CustomerArea: 'Customer Area'
+            SignUp: "SignUp"
+            BtoBSpace: 'Pro Space'
+            Favorites : 'Favorites'
+
+
+    Footer:
+        Messages:
+            CallHelp: "Phone"
+            Agency: "Agency"
+            Address: "Address"
+            NeedHelp: "Need Help"
+            MailSupport: 'Email'
+            FollowUs: "Follow us"
+            Company: "Company"
+            Agencies: 'Our agencies'
+            CopyRight: 'Powered by'
+            Menu: 'Menu'
+            ContactInformation: 'Contact us'
+            SitePlan: 'Site plan'
+            Links: 'Links'
+            SecurePayment: 'Secure Payment'
+            SlugAbout: 'About us'
+            SlugSaleCondition: 'Sale conditions'
+            SlugLegal: 'Legal mentions'
+            SlugServices: 'Services'
+            PlanHome: 'Home'
+            PlanParty: 'Parties'
+            PlanPromo: 'Promos'
+            PlanContact: 'Contact'
+            QualityTheRightPrice: 'Quality at the Right Price'
+            BestServiceGuaranteed : 'Best Service Guaranteed'
+            SecureBooking : 'Secure Booking'
+            ExpertiseKnowHow : 'Expertise and Know-How'
+            WhoAreWe : 'Who Are We?'
+            GeneralTermsAndConditions : 'General Terms and Conditions of Sale'
+            LegalNotice : 'Legal Notice'
+
+
+
+    SignUp:
+        Messages:
+            Subscription: "B2B subscription request"
+            HaveAccount: 'I Have An Account'
+            DefinePassword: 'Define Your Password'
+        Label: "Register"
+        Fields:
+            Civility: 'Civility'
+            FirstName: 'FirstName'
+            LastName: 'LastName'
+            UserName: "User Name"
+            Email: 'Email'
+            Role: 'Role'
+            Password: 'Password'
+            VerifPassword: 'Verify Password'
+            Society: 'Society'
+            Phone: 'Phone'
+            Address: 'Address'
+            City: 'City'
+        Buttons:
+            SingUp: "SingUp"
+            SingUpBTOB: "Registration request"
+            Save: 'Save'
+        Alerts:
+            EmailSent: "Your account has been successfully created. Please check your email to validate your account"
+            EmailSentB2B: 'Your request has been sent successfully. Please wait for our response or contact us'
+            BTOBSubscription: "Personal email addresses like Gmail, Hotmail, etc. are not permitted. Please use a company email address."
+
+    ResetPassword:
+        Label: 'Reset your password'
+        Messages:
+            ResetPasswordEmailSent: 'Password reset email'
+        Alerts:
+            Success: 'Your password has been successfully changed'
+        Field:
+            NewPassword: 'New Password'
+            VerifPassword: 'Verify your Password'
+    ForgotPassword:
+        Label: 'Forgot password'
+        Alert:
+            InfoEnterEmailAdressAndSendEmailWithLink: 'Enter your email to be able to reset your password'
+        Buttons:
+            Send: "Send"
+    Login:
+        Messages:
+            HaveAccount: 'Do you have an account?'
+            MessageInputForm: 'Pro Space Access'
+            UsernameLabel: 'Email / UserName'
+            PasswordLabel: 'Password'
+            ForgottenPassword: 'Forgot password'
+            DontHaveAccount: "Don't have an account? "
+            AdminPanelMessage: 'Admin Space'
+            SignInAccount: 'SignIn'
+            LoginInWithGoogle : 'Login In With Google'
+            LogInToAccount : 'Log in to your account'
+        Label: "Connexion"
+        Buttons:
+            Login: 'Login'
+
+        LoginWithMessage: 'Login With'
+        LabelB2B: 'Login Pro Space'
+    Dashboard:
+        Title: "Dashboard"
+        Buttons:
+            ConfirmedOrder: 'Confirmed Orders'
+            PendingOrder: 'Pending Orders'
+            CanceledOrder: 'Cancelled Orders'
+            TotalOrder: 'Orders count'
+    BtobUser:
+        LabelPlural: "Users"
+        username: "User Name"
+
+    Userspace:
+        TopMenu:
+            Bookings: 'Bookings & Travel'
+            Profile: "Manage my account"
+            ChangePassword: 'Change your Password'
+            Logout: "Logout"
+        LeftMenu:
+            Bookingslist: 'Bookings List'
+            Dashboard: "Dashboard"
+            Profile: "Profile"
+            Users: "Users"
+            Wallet: "Movements"
+            BookingslistHotel: "Bookings list Hotel"
+            BookingslistParty: "Bookings list Party"
+            ResetPassword: "Access setting"
+            CreditAccount: 'Account credit'
+    Profile:
+        Label: "Profile"
+        Image: "User Image"
+
+    Wallet:
+        Label: 'Account Movements'
+        Fields:
+            Balance: "Balance"
+            TotalDebit: 'Total Debit'
+            TotalCredit: 'Total Credit'
+            Credit: 'Credit Amount'
+            Debit: 'Debit Amount'
+        Tabs:
+            Transaction: "Transaction"
+        Messages:
+            TotalDebit: "Total Debit"
+            TotalCredit: "Total Credit"
+            Credit: "Credit Amount"
+            Debit: "Debit Amount"
+            Balance: "Balance"
+    RecommendedHotel:
+        Title: 'Recommended Hotels'
+    RecommendedExtra:
+        Title: 'Recommended Packages'
+
+
+    ExtraDetail:
+        Messages :
+            SuperTarif : 'Guarantee a great rate for your next departure.'
+            FreeCancellation : "On our site, cancellation is free for most departures !"
+    FlightOfferDetail:
+        Label: "Offer details"
+
+    Cart:
+        Messages:
+            Book: "Book"
+            CartProducts: 'Products'
+            CartSummary: 'Summary of your Cart'
+            Total: 'Total Amount'
+            EmptyCart: 'Your Cart is empty!'
+            Continue: "Would you like to add an other product?"
+            Available : 'Available'
+            OnDemand : 'On Demand'
+
+        Buttons:
+            AddToCart: 'Add To Cart'
+            Book: 'Book'
+            ProceedPayment: 'Proceed Payment'
+        Label: 'Your Cart'
+        Alerts:
+            Success: 'Confirmed Order'
+            MessageSuccess: 'your order has been successfully registered !'
+            MessageEmailSentTo: 'Your reservation details have been sent to: email'
+            MessageInfoSave: "By logging into your account, book easily and take advantage of private offers."
+            MessagePaymentMethod: 'Choose your payment method'
+            MessageAcceptAll: "I have read and accept everything"
+            TermsConditions: 'Terms and conditions'
+            ErrorValidNumber: "Please enter a valid phone number"
+            NotAvailableCart : 'Your cart is currently unavailable. However, you can still save it. 
+                                We will let you know as soon as it is available again. Thank you for understanding.'
+            NoCart : 'Your cart is currently unavailable.'
+
+
+
+        Fields:
+            Credit: 'messages_front'
+            CreditCard: 'Credit Card'
+            DeferredPayment: 'Deferred Payment'
+
+    HotelSearch:
+        Title : "Search Hotels"
+        Messages :
+            HotelStayIn : 'Hotel Stay In '
+            SearchStay : 'Search for your stay'
+
+
+
+
+
+    HotelOfferDetail:
+        Messages:
+            OrderSublinesDetails: "Summary of the amount"
+            TotalAmount: 'Total Amount'
+            Cancellation: 'Cancellation'
+            WriteYourComments: "Please write your requests in English or French"
+            Observation: 'Special requests'
+            GuestsInformations: 'Guests per room'
+            Adult: 'Adult(s)'
+            Child: 'Child'
+            CheckIn: 'CheckIn'
+            CheckOut: 'CheckOut'
+            NightsCount: 'Nights'
+            PrimaryGuestInfo: 'Primary beneficiary information'
+            PrimaryGuest: 'Primary beneficiary'
+            PrimaryGuestPlaceholder: 'Indicate the firstName and lastName of the main beneficiary of the stay'
+            VotreRecherche: "Your Search"
+            ModifierRecherche: "Edit your search"
+            ExpandDescription: "Show description"
+            CollapseDescription: "Hide description"
+            DescriptionHotel: "Hotel Description "
+            HotelEquipments: "Hotel Equipments"
+            HotelEmplacement: "Location"
+            Share: "Social Networks"
+            AddYourComments: 'Add a comment'
+            arrivalDate|date('d F Y, D'): "Arrival date"
+            departureDate|date('d F Y, D'): 'Departure date'
+            OrderLineDetail: 'Details of your booking'
+            StayDuration: 'Stay duration'
+            YouSelected: 'You Selected'
+            ConfirmBooking : 'Guarantee a great rate for your next stay. Confirm your reservation today as prices may increase.'
+            FreeCancellation : "On our site, cancellation is free for most accommodations and you receive instant confirmation!"
+
+    HotelDetail:
+        Title: "Offer Detail"
+        Label: 'Hotel Detail'
+    Contact:
+        Label: 'Contact'
+        Messages:
+            ContactUs: 'Contact-Us'
+            LeaveMessage: 'Leave us a message'
+            SendMessage: 'Send'
+            FirstNamePlaceholder: 'FirstName'
+            LastNamePlaceholder : 'LastName'
+            EmailPlaceholder: 'Email'
+            TelephonePlaceholder : 'Phone'
+            MessagePlaceholder: 'Message'
+
+
+    FrontTheme:
+        Buttons:
+            Details: "See the offer"
+    Useful:
+        Messages:
+            ProceedPayment: 'Proceed Payment'
+            WriteYourComments: 'Write Your Comments'
+    Home:
+        Messages:
+            EstablishmentCount: '%count% Establishment(s)'
+            HotelByCity: "A selection of incredible Hotels for your vacation in "
+            TitleHotelByTheme: " Hotels Offers- "
+        Buttons:
+            ContinuePurchase: 'Continue Purchase'
+            Subscribe: "Register "
+            CityDetails: "See more"
+
+
+    CartCheckout:
+        Messages:
+            ContactInfo: 'Customer Detail'
+            PaymentInfo: 'Payment Mode'
+            AlreadyHaveAccount: " I Have Already An Account"
+            DontHaveAccount: "You don't have an account ?"
+            CustomerName: 'LastName and FirstName'
+            CustomerFirstName: 'FirstName'
+            BeneficiaryName: 'LastName and FirstName'
+            CustomerLastName: 'LastName'
+            IamThePrimaryBeneficiary: 'I am The Primary Beneficiary'
+            OtherBeneficiary: "I book for other beneficiary "
+    ProfilUser:
+        Messages:
+            Country: 'Country'
+
+    BookingList:
+        Filters:
+            CreationDateFrom: 'Creation Date From'
+            CreationDateTo: "Creation Date To"
+            Agent: 'Agent'
+            State: 'State'
+            CheckInFrom: 'CheckIn From'
+            CheckInTo: "CheckIn To"
+            CheckOutFrom: 'CheckOut From'
+            CheckOutTo: "CheckOut To"
+            Product: 'Product'
+            Date: 'Date'
+            Title: 'Party title'
+            CheckIn: 'CheckIn Date '
+            CheckOut: 'CheckOut Date'
+        Messages:
+            CheckInPlaceholder: 'CheckIn Date'
+            CheckOutPlaceholder: 'CheckOut Date'
+
+
+        Alerts:
+            PendingBooking: 'Pending Booking'
+            Books: 'Bookings'
+    WishList:
+        Buttons:
+            ShowHotel: "Show Hotel"
+        Fields:
+            WishListHotel: 'Wish List Hotel'
+            WishListParty: 'Wish List Party'
+        Title: 'Your Favorite Hotels'
+
+    OrderLineUpdate:
+        Buttons:
+            BackToOrder: 'Back To Order'
+    Menu:
+        Buttons:
+            HomePage: 'Home'
+            Home : 'Home'
+            AboutUs : 'About Us'
+            Services : 'Services'
+            Contact : 'Contact'
+            ForMoreInformation : 'For More Information'
+            SignUp  : 'Sign Up'
+
+    SignIn:
+        Alerts:
+            WarningInvalidCredentials: 'Login ou mot de passe incorrect'
+            WarningInValidAccount: "Votre Compte n'est pas valide . Veuillez verifier votre email"
+            WarningDeactivatedAccount: 'Votre compte est desactivé '
+
+    PaymentReceipt:
+        Pages:
+            List: 'Payment Receipt number'
+    OrderLine:
+        Pages:
+            Details: 'OrderLine Details'
+            Comments: 'Comments'
+        Fields:
+            Id: 'Id'
+            ExternalOrderIdReference : 'External Order Id Reference'
+            Tokenforbook  : 'Token For Book'
+            Searchcode : 'Search Code'
+        Messages :
+            Rooms : 'Room(s)'
+            Available : 'Available'
+            NotAvailable : 'Not Available'
+
+
+
+    Order:
+        Pages:
+            Details: "Order Details"
+        Buttons:
+            Payment: 'Payment'
+            Message:
+            Booking: 'Booking'
+            Pay : 'Pay'
+        Fields:
+            Confirmed: "Confirmed"
+            Pending: "Pending"
+            Cancelled: "Cancelled"
+            CancelledFee: "Cancelled + Fee"
+            TempAvailable: "Pending for payment"
+            Paid: "paid"
+            OrderCode: "Order N°"
+        Messages:
+            Details: "Details"
+            OrderNumber : 'Order N°'
+            Selected : 'Selected : '
+            Order : 'Order '
+            Amount : 'Amount due '
+            Deposits : 'Deposits : '
+            NewReceipt : 'New Receipt : '
+            PaymentAmount : 'Payment Amount '
+            Booking : 'Booking'
+
+
+
+    PartyZone:
+        Fields:
+            NbAdultsInRoom: 'Nb. Adults'
+            NbChildrenInRoom: 'Nb. Children'
+            Zone: 'messages_front'
+    Party:
+        Title: 'Our parties'
+        Alerts:
+            WarningAtLeastSe: 'messages_front'
+            WarningAtLeastSelectOnePerson: 'Select At Least One Person'
+        Fields:
+            Date: 'Party Date'
+            NbPartyZone: 'Zones Number'
+        Pages :
+            Detail : 'Party Details'
+
+    CustomerInformation:
+        Title: 'Your contact details'
+    WelcomeEmail:
+        Messages:
+            YouHaveCreatedAccount: 'You have created an account with this email address'
+            ClickToConfirm: "Click Confirm to authenticate with this address and access your account."
+            DontWaitMore: "Don't wait any longer !"
+            WelcomeTo: 'Welcome To '
+    CustomerBusinessSubscription:
+        Title: "Your registration request is being processed"
+        Body: 'We confirm receipt of your request to join us as a B2B customer'
+    SocietyBusinessSubscription:
+        Title: "wants to join your agency"
+        Body: "A B2B registration request has been submitted by "
+    CustomerWelcomeB2B:
+        Title: 'Successful Registration: Welcome to our B2B Partners!'
+        Body: "We are delighted to welcome you among our B2B clients! Your registration has been successfully confirmed."
+        Messages:
+            ChangePassword: 'Click on this link to change your password'
+    TransferOfferDetail:
+        Title: 'Transfer Details'
+    HotelByCity:
+        Title: 'Selection Hotels in'
+    HotelByTheme:
+        Title: 'Hotels Offers'
+
+    Newsletter:
+         Messages:
+            YourEmailPlaceholder: 'Your Email Address'
+            DoNotMissAnything : 'Do Not Miss Anything'
+            Notification : 'Sign up to receive our new offers by email'
+
+    Beneficiary:
+        Fields:
+            Civility: "Civility"
+        Label: "Principal Beneficiary"
+        Buttons:
+            Edit: "Edit Beneficiary"
+
+    HotelContract :
+        Messages :
+            NonRefundable : 'Non refundable'
+            FreeCancellation : 'Free Cancellation'
+            FreeCancellationBefore : 'Free Cancellation Before'
+            CancellationWithFee : 'Cancellation With Fee'
+            From : 'From'
+    Emails:
+        Label: 'Email'
+
+
+    HotelBookRequest:
+        Title: 'Booking Request'
+        Messages:
+            IntroductoryMessage: 'Please confirm the reservation below'
+    HotelBookNotification:
+        Title: 'Booking Notification'
+        Messages:
+            IntroductoryMessage: 'Please note the reservation below'
+    CustomerHotelOrderline:
+        Title: 'Your booking '
+        Messages:
+            IntroductoryMessage: 'Thank you, %name%! Your booking is now '
+            OrderLineMessage: 'Booking Tracking'
+    SocietyHotelOrderline:
+        Title: 'Hotel Bookng'
+        IntroductoryMessage: "The hotel booking of %name% is now "
+    AccountValidation:
+        Title: "Validation of Email"
+    SubscriptionB2B:
+        Title: "B2B Registration Request Notification "
+
+    HotelPromo :
+        Title : 'Hotels On promotion'
+        Messages :
+            Promotion : 'Hotels On Promotion'
+
+    TransferSearch:
+        Title: 'Transfers search'
+
+
+

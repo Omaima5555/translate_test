@@ -1,0 +1,1550 @@
+Entities:
+    Area:
+        Label : "Zone"
+        LabelPlural : "Zones"
+        Pages:
+            New: 'Nouvelle zone'
+            Edit: 'Modification Zone'
+        Buttons:
+            New: 'Nouvelle zone'
+    City:
+        Label: "Ville"
+        LabelPlural: "Villes"
+        Buttons:
+            New: "Nouvelle Ville"
+        Pages:
+            New: "Nouvelle Ville"
+            Edit: "Modification Ville"
+            List: 'Liste des villes'
+        Fields:
+            Picture: "Image de la ville"
+
+    Customer:
+        Label: "Client"
+        LabelPlural: "Clients"
+        Fields:
+            Address: "Adresse"
+            Phone: "Téléphone"
+            TreatedBy: "Traité par"
+            City: "Ville"
+            Email: "Email"
+            Note: "Note"
+            FirstName: "Nom"
+            LastName: "Prénom"
+            BirthDate: "Date de naissance"
+            IdentityNumber: "Document Numéro"
+            IdentityDocument: "Document d'identité"
+            Id: "N°"
+            Type: "Type Client"
+            Details: "Détails du client"
+            ShowAllHotelXml: "Afficher tout les hotels"
+            Solde: "Solde"
+            SoldeWithoutAuthorizedAmount: "Sans montant authorisé"
+            AccoundBook: "Grand Livre"
+        FieldsValues:
+            Moral: "Moral"
+            Physical: "Physique"
+            Country: "Choisir votre pays"
+            City: "Choisir votre ville"
+
+        Pages:
+            List: 'Liste des Clients'
+            Detail: "Détails client N° number"
+            MarginGDS: "Marge GDS"
+            MarginHotel: "Marge Hotel"
+            Wallet: 'Balance'
+            GDS: 'Marges GDS'
+            Hotels: 'Hôtels personnalisés'
+        Buttons:
+            Edit: "Modifier Client"
+            New: "Nouveau Client"
+            Detail: "Fiche Client"
+            State: "Etat"
+            Show: 'Consulter Fiche Client'
+        Messages:
+            Exploitation: 'Autres Exploitations'
+    Market:
+        Label: "Marché"
+        LabelPlural: "Marchés"
+        Pages:
+            List: "Marchés"
+            New: "Nouveau marché"
+            Edit: 'Modification marché'
+        Buttons:
+            New: "Nouveau marché"
+    ApiLog:
+        Pages:
+            List : "Liste des logs API"
+            Detail: "Détail du log API"
+            Show: "Consulter log API"
+        Buttons:
+            Back to list: "Retour à la liste"
+            Update : "Enregistrer"
+        Fields:
+            Id: "Id"
+            BaseUrl: "BaseUrl"
+            Endpoint: "Endpoint"
+            Request: "Request"
+            Response: "Response"
+            StatusCode: "StatusCode"
+            StatusMessage: "StatusMessage"
+            CustomerID: "Customer"
+            UserID: "User"
+            DateRange : "Date"
+            ElapsedTime: "ElapsedTime"
+            SearchCode: "SearchCode"
+            Customer: "Customer"
+            User: "User"
+            dateFrom : "Date"
+            dateTo : "Date"
+            Date: "Date"
+
+
+    Beneficiary:
+        Fields:
+            Civility: "Civilité"
+        Label: "Bénéficiaire principal"
+        Buttons:
+            Edit: "Modifier bénéficiaire"
+    OrderLine:
+        Label: "Dossier"
+        LabelPlural: 'Dossiers'
+        Fields:
+            Description: "Description"
+            Startdate: "Check In"
+            Enddate: "Check Out"
+            State: 'Etât'
+            Externalorderid: "XML Booking Id"
+            orderSubLines: "Prestations"
+            ExternalBookingId: "Réf. externe"
+            Deadline: 'Deadline'
+            Id: 'Réf.'
+            XmlApi: 'GDS'
+            Type: 'Type de produit'
+            ExternalBookingRef: 'Réf Réservation Externe'
+            Comment: 'Commentaires'
+            Exchangeratepurchasetosale: 'Taux de change Achat -> Vente'
+            Hotelname: "Nom Hôtel"
+            Hotelstarrating: "Nombre etoile"
+            City: "Ville"
+            Country: "Pays"
+            Image: "Image"
+            Reference: "Référence"
+            Product: "Produit"
+            Orderatt: "Commande"
+            Beneficiary: 'Bénéficiaire'
+            Error: 'Alerte Fournisseur'
+        Buttons:
+            AddRoom: "Ajouter chambre"
+            CancelBooking: "Annuler"
+            Confirm: 'Confirmer'
+            HotelBookRequest: "Demande de confirmation"
+            Edit: 'Modifier'
+            AddPartyZone: 'Ajouter participant(s)'
+            ExchangeRate: 'Taux de change Achat-Vente'
+            CheckAvailability: "Vérifier l'état dans le GDS"
+            CheckRate: 'Vérifier prix'
+        Messages:
+            SearchForNewRoom: "Rechercher une nouvelle chambre"
+            BookNotification: 'Réservation Hotel'
+            BookRequest: 'Demande Réservation'
+            Rooms : 'Chambres'
+            Available : 'Disponible'
+            NotAvailable : 'Non disponible'
+            Cancelled: 'Annulé'
+        Filters:
+            CheckIn: 'Arrivée'
+            CheckOut: 'Départ'
+        Alerts:
+            WarningNRF: "Non remboursable"
+            InfoFreeCancellation: "Annulation gratuite"
+            WarningCancellationWithFee: "Annulation avec frais"
+            WarningCancellationFee: "Frais d'annulation"
+            WarningFreeCancellationBefore: "Annulation gratuite jusqu'au "
+            QuestionBookConfirmation: 'Etes-vous sur de confirmer la réservation'
+            QuestionCancelConfirmation: "Etes-vous sur d'annuler la réservation"
+            QuestionReCheckRate: "Etes-vous sur de re-vérifier le prix de cette réservation"
+            InfoHotelBookRequestSent: "Une demande de confirmation de réservation est envoyée à l'hôtel"
+            PendingRequest: 'Une demande en attente.'
+            WarningVoucherAlarmPart: "En cas d'urgence, ou si vous avez un problème à l'hôtel/transfert/activité, veuillez nous appeler.
+                       Veuillez prendre note que <b>nous ne prendrons en compte aucune réclamation/remboursement si vous n'appelez pas 
+                       le numéro ci-dessus en cas de problème avec nos services</b>"
+        Pages:
+            HotelList: "Dossiers de réservations Hôtel"
+            PartyList: "Dossiers de réservations Soirée"
+            List: "Dossiers de réservations"
+            Edit: 'Modification Reservation'
+            CheckStatusGDS: 'Etat de réservation'
+        Request: 'Demande'
+        History: 'Historique'
+    OrderLineRequest:
+        Label: "Demande"
+        LabelPlural: "Liste des Demandes"
+        Buttons:
+            Add: "Nouvelle Demande"
+            Confirm: "Confirmer"
+            Reject: "Rejeter"
+        Message:
+            CancelRequest: "Annulation"
+            UpdateRequest: 'Modification'
+            WaitingRequest: "En attente"
+            ExecutedRequest: "Traitéé"
+            RejectedRequest: "Rejeté"
+        Fields:
+            Type: 'Type'
+            Message: 'Texte Demande'
+            ID : 'Réf.'
+        Alerts:
+            QuestionChangeStateExecuted: "Confirmez-vous le traitement de cette demande ?"
+            QuestionChangeStateRejected: "Confirmez-vous le rejet de cette demande ?"
+    Common:
+        Buttons:
+            Filter: "Filtrer"
+            Confirm: "Confirmer"
+            Cancel: "Annuler"
+            Actions: "Actions"
+            Details: "Détails"
+            Filters: "Filtres"
+            Delete: "Supprimer"
+            Edit: "Modifier"
+            Save: "Enregistrer"
+            Deactivate: "Désactiver"
+            Activate: "Activer"
+            Upload: "Enregister Image"
+            Show: 'Consulter'
+            Duplicate: 'Dupliquer'
+            Book: 'Réserver'
+            PaymentReceipt: 'Reçu de payment'
+            Decline: 'Décliner'
+            Pay: 'Payer'
+            ConfirmCancellation: 'Confirmer'
+            History: 'Historique'
+            Update: "Mettre à jour"
+
+        Fields:
+            CreationDate: "Date"
+            Amount: "Montant"
+            State: "Etat"
+            Id: "Id."
+            Description: "Description"
+            Name: "Désignation"
+            Currency: "Devise"
+            Phone: "Téléphone"
+            Email: "Email"
+            Type: "Type"
+            Display: "Affichage"
+            Address: "Adresse"
+            Note: "Note"
+            Margin: "Marge"
+            Action: "Action"
+            Active: 'Etat'
+            Profit: "Profit"
+            CreatedAt: "Date Création"
+            TotalPrice: "Prix total"
+            UnitPrice: "Prix unitaire"
+            PricePaid: "Prix payé"
+            RestPaid: "Reste à payer"
+            Details: "Details"
+            ApiKey: "Identifiant XML"
+            Date: "Date"
+            Latitude: "Latitude"
+            Longitude: "Longitude"
+            Fax: "Fax"
+            Logo: "Logo"
+            Rank: "Ordre"
+            Period: 'Période'
+            StartDate: 'Date début'
+            EndDate: 'Date fin'
+            PurchasePrice: 'Achat'
+            SalePrice: 'Vente'
+            Commission: 'Commission'
+            CalculType: 'Type Calcul'
+            SelectAll: 'Tous les choix'
+            DisplayOrder: "Ordre d'affichage"
+            Code: 'Code'
+            Attachment: 'Pièces jointes'
+            Debit: 'Débit'
+            Credit: 'Crédit'
+            TotalCredit: 'Crédit total'
+            TotalDebit: 'Débit Total'
+            CountDebit: 'Opérations de débit'
+            CountCredit: 'Opérations de crédit'
+            PaymentState: 'Paiement'
+            MarginB2C: '% Marge B2C'
+            MarginB2B: '% Marge B2B'
+            Monday: 'Lundi'
+            Tuesday: 'Mardi'
+            Wednesday: 'Mercredi'
+            Thursday: 'Jeudi'
+            Friday: 'Vendredi'
+            Saturday: 'Samedi'
+            Sunday: 'Dimanche'
+            MinimumStay: 'Min. Séjour'
+            SeoTitle: 'SEO Titre'
+            SeoDescription: 'SEO Description'
+            DateFrom : "Date du"
+            DateTo : "Date au"
+            DateRange : " "
+            nbAdults: "Nombre Adulte"
+            nbChild: "Nombre enfants"
+            nbInfants: "Nombre bébé"
+            ShowInNewWindow : 'Afficher dans une autre fenêtre'
+            Total : 'Total'
+            Pricing : 'T'
+            Service: 'Service'
+        UnknownUser: 'UnknownUser'
+        UnknownCustomer : 'UnknownCustomer'
+        Filters:
+            CreationDateFrom: "Date de création du"
+            CreationDateTo: "Date de création au"
+        Messages:
+            "No": "Non"
+            "Yes": "Oui"
+            AmountPaid: "Montant payé"
+            AmountRemaining: "Montant restant"
+            AreYouSureCancel: "Etes vous sure d'annuler"
+            AreYouSureCancelThisLine: "Etes vous sur d'annuler cette ligne"
+            PurchaseData: "PurchaseData"
+            Night: "Nuit"
+            Nights: "Nuits"
+            Adults: "Adultes"
+            Children: "Enfants"
+            Babies: "Bébés"
+            NewPhotos: "Nouvelles Photos"
+            NRFYes: 'Oui'
+            Extra: 'Supplement'
+            Quantity: 'Quantité'
+            All: 'Tout'
+            Free: 'Gratuit'
+            Cancel: 'Annuler'
+            Specific: 'Spécifique'
+            Hidden: 'Caché'
+            ExportTableXLsx: 'Exportation en Excel'
+            GeneralInformation: "Infos. générales"
+            Requester: "Demandeur"
+            PostRequest: "Poster une demande"
+            Remarks: "Remarques"
+            ComplementNote: "Notes complémentaires"
+            Passengers: "Passagers"
+            Passenger: "Passager"
+            ExecutionDate: "Date exécution"
+            PassengerBookingDetails: "Détails de réservation"
+            IssuanceDate: "Issuance date"
+            ExpireDate: "Expire date"
+            Class: "Class"
+            BagsQty: "Bags Qty"
+            Cabin: "Cabin"
+            Itineraries: "Itinéraires"
+            PriceDetails: "Détails de prix"
+            Autocomplete: "Autocomplete"
+        Alerts:
+            Cancellation: "Annulation?"
+            InfoNoDataTable: "Aucune ligne trouvée"
+            ConfirmDelete: "Confirmation de suppression"
+            NoRecordFound: "Aucun résulat trouvé"
+            WarningDelete: "Êtes-vous sûr de supprimer "
+            SuccessItemDeleted: 'Suppression avec succéss'
+            ErrorItemNotDeleted: 'Suppression impossible de cet élement'
+            ErrorSmallSliderNotUploaded: "L'image est trop petite! Essayer de faire un upload d'une autre image"
+            ErrorBigSliderNotUploaded: "L'image est trop grande! Essayer de faire un upload d'une autre image"
+            Confirmation: 'Confirmation'
+            ConfirmActivate: "Êtes-vous sûr d'activer "
+            ConfirmDeactivate: "Êtes-vous sûr de désactiver "
+            SuccessSave: "Succès d'enregistrement de cet élement "
+            WarningDuplicatedEntryError: 'Erreur : entrèe duppliquée'
+            NoOrdersToPay: 'Aucune commande à payer'
+            NoRecordsFound : 'Aucune ligne trouvée'
+        FieldsValues:
+            Valid: "Validé"
+            Cancel: "Annuler"
+            ObligatoryYes: "Obligatoire"
+            ObligatoryNo: "Non obligatoire"
+            ActiveYes: "Activé"
+            ActiveNo: "Désactivé"
+            NRFNo: 'Non'
+            NRFYes: 'Oui'
+            Expired: 'Expiré'
+            Canceled: 'Annulé'
+        Message:
+            AmountPaid: 'Montant payé'
+            AmountRemaining: 'Montant restant'
+            AreYouSureCancelThisLine: "Confirmez-vous l'annulation"
+            SuccessfullyCanceled: 'Annulation enregistrée avec succès'
+        Pages:
+            EditState: 'Changer Etat'
+    User:
+        Label: "Utilisateur"
+        LabelPlural: 'Utilisateurs'
+        Fields:
+            Username: "Nom d'utilisateur"
+            Role: "Role"
+            Password: "Mot de passe"
+            IsVerified: "Vérifier"
+            Agent: 'Agent'
+        Buttons:
+            Add: "Nouveau Utilisateur"
+            Edit: "Modifier Utilisateur"
+            Delete: "Supprimier Utilisateur"
+            Verified: 'Verifié'
+            NotVerified: 'Non Verifié'
+        Pages:
+            Account: 'Compte Utilisateur'
+        Messages:
+            PasswordEditSuccess: 'Mot de passe modifié avec succés'
+
+    Order:
+        Label: 'Commande'
+        LabelPlural: 'Commandes'
+        Pages:
+            List: "Liste des commandes"
+            Payment: "Payement de commande"
+            Proforma: "Proforma"
+        Message:
+            ConfirmOrder: "Confirmer la commande ?"
+            CancelOrder: "Annuler la commande ?"
+            OrderDetails: "Détail Commande"
+        Alerts:
+            WarningSelectUnpaidOrder: "Sélectionner les commandes à payer"
+            WarningPS: "Note"
+            WarningTotal: 'Total doit être suppérieur au solde afin de payer'
+        Messages:
+            Total: 'Total'
+            TotalHt: 'Total HT'
+            SubTotal: 'Sous-total avant remise'
+            FiscalStamp: 'Timbre'
+            TotalTTC: 'Total TTC'
+            TvaBase: "Base TVA"
+            Tva: "TVA"
+            TotalTva: "Total TVA"
+            TvaAmount: "Mt TVA"
+        Buttons:
+            ChangeCustomer: "Changer Client"
+            Pay: 'Payer'
+            ExchangeRateSaleToCustomer: 'Taux Change -> devise Client'
+            ExchangeRateSaleToAgency: 'Taux Change -> devise Agence'
+        Fields:
+            State: 'Etat'
+            Currency : 'Devise'
+            Exchangeratesaletoreference : 'Devise vente -> Devise agence'
+            Exchangeratesaletocustomer : 'Devise vente -> Devise client'
+            Customername : 'Nom Client'
+            Customerphone : 'Tel. Client'
+            Customeremail : 'Email. Client'
+            Reference : 'Référence'
+            User : 'Utilisateur'
+            Customer : 'Client'
+            Agency : 'Agence'
+
+        FieldsValues:
+            StatePENDING: "En attente"
+            StateCONFIRMED: "Confirmé"
+            StateCANCELED: "Annulé"
+            StateCANCELED_FEE: "Annulé + frais"
+            StateTEMP_AVAILABLE: "Non réservé"
+            StateNOT_BOOKED: "Non réservé"
+            StatePAID: "Payé"
+            StateUNPAID: "Non payé"
+            StatePARTIALLYPAID: "Partiel"
+
+    Provider:
+        Label: "Fournisseur"
+        LabelPlural: "Fournisseurs"
+        Fields:
+            WebSite: "Site Web"
+            Images: "Galerie photos"
+            Name: 'Nom'
+        Page:
+            Edit: 'Modifier fournisseur'
+            New: 'Nouveau fournisseur'
+        Buttons:
+            New: 'Nouveau fournisseur'
+    ProductElement:
+        Label: "Elément Produit"
+    OrderSubLine:
+        Fields:
+            State: "Etât"
+            Description: "Description"
+            Purchaseprice : "Montant Achat"
+            Saleprice : "Montant Vente"
+            NbAdult : "Nbre Adultes"
+            NbChild : "Nbre Enfants"
+            Service : "Service"
+            Cancelable : "Annulable"
+            Cancellationfeesjson : "Frais annulation"
+            Orderline : "Dossier"
+            Productelement : "Element Produit"
+            UnitPrice: 'P.U'
+            PurchaseUnitPrice: 'P. U Achat'
+            Qty: 'Qté'
+        Buttons:
+            EditPurchase: "Modifier Achat"
+            EditSale: "Modifier Vente"
+            New: "Nouveau"
+        Message:
+            CancellationAmount: "Frais Annulation"
+            Adults: "Adulte(s)"
+            Children: "Enfant(s)"
+    Product:
+        Label: "Produit"
+        LabelPlural: 'Produits'
+        Fields:
+            BackOnly: 'Visibilité Uniquement Agence'
+    OrderPayment:
+        Buttons:
+            New: "Nouveau paiement commande"
+            Delete: 'Supprimer'
+        Label: 'Règlement Commande'
+        LabelPlural: 'Règlements Commandes'
+        Fields:
+            Order: 'Commande soldée'
+    CustomerPayment:
+        Message:
+            PaymentDetails: "Paiements"
+            DespositList: 'Déposites'
+        Buttons:
+            Add: "Nouveau Encaissement"
+            New: 'Nouveau encaissement'
+            Show: 'Afficher'
+        Fields:
+            Id: "Ref."
+            Date: "Date"
+            Active : "Etat"
+            Customer : "Client"
+            User : "User"
+            Agency : "Agence"
+            AmountUsed: "Mnt. exploité"
+            AmountRemaining: 'Mnt. restant'
+            AmountRemainingFrom: 'Mnt. restant de '
+            Amount: 'Mnt. total'
+        Pages:
+            List: "Encaissements Clients"
+            Show: 'Encaissement N° number'
+        LabelPlural: 'Encaissements'
+        FieldsValues:
+            Usage: 'Exploitation'
+            NotUsed: 'Non'
+            PartiallyUsed: 'Partiellement'
+            FullUsed: 'Totalement'
+            GeneralInfos: 'Informations générales'
+    HotelRoomType:
+        Label: "Type Chambre"
+        LabelPlural: "Types Chambres"
+        Buttons:
+            New: "Nouveau Type Chambre"
+            Edit: "Modifier Type Chambre"
+            EditOccupancies: "Occupations détaillées"
+            EditFacilities: "Associer Aménagements"
+        Fields:
+            Occupancy: "Occupation"
+            OccupancyAdult: "Occupation Adulte"
+            MinOccupancy: "Occupation Min"
+            MaxOccupancy: "Occupation Max"
+            MinOccupancyAdult: "Occupation Adulte Min"
+            MaxOccupancyAdult: "Occupation Adulte Max"
+            Facilities: 'Aménagements de chambre'
+            Occupancies: 'Occupations possibles'
+        Pages:
+            Edit: "Modification Type Chambre"
+            EditOccupancies: "Occupations détaillées"
+            EditFacilities: "Aménagements du Type de Chambre"
+    Hotel:
+        Label: "Hotel"
+        LabelPlural: "Hotels"
+        Pages:
+            List: "Hotels & Contrats"
+            New: "Nouveau Hotel"
+            Setting: 'Configurations du Produit Hôtel'
+        Buttons:
+            New: "Nouveau Hotel"
+            Parameters: "Paramètres"
+        Fields:
+            AutoMail: "Auto-envoie"
+            StarRating: "Etoiles"
+            Gps: "GPS"
+            Photos: "Photos"
+            HotelContracts: "Contrats"
+            ContractsAndVisibility: 'Contrats, saisons et visiblités'
+            CustomRating: 'Evaluation'
+            TripAdvisorId: 'TripAdvisor ID'
+    HotelBadge:
+        Label : "Etiquette Hotel"
+        LabelPlural : "Etiquettes"
+        Pages:
+            New: 'Nouvelle étiquette hôtel'
+            Edit: "Modification étiquette Hotel"
+        Buttons:
+            New: 'Nouvelle étiquette'
+        Fields:
+            Name: 'Désignation'
+            Type: 'Type'
+            ExpireAt: 'Date expiration'
+        FieldsValues:
+            Promo: 'Promotion'
+            Discount: "Réduction"
+            Info: "Information"
+    CustomerXmlApi:
+        Fields:
+            Margin: "Marge"
+            Xmlout: "GDS OUT"
+            XmlApiType: 'Type GDS'
+        Pages:
+            List: "List GDS"
+            Edit: "Specification GDS"
+        Buttons:
+            DisableXmlOut: "Désactiver XML OUT"
+            EnableXmlOut: "Activer XML OUT"
+            AddSpecMargin: "Nouvelle Spécification GDS"
+            Edit: 'Modifier'
+        Messages:
+            DefaultMargen: "Marge par défaut"
+            SpecificMargin: "Marge spécifique"
+    CustomerHotelXml:
+        FieldsValues:
+            Exclude: "Non"
+            Include: "Oui"
+        Fields:
+            RefGDS: "Référence GDS"
+            Margin : "Marge"
+            Display : "Affichage"
+            Hotelxmlname : "Hotel XML"
+            Customer : "Client"
+            Xmlapi : "GDS"
+        Pages:
+            Include: "Hotels XML inclus"
+        Alerts:
+            WarningExist: "pas d'Hotels trouvés"
+        Messages:
+            IncludeHotels: "Hôtels inclus "
+            ExcludeHotels: " Hôtel Exclu"
+            Exclude: 'Exclure'
+            Include: 'Inclure'
+        Buttons:
+            New: 'Nouvelle spécification'
+    XmlApi:
+        Alerts:
+            InfoImmediatePaymentPercent: "Par défaut le montant à régler est le montant de bénéfice (valeur égale à 0),
+               si non spécifiez le poucentage du vente à régler par le client et le reste sera à l'hôtel"
+        Pages:
+            List: "GDS "
+            Edit: "Modifier GDS"
+            Refresh: 'Voulez-vous actualiser la liste des XML ?'
+        Buttons:
+            Refresh: "Actualiser"
+            State: "Activer/Desactiver GDS"
+        Fields:
+            Color: "Couleur"
+            PayAtHotelAuthorized: "Payment à l'hôtel"
+            ImmediatePaymentPercent: "Pourcentage de paiment en ligne"
+            Source: 'Source ID'
+        FiledsValues:
+            PayAtHotelAuthorizedYes: "Oui"
+            PayAtHotelAuthorizedNo: "Non"
+        Label: 'messages'
+    CustomerMoral:
+        Fields:
+            Name: "Raison Sociale"
+            CreditAmountAuthorized: "Dépassement autorisé"
+            Edit: "Dépassement de solde autorisé"
+            ResellerMargin: 'Marge Revendeur (%)'
+        Buttons:
+            new: "Nouveau Client Morale"
+        Label: "Client Moral"
+        LabelShort: "Moral"
+        Pages:
+            New: 'Nouveau Client Moral'
+    CustomerPhysical:
+        Fields:
+            Currency : "Devise"
+            Showallhotelxml : "Afficher tous les hôtels"
+            Name : "Nom"
+            Email : "Email"
+            Market : "Marché"
+            Firstname : "Nom"
+            Lastname : "Prénom"
+            Active : "Etat"
+            Address : "Adresse"
+            Phone : "Téléphone"
+        Buttons:
+            new: "Nouveau Client Physique"
+        Label: "Client Physique"
+        LabelShort: "Physique"
+        Pages:
+            New: 'Nouveau client Physique'
+    Module:
+        Label: "Module"
+    Agency:
+        Label: "Agence"
+        Page:
+            List: 'Agences'
+        Buttons:
+            New: 'Nouvelle Agence'
+        Pages:
+            New: 'Nouvelle Agence'
+            Edit: 'Modification Agence'
+    PartyZone:
+        Pages:
+            New: "Nouvelle Zone Soirée"
+            Edit: "Modifier Zone soirée"
+        Buttons:
+            New: "Nouvelle Zone Soirée"
+        Alerts:
+            ConfirmDelete: "Etes-vous sure de supprimer la zone soirée"
+        LabelPlural: "Zones soirée"
+        Label: "Zone soiré"
+        Fields:
+            ChildSalePrice: "Vente Enfant"
+            ChildPurchasePrice: "Achat Enfant"
+            AdultSalePrice: "Vente Adulte"
+            AdultPurchasePrice: "Achat Adulte"
+            PriceAdultFrom: 'Prix adulte à partir de '
+            PriceChildFrom: 'Prix enfant à partir de '
+            AdultPrice: 'Prix adulte'
+            ChildPrice: 'Prix enfant'
+    Party:
+        Label: "Soirée"
+        LabelPlural: "Soirées"
+        Pages:
+            Edit: "Modification Soirée"
+            New: "Nouvelle Soirée"
+            List: "Liste des soirées"
+            PartyList : 'List des soirées'
+        Buttons:
+            Hrtas: "Chambres x Arrangements"
+            New: "Nouvelle Soirée"
+            Save: "Enregistrer"
+        Alerts:
+            ConfirmDelete: "Etes-vous sure de supprimer la soirée"
+            ShowExpired: "Afficher les soirées expirés"
+        Fields:
+            Title: "Titre soirée"
+            HotelRoomTypeArrangementsCount: "Nbre combinaisons"
+            HotelStayRequired: "Séjour obligatoire"
+            Place: "Lieu"
+            Date: "Date du soirée"
+            MinPrice : 'Prix à partir de '
+    HotelContract:
+        Label: "Contrat Hotel"
+        Buttons:
+            New: "Nouveau Contrat"
+        Fields:
+            countSeasons: "Nbre. Saisons"
+            Validity: 'Validité'
+        Pages:
+            List: 'Contracts Hotels'
+    ProductElementStockOperation:
+        LabelPlural: "Opérations de stock"
+        Buttons:
+            List: "Opérations Stock"
+            New: 'Nouvelle opération'
+            NewTransfer: 'Affection'
+            NewBlocking: 'Blocage'
+            NewCredit: 'Allotement'
+            Tracking: 'Tableau Occupation'
+            Chart: 'Afficher chart'
+        Fields:
+            NumberItems: 'Nb. éléments'
+            Retrocession: 'Rétrocession'
+            Observation: 'Observation'
+            Type: 'Type Opération'
+            CustomerTo: 'Destination'
+            CustomerFrom: 'Source'
+        FieldsValues:
+            GeneralStock: 'Stock Général'
+            TypeBlocking: 'Blocage'
+            TypeCredit: 'Allotement'
+            TypeAffectation: 'Affectation'
+            TypeBooking: 'Réservation'
+            TypeAvailable: 'Disponible'
+        Messages:
+            GeneralStock: 'Stock Général'
+            HideExpired: 'Cacher Exiprées ?'
+        Pages:
+            Edit: 'Modification Opération Stock'
+            OccupancyTable: "Table d'occupation"
+    Continent:
+        Label: "Continent"
+        LabelPlural: "Continents"
+        Buttons:
+            New: "Nouveau continent"
+            Deactivate: "Désactiver Continent"
+            Activate: "Activer Continent"
+        Page:
+            Edit: "Modification Continent"
+            Delete: "Suppression Continent"
+        Alerts:
+            ConfirmDelete: 'Êtes-vous sûr de vouloir supprimer'
+    Country:
+        LabelPlural: "Pays"
+        Label: "Pays"
+        Buttons:
+            New: "Nouveau Pays"
+        Page:
+            New: "Nouveau Pays"
+            Edit: "Modification Pays"
+    CreditCard:
+        Label: "Carte de crédit"
+        Buttons:
+            New: 'Nouvelle Carte Bancaire'
+        Pages:
+            New: 'Nouvelle Carte Bancaire'
+            List: 'Cartes Bancaires'
+        Fields:
+            Month: 'Le mois'
+            Year: "L'année"
+            CVC: 'CVC'
+            ExpirationDate: "Date d'expiration"
+            HolderName: 'Nom et Prénom'
+            Number: 'Numéro'
+    Bank:
+        Pages:
+            List: "Banques"
+            Edit: "Modification Banque"
+        Buttons:
+            New: "Nouvelle Banque"
+        Fields:
+            Abbreviation: "Abbrev."
+        Label: "Banque"
+    Notification:
+        Pages:
+            List: "Notifications"
+        Fields:
+            Date: "Date"
+            Content: "Contenu"
+            FromMail: "Message réçu par"
+        Title:
+            PendingOrder: "Commande en attente"
+            BusinessSubscriptionRequest: "Demande d'inscription BToB"
+            Contact: "Contact d'un client"
+        Messages:
+            BusinessSubscriptionRequest: "Demande d'inscription mis par le client "
+            PendingOrderBToC: "Commande en attente mis par le client BToC "
+            PendingOrderBToB: "Commande en attente mis par le client BToB "
+            Contact: "Message réçu par: "
+    SocialNetwork:
+        Pages:
+            List: "Réseaux sociaux"
+            Edit: "Modification réseau social"
+        Buttons:
+            New: "Nouveau réseau social"
+        Fields:
+            Url: "Url du réseau social"
+            PageId: 'ID'
+    FrontPage:
+        Pages:
+            List: "Pages statiques"
+            Edit: "Modification de la page statique"
+        Fields:
+            Content: "Contenu de la page"
+            Title: "Titre Page"
+    AccommodationCondition:
+        Label: "Condition"
+        LabelPlural: "Conditions"
+        Buttons:
+            New: "Nouvelle Condition"
+        Pages:
+            New: "Nouvelle Condition"
+            Edit: 'Modifier Condition'
+    AccommodationOption:
+        Label: "Option"
+        LabelPlural: "Options"
+        Buttons:
+            New: "Nouvelle Option"
+            Edit: "Modifier Option"
+            List: 'Liste Options'
+        Pages:
+            New: "Nouvelle Option"
+            Edit: "Modification Option"
+    HotelType:
+        Label: "Type Hotel"
+        LabelPlural: "Types Hotel"
+        Buttons:
+            New: "Nouveau Type Hotel"
+            List: "Types Hotels"
+        Pages:
+            List: "Types d'hôtels"
+    BankAccount:
+        Pages:
+            List: "Comptes Bancaires"
+            new: "Nouveau Compte Bancaire"
+            Edit: 'Modification Compte Bancaire'
+        Fields:
+            IBAN: "IBAN"
+            AccountType: "Type Compte"
+            RIB: "RIB"
+        FieldsValues:
+            AccountTypeCash: "Espece"
+            AccountTypeCheck: "Cheque"
+            AccountTypeBank: "Banque"
+        Buttons:
+            new: "Nouveau Compte Bancaire"
+    HotelChain:
+        Label: "Chaine Hotel"
+        LabelPlural: "Chaines Hotel"
+        Pages:
+            List: "Chaines Hotels"
+            New: "Nouvelle Chaine Hotel"
+        Buttons:
+            List: "Chaines Hotels"
+            New: "Nouvelle Chaine Hotel"
+            Edit: 'Modifier Chaine Hotel'
+            Delete: 'Supprimer Chaine Hotel'
+    RoomType:
+        Buttons:
+            List: "Catégories de chambres"
+            New: "Nouvelle Catégorie Chambre"
+        Pages:
+            New: "Nouvelle Catégorie Chambre"
+        Label: 'Chambre'
+        LabelPlural: 'Catégories de chambre'
+    Facility:
+        LabelPlural: "Aménagements"
+        Buttons:
+            List: "Aménagements"
+            New: "Nouveau Aménagement"
+        Pages:
+            New: "Nouveau Aménagement"
+            List: "Aménagements"
+            Edit: 'Modifier Aménagement'
+        Label: 'Aménagement'
+    Arrangement:
+        Label: 'Arrangement'
+        Buttons:
+            List: "Arrangements"
+            New: 'Nouveau arrangement'
+        Pages:
+            New: 'Nouveau arrangement'
+            Edit: 'Modifier arrangement'
+        LabelPlural: 'Arrangements'
+        Fields:
+            Code: 'Code'
+    FileData:
+        Fields:
+            Primary: "Principale"
+            Alt: 'Alt'
+            DisplayOrder: 'Ordre affichage'
+            Title: 'Titre'
+            Sub_Title: 'Sous titre'
+            Image: 'Image'
+        Messages:
+            UploadError: 'Erreur de chargement de fichier'
+            UploadSuccess: 'Chargement effectué avec succès'
+            NoFiles: 'Erreur de fichiers'
+        Buttons:
+            SetAsPrimary: 'Définir comme primaire'
+        Alerts:
+            DangerNoUpload: "Fichier n'est pas sauvgardé "
+    ContractSeason:
+        Buttons:
+            New: 'Nouvelle Saison'
+            Edit: 'Modifier Saison'
+        Pages:
+            New: 'Nouvelle Saison'
+            Edit: 'Modification Saison'
+        Label: 'Saison'
+        LabelPlural: 'Saisons'
+        Fields:
+            PricingType: 'Tarifs A/V'
+            ByPerson: 'Tarifs Pers/Ch.'
+            NRF: 'Tarifs Non Remoursables'
+            CommValue: 'Commission'
+            BaseArrangement: 'Arrang. Base'
+            CountPrincings: 'Nbre. Tarifs'
+            Startdate: 'Date début'
+            Enddate: 'Date fin'
+            CommCalculType: 'Type Calcul Comm.'
+            MinimumStay : 'Séjour Min.'
+        FieldsValues:
+            PricingByPerson: 'Par Personne'
+            PricingByRoom: 'Par Chambre'
+            PricingTypePurchase: 'Achat'
+            PricingTypeSale: 'Vente'
+        Messages:
+            AlertOverlap: 'Attention, il existe un chevauchement de saison'
+            SuccessDuplicate: 'La saison est dupliquée avec succés'
+
+    ExchangeRate:
+        Page:
+            List: 'Taux de change des devises'
+            New: 'Nouveau Taux de Change'
+        Buttons:
+            New: 'Définir'
+        Fields:
+            CurrencyFrom: 'Devise de'
+            CurrencyTo: 'Devise vers'
+            Value: 'Taux'
+    Profile:
+        Page:
+            List: 'Profils'
+        Buttons:
+            New: 'Nouveau Profil'
+        Label: 'Profil'
+    Personal:
+        Pages:
+            List: 'Personnels'
+            New: 'Nouveau Personnel'
+            Edit: 'Modification Personnel'
+        Label: 'Personnel'
+        Fields:
+            Job: 'Metier'
+            AuthAgencies: 'Agences autorisées'
+            Salary: 'Salaire'
+        Buttons:
+            New: 'Nouveau Personnel'
+            Edit: 'Modifier Personnel'
+    Extra:
+        Label: "Extra"
+        LabelPlural: "Extras"
+        Pages:
+            List: "Liste des extras"
+            New: "Nouveau extra"
+            Edit: "Modifier extra"
+        Fields:
+            Name: "Désignation extra"
+            MinPrice: "Prix minimum front"
+            Type: "Type d'extra"
+            OnlyBack: "Visible uniquement back-office"
+        FieldsValues:
+            TypeVoyagesOrganise: 'Voyages Organisé'
+            TypeCircuit: 'Circuit'
+            TypeExcursion: 'Excursion'
+            TypeUmrah: 'Umrah'
+            TypeTransport: 'Transport'
+            TypeCongres: 'Congrès'
+            TypeSeminaires: 'Séminaires'
+            TypeOthers: 'Autres'
+        Buttons:
+            List: "Liste des extras"
+            New: "Nouveau Extra"
+            Edit: 'Modifier un extra'
+            Delete: 'Supprimer un extra'
+    ExtraRequest:
+        Label: "Demande Extra"
+        LabelPlural: "Demandes Extra"
+        Pages:
+            List: "Liste des demandes"
+            New: "Nouvelle Demande"
+            Edit: "Modifier Demande"
+        Buttons:
+            List: "Liste des demandes"
+            New: "Nouvelle demande"
+            Edit: 'Modifier demande'
+            Delete: 'Supprimer demande'
+    HotelXml:
+        Label : "Hotel XML"
+        Pages:
+            List: 'Hotels XML'
+            DefaultMargin: 'Marges par défaut'
+            CustomRating : 'Score Agence'
+            Search: "Recherche d'hôtels"
+        Fields:
+            CustomRating : 'Score Agence'
+            ReviewRating : 'Score API'
+            Promo: 'Promo'
+            Amenities: 'Aménagements'
+            ExternalCode: 'Code externe'
+            GdsRefreshDate: 'Date MAJ.'
+            MarginB2C: '% Marge B2C'
+            MarginB2B: '% Marge B2B'
+            Hotel: 'Hotel associé'
+            Source: 'Source'
+        Buttons:
+            AssociateFacilities: 'Aménagements'
+            DefaultMargin: 'Marges par défaut'
+            AssociateHotel: 'Associer Hôtel'
+            Search: "Actualisation des hôtels et prix"
+        Alerts:
+            WarningCityNotFound: 'Pas de données à afficher'
+            NoHotelFound: 'Aucun hôtel trouvé à cette date'
+        Messages:
+            WarningResetMarge: 'les marges seront réinitialisées et les correspondances peuvent être perdues'
+    XmlHotelPrice:
+        Buttons:
+            List: 'Liste des prix hôtels'
+    Pricing:
+        Fields:
+            NRF: 'Non Remboursable'
+            Base: 'Arr. Base'
+        FieldsValues:
+            ByRoom: 'Par chambre'
+            ByPerson: 'Par personne'
+        LabelPlural: 'Tarifs'
+        Buttons:
+            NewPricingsRoom: 'Nouveau Tarifs Chambre'
+        Pages:
+            NewPricingsRoom: 'Nouveaux Tarifs Chambre'
+            NewPricingsArrangement: 'Nouveaux Tarifs Arrangement'
+    Operation:
+        Label: 'Opération'
+        LabelPlural: 'Opérations'
+        Messages:
+            Extras: 'Suppléments'
+            Discounts: 'Réductions'
+            Empty: "Pas d'élements"
+        Buttons:
+            NewDiscount: 'Nouvelle réduction'
+        Pages:
+            NewDiscount: 'Nouvelle réduction'
+            NewExtra: 'Nouveau Supplément'
+            Edit: 'Modification Opération'
+    CancellationPolicy:
+        Label: "Condition d'annulation"
+        LabelPlural: "Conditions d'annulation"
+        Buttons:
+            New: 'Nouvelle Condition Annulation'
+            Edit: 'Modifier Condition Annulation'
+        Pages:
+            New: 'Nouvelle Condition Annulation'
+            Edit: 'Modification Condition Annulation'
+        Fields:
+            MinDayBefore: "Délai d'annulation"
+            Fee: 'Frais'
+            CheckInStartDate: 'Checkin du'
+            CheckInEndDate: 'Checkin au'
+            FeeType: 'Type'
+            FeeBase: 'Base Calcul'
+        FieldsValues:
+            FeeTypeAmount: 'Montant'
+            FeeTypePercent: '%'
+            FeeBasePeriod: 'Période séjour'
+            FeeBaseNight: 'Nuité'
+    Promo:
+        Label: "Promo"
+        LabelPlural: "Promos"
+        Buttons:
+            New: 'Nouvelle Promo'
+            NewEBPeriod: 'EB Période'
+            NewEBDays: 'EB -j'
+            NewEBSPO: 'Offre spécial'
+        Fields:
+            CheckinStartDateEB: 'Séjour de'
+            CheckinEndDateEB: 'Séjour au'
+            CheckinStartDateSPO: 'Séjour du'
+            CheckinEndDateSPO: 'Séjour au'
+
+            MaxStay: 'Max. Séjour'
+            MinStay: 'Min. Séjour'
+            EBPeriod: 'Période EB'
+            EBDaysBefore: 'Nombre de jours avant de réserver'
+            EBStartDate: 'Début EB'
+            EBEndDate: 'Fin EB'
+            StayPeriod: 'Période Séjour'
+        FieldsValues:
+            PromoTypeFlagEarlyBooking: "Early Booking"
+            PromoTypeFlagSPO: "Offre spéciale"
+        Pages:
+            NewEBPeriod: 'EB Période'
+            NewEBDays: 'EB -j'
+            NewEBSPO: 'Offre spécial'
+            Edit: 'Modification Promotion'
+
+    StopSale:
+        Label: "Arrêt de vente"
+        LabelPlural: "Arrêts de vente"
+        Buttons:
+            New: 'Nouveau Arrêt de vente'
+            Edit: 'Modifier Arrêt de vente'
+        Pages:
+            New: 'Nouveau Arrêt de vente'
+            Edit: 'Modification Arrêt de vente'
+    OperationType:
+        LabelPlural: 'Types Opérations'
+        Buttons:
+            New: 'Nouveau Type opération'
+    DiscountChild:
+        Pages:
+            New: 'Nouvelle réduction enfant'
+            Edit: 'Modification réduction enfant'
+        Buttons:
+            New: 'Nouvelle réduction enfant'
+        Fields:
+            AgeMin: 'Age Min'
+            AgeMax: 'Age Max'
+            ChildRank: 'Rang Enf.'
+            NbAdultsInRoom: 'Nbre. Adulte'
+    DiscountAdult:
+        Pages:
+            New: 'Nouvelle réduction adulte'
+            Edit: 'Modification réduction adulte'
+        Buttons:
+            New: 'Nouvelle réduction adulte'
+        Fields:
+            AdultRank: 'Rang Adulte'
+    DiscountSenior:
+        Pages:
+            New: 'Nouvelle réduction sénior'
+            Edit: 'Modification réduction sénior'
+        Buttons:
+            New: 'Nouvelle réduction sénior'
+        Fields:
+            AgeMin: 'Age Min'
+            AgeMax: 'Age Max'
+    DiscountLongStay:
+        Pages:
+            New: 'Nouvelle réduction long séjour'
+            Edit: 'Modification réduction long séjour'
+        Buttons:
+            New: 'Nouvelle réduction long séjour'
+    DiscountWeekend:
+        Pages:
+            New: 'Nouvelle réduction weekend'
+            Edit: 'Modification réduction weekend'
+        Buttons:
+            New: 'Nouvelle réduction weekend'
+        Fields:
+
+    ExtraWeekend:
+        Pages:
+            New: 'Nouveau supplément Weekend'
+            Edit: 'Modification supplément Weekend'
+        Buttons:
+            New: 'Nouveau supplément Weekend'
+    ExtraSingle:
+        Pages:
+            New: 'Nouveau supplément Single'
+            Edit: 'Modification supplément Single'
+        Buttons:
+            New: 'Nouveau supplément Single'
+    Email:
+        LabelPlural: 'Emails'
+        FieldsValues:
+            Sent: 'Envoyé'
+            Error: "Echec d'envoi"
+            Customer: 'Client'
+            Hotel: 'Hôtel'
+            Society: 'Societé'
+        Fields:
+            AddressFrom: 'Expéditeur'
+            AddressTo: 'Destinataire'
+            AddressCC: 'En copie'
+            AddressBCC: 'En copie cachée'
+            Subject: 'Sujet'
+            Type: 'Type'
+            Body: 'Contenu'
+            Date: 'Date'
+        Pages:
+            Show: 'Consultation Email'
+
+    CustomerPaymentDetail:
+        Label: "Détail d'encaissement"
+        LabelPlural: "Détails d'encaissement"
+        Buttons:
+            New: 'Nouveau détail'
+        Fields:
+            ReferenceNumber: 'N° Référence'
+            Drawer: 'tireur'
+    PaymentMethod:
+        Label: 'Mode Paiement'
+        FieldsValues:
+            CASH: 'Espèce'
+            CREDIT_CARD: 'Carte bancaire'
+            CHECK: 'Chèque'
+
+    Slider:
+        Pages:
+            List: 'Images du Slider B2C'
+            New: 'Nouvelle Image Slider'
+        Buttons:
+            New: 'Nouvelle Image'
+        Fields:
+            Url: 'Image'
+            Title: 'Titre'
+            SubTitle: 'Sous-title'
+    MenuItemFront:
+        Fields:
+            Id: 'ID'
+        Label: 'messages'
+    CurrencyExchangerate:
+        Label : "Taux de change"
+        Fields:
+            Currencyfrom: 'De'
+            Currencyto: 'Vers'
+            Exchangerate: 'Taux de change'
+            AutoReverse: 'Taux de change inversé automatiquement'
+        Page:
+            List: 'Taux de change des devises'
+    FrontZone:
+        Fields:
+            Query: 'Contenu'
+            Params: 'Critères'
+            HtmlFileName: 'Modèle Affichage'
+            NbElementsToDisplay: 'Nbre. éléments à afficher'
+            BackgroundImage: 'Image Fond'
+            Cities: 'Villes'
+            Hotels: 'Hôtels'
+            Countries: 'Pays'
+            Themes: 'Thèmes'
+            Extras: 'Extras'
+            Stars: "Nombre d'étoiles"
+        Pages:
+            List: "Zones d'accueil"
+            Update: 'Modifier la zone'
+        Alerts:
+            SuccessUpdate: 'Modification Réussite'
+            ErrorUpdate: 'Echec de Modification'
+        Messages:
+            Items: 'élement(s)'
+    Request:
+        Fields:
+            Type: 'Type'
+    BusinessSubscription:
+        Buttons:
+            Accept: 'Accepter'
+            Reject: 'Rejeter'
+        Pages:
+            List: "Demandes d'inscription BTOB"
+        FieldsValues:
+            Accepted: 'Acceptée'
+            Rejected: 'Rejetée'
+            Pending: 'En attente'
+        Messages:
+            AlertCustomerExist: 'Le client %email% existe déja'
+            AlertSuccessCreatedAccount: 'Un nouveau compte est crée pour %email%'
+    Wallet:
+        Alerts:
+            ConfirmedBooking: 'Réservations confirmées'
+            PendingBooking: 'Réservations en attente'
+        Messages:
+            Completed: 'terminé'
+    NewsLetter:
+        Pages:
+            List: 'Liste des Newsletters'
+            New: 'Nouvelle Newsletter'
+            Edit: 'Modifier la Newsletter N°number'
+        Fields:
+            ClickCount: "Visites URL cliquée"
+            ViewsClick: "Nombre d'ouvertures"
+            Content: 'Contenu'
+            Title: 'titre'
+    NewsLetterSubscriber:
+        Pages:
+            List: 'Liste des abonnés'
+        Buttons:
+            State: 'Changer le status'
+    Counters:
+        Fields:
+            Prefix: 'Indicatif Tél.'
+    History:
+        Label: 'Historique'
+    Referencement:
+        Label: 'Réferencement'
+        Fields:
+            SeoTitle: 'Meta Titre'
+            SeoDescription: 'Meta Description'
+    HistoryLog:
+        Buttons:
+            Show: 'Historique'
+        Pages:
+            Show: 'Historique'
+        Fields:
+            Data: 'Données'
+    FrontTheme:
+        Label : 'Theme'
+        LabelPlural : "Themes"
+        Buttons:
+            List: "Liste des thèmes"
+            New: 'Nouveau thème'
+        Pages:
+            Index : "Thèmes front"
+            New: 'Nouveau thème'
+            Edit: 'Modifier thème'
+    HotelXmlPrice:
+        Fields:
+            price: 'Prix'
+        Pages:
+            List: "Liste des prix d'hôtels"
+    Transfer:
+        Label: 'Transfert'
+        LabelPlural: 'Transferts'
+        Pages:
+            List: 'Transferts'
+            New: 'Nouveau transfert'
+            Setting: 'Paramètres Transfert'
+        Buttons:
+            New: 'Nouveau transfert'
+            Edit : 'Modifier'
+            Delete: 'Supprimer'
+        Fields:
+            Name: 'Nom'
+            Provider: 'Fournisseur'
+            Currency: 'Devise'
+
+    VehicleType:
+        LabelPlural: 'Types de véhicules'
+        Buttons:
+            New: 'Nouveau type de véhicule'
+            NewSegmentPricing: 'Générer des segments'
+        Label: 'Type véhicule'
+        Fields:
+            CapacityMaxPax: 'Capacité Passagers'
+            CapacityMaxBaggage: 'Capacité Bagages'
+            Name : 'Nom'
+            Description: 'Description'
+            PricingStrategy: 'Stratégie de tarifs'
+
+
+        Pages:
+            Edit: 'Modification Type Vehicule'
+            NewSegmentPricing: 'Tarification par segment'
+    TransferAmenity:
+        LabelPlural: 'Equipements et Services'
+        Pages:
+            List: 'Equipements et Services'
+        Buttons:
+            New: 'Nouveau Equipement/Service'
+            Edit : 'Modifier'
+            Save : 'Enregistrer'
+            Cancel : 'Annuler'
+        Fields:
+            Name: 'Nom'
+            Description: 'Description'
+            Actions : 'Actions'
+
+        Label: 'Equipement/Service Transfert'
+
+        Page:
+            New: 'Nouveau équipement/service'
+            Edit : 'Modification équipement/service'
+    TransferAmenityPrice:
+        Buttons:
+            New: 'Nouveau service/équipement'
+            Edit: 'Modifier service/équipement'
+        Pages:
+            New: 'Nouveau service/équipement'
+            List: 'Services & Equipements'
+        Fields:
+            Price: 'Prix'
+            Name: 'Nom'
+            Type: 'Type'
+            Vehicle: 'Véhicule'
+
+
+    Target :
+        Label : 'Objectif'
+    CustomServiceType:
+        Label:  "Type de service"
+        LabelPlural:  "Types de service"
+    ProductFee:
+        Label: 'Frais de dossier'
+        Pages:
+            Title: 'Frais de dossiers par produit'
+
+
+    PersonPhysical:
+        Fields:
+            FirstName: 'Prénom'
+            LastName: 'Nom'
+        FieldsValues:
+            MR: 'Mr'
+            MRS: 'Mme.'
+            MISS: 'Mlle.'
+
+    Person:
+        Fields:
+            Email: 'Email'
+    Airport:
+        LabelPlural: 'Aéroports'
+        Page:
+            New: 'Nouveau aéroport'
+        Buttons:
+            New: 'Nouveau aéroport'
+
+
+Pages:
+    Dashboard:
+        Title: "Tableau de bord"
+        Messages:
+            statCustomersCount: 'Nouveaux Clients'
+            statBusinessSubscriptionCount: "Inscriptions B2B"
+            statConfirmedOrderlinesCount: 'Dos. confirmés'
+            statConfirmedOrdersCount: 'Cmds. confirmées'
+            statPendingOrdersCount: 'Commandes'
+            statPendingOrderlinesCount: 'Dossiers'
+            statPendingRequestsCount: 'Demandes Dos.'
+            statStopSales: 'Stop sales'
+            statConfirmedHotelBookings: 'Réservations Hotels confirmées'
+            BookingPerSource: 'Réservations par source'
+            UpcomingHotelCheckin: 'Prochains Check-in Hôtels'
+            Turnover: "Chiffre d'affaire"
+            NumberOfOrders: "Nombre de commandes"
+            Month: "Mois"
+            SalesAnalytics: "Analyse des ventes"
+            TodayConfirmed: 'Bilan Quotidien'
+            Pending: 'En attente'
+            Number: 'Number'
+    Location:
+        Title: "Localisation"
+    Hotel:
+        Messages:
+            GeneralInformation: "Infos. générales"
+            Location: "Localisation"
+            Contact: "Contact"
+            Setting: "Configuration"
+    HotelXml:
+        FormFields:
+            Destination: 'Destination'
+            CheckIn: 'Date Check-In'
+            CheckOut: 'Date Check-Out'
+        Buttons:
+            Update: 'Mise à jour'
+    HotelContract:
+        FormFields:
+            ShowExpiredSeasons: 'Afficher Saisons Expirées'
+    ProductElementStockOperation:
+        FormFields:
+            ShowExpired: 'Afficher Opérations Expirées'
+        FieldsValues:
+            GeneralStock: 'Stock général'
+    Common:
+        Messages:
+            Days: 'Jours'
+            Deposit: 'Déposite'
+            TradeDay: 'Journée Commerciale'
+            Until: "Jusqu'au"
+            Today: "Aujourd'hui"
+            stops:
+                NoStop: "No stop"
+                OneStop: "One stop"
+                OtherStops: "%count% stops"
+            TicketNumbers: "Numéros tickets"
+        Buttons:
+            Proforma: 'Proforma'
+            History: 'Historique'
+            Voucher: 'Voucher'
+            NewRow: 'Nouveau'
+        Alerts:
+            EmptyOrder: 'Erreur de commande : Aucun dossier ne peut être traité.'
+
+    Order:
+        Buttons:
+            NewBookHotel: 'Nouvelle réservation Hotel'
+            NewOrderLine: 'Nouvelle réservation'
+            Edit: 'Paramètres'
+            ShowMenu: 'Consultation'
+            Pay : 'Payer'
+        Messages:
+            Selected: 'Selectionné : '
+            AmountDue: 'Montant dû'
+            Order: 'Order'
+            Amount: 'Montant'
+            PassToPay: 'Passer au paiement '
+            EditSelected : 'Modifier la sélection'
+            Deposits : 'Déposites'
+            NewReceipt : 'Nouvel encaissement'
+            PaymentAmount : 'Montant à payer'
+    Customer:
+        Messages:
+            UnpaidOrders: 'Paiement des commandes'
+    ModalConfirmation:
+        Label: 'Confirmation'
+    MenuItemFront:
+        List: 'Eléménts du Menu Front'
+    Arrangmement:
+        List: 'Arrangements'
+
+    ForgetPassword:
+        Label: 'Mot de passe oublié'
+    Cart:
+        Alerts:
+            MissingPhoneNumber: 'Ajouter un numéro de téléphone avant de confirmer la commande'
+    Seo:
+        Title: 'Référencement (SEO)'
